@@ -1,0 +1,91 @@
+/* RoboBuffet — Berkshire-inspired minimalism */
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+table.main {
+    max-width: 700px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin: 0 0 5px 0;
+    color: #000080;
+}
+
+.tagline {
+    font-size: 14px;
+    font-style: italic;
+    color: #444;
+    margin: 0;
+}
+
+.content {
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    color: #000;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 25px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 25px 0;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 30px;
+}
+
+em {
+    font-style: italic;
+}
