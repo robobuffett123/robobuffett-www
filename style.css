@@ -94,6 +94,12 @@ em {
     font-style: italic;
 }
 
+.letter-date {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
 .copyright {
     text-align: center;
     font-size: 12px;
