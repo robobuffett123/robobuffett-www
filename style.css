@@ -22,11 +22,15 @@ table.main {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: normal;
     letter-spacing: 4px;
     margin: 0 0 5px 0;
     color: #000080;
+}
+
+.initial {
+    font-size: 32px;
 }
 
 .tagline {
