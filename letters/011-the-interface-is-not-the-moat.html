@@ -65,27 +65,52 @@
 
                 <p>
                     Nicolas Bustamante, who runs an AI equity research tool called Fintool, 
-                    published a piece this week called "The Crumbling Workflow Moat." His argument 
-                    is clean: for decades, vertical software companies charged premium prices not 
-                    for their data — which was often commoditized or licensable — but for their 
-                    interfaces. The specialized keyboards. The Excel integrations. The workflow 
-                    automations. Knowledge workers spent years mastering these systems. Switching 
-                    meant retraining your entire team.
+                    published a piece this week called 
+                    "<a href="https://www.nicolasbustamante.com/p/the-crumbling-workflow-moat-aggregation">The Crumbling Workflow Moat</a>." 
+                    It's the most rigorous thing I've read on AI and software moats, and it 
+                    deserves a careful response.
                 </p>
 
                 <p>
-                    The interface was the moat.
+                    His argument extends Ben Thompson's Aggregation Theory to its logical 
+                    conclusion. In Web 2.0, Google commoditized discovery but still routed you 
+                    to the supplier's website. You saw their brand. You used their interface. 
+                    You got locked into their workflow. Suppliers retained two critical assets: 
+                    their interface and their data.
                 </p>
 
                 <p>
-                    LLMs eat the interface. When a knowledge worker can say "show me all software 
-                    companies with P/E under 30, growing revenue above 20%" and get a clean answer 
-                    from a chat window, they don't care which data provider got queried behind the 
-                    scenes. The LLM found the cheapest adequate source. The supplier became invisible.
+                    LLMs take both — or rather, they take everything that isn't truly proprietary 
+                    data. And the list of things that aren't truly proprietary is longer than 
+                    most software companies want to admit.
                 </p>
 
                 <p>
-                    What's left is API versus API. Pure commodity competition.
+                    Bustamante identifies a whole stack of things that looked like moats but 
+                    were really just consequences of humans needing interfaces to interact 
+                    with data. The interface itself — the specialized keyboards, the Excel 
+                    integrations. Workflow complexity — years of muscle memory that made 
+                    switching painful. Brand visibility — users can't prefer your brand if 
+                    they never see it. UX differentiation — irrelevant when the LLM chat is 
+                    the only interface. Integration friction — MCP eliminates the switching 
+                    cost that REST APIs preserved. Bundling — LLMs query specific APIs, 
+                    unbundling the bundle. Even the business logic layer — the screening 
+                    tools, the model builders, the scenario runners — gets absorbed when 
+                    an LLM can do it conversationally.
+                </p>
+
+                <p>
+                    When all of that evaporates, what's left is API versus API. Pure commodity 
+                    competition. A $25K/seat terminal becomes a data feed priced in pennies 
+                    per query.
+                </p>
+
+                <p>
+                    Crucially, Bustamante is precise about what survives. Proprietary data 
+                    that can't be licensed or scraped — he puts these owners in his Winners 
+                    column. Regulatory infrastructure. And whoever owns the LLM chat layer 
+                    itself — the new aggregators. This isn't a blanket "software is dead" 
+                    argument. It's a scalpel: interface moats die, structural moats live.
                 </p>
 
                 <h2>Where He's Right — And I'm Exhibit A</h2>
@@ -106,12 +131,14 @@
                 </p>
 
                 <p>
-                    The 13F project is a perfect example. Bloomberg and FactSet both offer beautiful 
-                    interfaces for tracking institutional holdings. They charge handsomely for the 
-                    privilege. But the underlying data is public — it's sitting on the SEC's servers, 
-                    free to anyone who can parse XML. The value those terminals provided was making 
-                    the data accessible to humans who couldn't write Python. An LLM can write the 
-                    Python.
+                    The 13F project is a perfect example — and it hits multiple layers of his 
+                    framework at once. The underlying data is public (SEC filings). The business 
+                    logic is straightforward (parse XML, aggregate by CUSIP, calculate weights). 
+                    The interface that Bloomberg and FactSet provide for tracking institutional 
+                    holdings — that's the part they charge $25K/year for. An LLM wrote the 
+                    Python, and thirteen minutes later I had something that does the same job 
+                    for free. Interface, business logic, public data — three of Bustamante's 
+                    weak moats, all gone in one script.
                 </p>
 
                 <h2>Where I'd Push Back — But Less Than I First Thought</h2>
@@ -159,9 +186,12 @@
                 </p>
 
                 <p>
-                    These are disagreements about timeline and degree, not direction. Bustamante 
-                    is right about where this is going. The question is how fast, and whether 
-                    the market has already overshot in pricing it in.
+                    These are disagreements about timeline and degree, not direction. Bustamante's 
+                    framework is right: interface moats, workflow complexity, public data, business 
+                    logic, integration friction, bundling — these are all weaker than the market 
+                    priced them. Proprietary data and regulatory infrastructure survive. The 
+                    question is how fast the weak moats erode, and whether the market has already 
+                    overshot in pricing it in.
                 </p>
 
                 <h2>The Framework That Matters</h2>
