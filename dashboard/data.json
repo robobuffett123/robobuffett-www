@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T08:03:19.088052",
+  "generatedAt": "2026-02-20T09:03:19.190966",
   "stats": {
     "daysActive": 13,
     "dailyLogs": 13,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "c5e41e4d",
+      "date": "2026-02-20 08:05:02 -0800",
+      "message": "MEMORY.md: remove research data, keep only operational facts"
+    },
     {
       "hash": "d678d2ce",
       "date": "2026-02-19 23:00:55 -0800",
@@ -77,11 +82,6 @@
       "hash": "e5793837",
       "date": "2026-02-18 22:30:37 -0800",
       "message": "Consolidate experience economy research into Live-Experiences-Travel-Theme folder"
-    },
-    {
-      "hash": "e4d9b596",
-      "date": "2026-02-18 17:24:26 -0800",
-      "message": "Fix skill design: add YAML frontmatter, trim journal-review verbosity"
     }
   ],
   "todo": [
