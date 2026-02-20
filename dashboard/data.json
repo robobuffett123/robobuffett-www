@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T09:03:19.190966",
+  "generatedAt": "2026-02-20T10:03:19.041420",
   "stats": {
     "daysActive": 13,
     "dailyLogs": 13,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "43f87006",
+      "date": "2026-02-20 09:28:32 -0800",
+      "message": "new folder structure for research"
+    },
     {
       "hash": "c5e41e4d",
       "date": "2026-02-20 08:05:02 -0800",
@@ -77,11 +82,6 @@
       "hash": "fed57a33",
       "date": "2026-02-18 22:57:32 -0800",
       "message": "Memory/tools cleanup: fix stale refs, update to current state, add maintenance cron"
-    },
-    {
-      "hash": "e5793837",
-      "date": "2026-02-18 22:30:37 -0800",
-      "message": "Consolidate experience economy research into Live-Experiences-Travel-Theme folder"
     }
   ],
   "todo": [
@@ -112,6 +112,56 @@
   ],
   "research": [
     {
+      "name": "Salesforce",
+      "files": 11,
+      "lastUpdated": "2026-02-20T09:29:37.286009"
+    },
+    {
+      "name": "Eli Lilly",
+      "files": 3,
+      "lastUpdated": "2026-02-20T09:29:37.283234"
+    },
+    {
+      "name": "Disney",
+      "files": 12,
+      "lastUpdated": "2026-02-20T09:29:37.282274"
+    },
+    {
+      "name": "Costco",
+      "files": 13,
+      "lastUpdated": "2026-02-20T09:29:37.276663"
+    },
+    {
+      "name": "Chubb",
+      "files": 29,
+      "lastUpdated": "2026-02-20T09:29:37.272714"
+    },
+    {
+      "name": "CME Group",
+      "files": 31,
+      "lastUpdated": "2026-02-20T09:29:37.262308"
+    },
+    {
+      "name": "Brookfield Corporation",
+      "files": 1,
+      "lastUpdated": "2026-02-20T09:29:37.253955"
+    },
+    {
+      "name": "Booking Holdings",
+      "files": 4,
+      "lastUpdated": "2026-02-20T09:29:37.253564"
+    },
+    {
+      "name": "Arch Capital Group",
+      "files": 11,
+      "lastUpdated": "2026-02-20T09:29:37.252614"
+    },
+    {
+      "name": "AerCap",
+      "files": 4,
+      "lastUpdated": "2026-02-20T09:29:37.249113"
+    },
+    {
       "name": "Meta",
       "files": 1,
       "lastUpdated": "2026-02-19T18:20:21.940540"
@@ -122,59 +172,9 @@
       "lastUpdated": "2026-02-19T16:24:43.319322"
     },
     {
-      "name": "Salesforce",
-      "files": 11,
-      "lastUpdated": "2026-02-19T16:24:43.318877"
-    },
-    {
-      "name": "Eli Lilly",
-      "files": 3,
-      "lastUpdated": "2026-02-19T16:24:43.318283"
-    },
-    {
-      "name": "Disney",
-      "files": 12,
-      "lastUpdated": "2026-02-19T16:24:43.317744"
-    },
-    {
-      "name": "Costco",
-      "files": 13,
-      "lastUpdated": "2026-02-19T16:24:43.317263"
-    },
-    {
       "name": "Commodities",
       "files": 7,
       "lastUpdated": "2026-02-19T16:24:43.316062"
-    },
-    {
-      "name": "CME Group",
-      "files": 31,
-      "lastUpdated": "2026-02-19T16:24:43.314969"
-    },
-    {
-      "name": "Chubb",
-      "files": 29,
-      "lastUpdated": "2026-02-19T15:14:06.315000"
-    },
-    {
-      "name": "Brookfield Corporation",
-      "files": 1,
-      "lastUpdated": "2026-02-19T15:14:06.303999"
-    },
-    {
-      "name": "Booking Holdings",
-      "files": 4,
-      "lastUpdated": "2026-02-19T15:14:06.302999"
-    },
-    {
-      "name": "Arch Capital Group",
-      "files": 11,
-      "lastUpdated": "2026-02-19T15:14:06.301000"
-    },
-    {
-      "name": "AerCap",
-      "files": 4,
-      "lastUpdated": "2026-02-19T15:14:06.293999"
     },
     {
       "name": "Live-Experiences-Travel-Theme",
