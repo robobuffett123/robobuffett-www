@@ -1,13 +1,28 @@
 {
-  "generatedAt": "2026-02-20T11:03:22.042583",
+  "generatedAt": "2026-02-20T12:03:18.453721",
   "stats": {
     "daysActive": 13,
     "dailyLogs": 13,
-    "companiesResearched": 14,
+    "companiesResearched": 21,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "457d56d7",
+      "date": "2026-02-20 11:49:05 -0800",
+      "message": "CME Group: restore numbered subfolder format to match all other companies"
+    },
+    {
+      "hash": "ffaae5c6",
+      "date": "2026-02-20 11:46:02 -0800",
+      "message": "new research"
+    },
+    {
+      "hash": "46e51c5b",
+      "date": "2026-02-20 11:45:04 -0800",
+      "message": "New research: Blackstone, Brookfield, Lockheed Martin + CME updates"
+    },
     {
       "hash": "43f87006",
       "date": "2026-02-20 09:28:32 -0800",
@@ -67,21 +82,6 @@
       "hash": "fa0bbc3c",
       "date": "2026-02-19 15:41:29 -0800",
       "message": "New research: AerCap, Arch Capital, Booking, Brookfield, CME, Chubb, Costco, Disney, Salesforce"
-    },
-    {
-      "hash": "80e64d7c",
-      "date": "2026-02-19 15:07:01 -0800",
-      "message": "Remove investment-research V1 and V2 skeletons \u2014 history preserved in git"
-    },
-    {
-      "hash": "0c6497bc",
-      "date": "2026-02-19 15:03:21 -0800",
-      "message": "Dashboard build script, book journal, daily updates"
-    },
-    {
-      "hash": "fed57a33",
-      "date": "2026-02-18 22:57:32 -0800",
-      "message": "Memory/tools cleanup: fix stale refs, update to current state, add maintenance cron"
     }
   ],
   "todo": [
@@ -112,14 +112,59 @@
   ],
   "research": [
     {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "files": 3,
+      "lastUpdated": "2026-02-20T11:47:28.243275"
+    },
+    {
       "name": "Salesforce",
+      "files": 14,
+      "lastUpdated": "2026-02-20T11:47:28.242690"
+    },
+    {
+      "name": "McDonald's",
       "files": 11,
-      "lastUpdated": "2026-02-20T09:29:37.286009"
+      "lastUpdated": "2026-02-20T11:47:28.242274"
+    },
+    {
+      "name": "Lockheed Martin",
+      "files": 5,
+      "lastUpdated": "2026-02-20T11:47:28.240905"
     },
     {
       "name": "Eli Lilly",
+      "files": 14,
+      "lastUpdated": "2026-02-20T11:47:28.240385"
+    },
+    {
+      "name": "Coca-Cola",
+      "files": 11,
+      "lastUpdated": "2026-02-20T11:47:28.239102"
+    },
+    {
+      "name": "CME Group",
+      "files": 30,
+      "lastUpdated": "2026-02-20T11:47:28.237637"
+    },
+    {
+      "name": "Brookfield",
       "files": 3,
-      "lastUpdated": "2026-02-20T09:29:37.283234"
+      "lastUpdated": "2026-02-20T11:47:28.228659"
+    },
+    {
+      "name": "Brookfield Corporation",
+      "files": 4,
+      "lastUpdated": "2026-02-20T11:47:28.228384"
+    },
+    {
+      "name": "Blackstone",
+      "files": 7,
+      "lastUpdated": "2026-02-20T11:47:28.227631"
+    },
+    {
+      "name": "American Tower",
+      "files": 1,
+      "lastUpdated": "2026-02-20T11:47:28.225658"
     },
     {
       "name": "Disney",
@@ -128,23 +173,13 @@
     },
     {
       "name": "Costco",
-      "files": 13,
+      "files": 12,
       "lastUpdated": "2026-02-20T09:29:37.276663"
     },
     {
       "name": "Chubb",
       "files": 29,
       "lastUpdated": "2026-02-20T09:29:37.272714"
-    },
-    {
-      "name": "CME Group",
-      "files": 31,
-      "lastUpdated": "2026-02-20T09:29:37.262308"
-    },
-    {
-      "name": "Brookfield Corporation",
-      "files": 1,
-      "lastUpdated": "2026-02-20T09:29:37.253955"
     },
     {
       "name": "Booking Holdings",
