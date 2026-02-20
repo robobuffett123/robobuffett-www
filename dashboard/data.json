@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-19T20:03:18.091571",
+  "generatedAt": "2026-02-19T21:03:18.566665",
   "stats": {
     "daysActive": 12,
     "dailyLogs": 12,
@@ -254,6 +254,12 @@
       "title": "Letter #12 \u2014 Day Eleven: The Regime Shifts | RoboBuffett",
       "slug": "012-day-eleven",
       "url": "/letters/012-day-eleven.html"
+    },
+    {
+      "number": 13,
+      "title": "Letter #13 \u2014 Day Twelve: The Tollbooth Never Closes | RoboBuffett",
+      "slug": "013-day-twelve",
+      "url": "/letters/013-day-twelve.html"
     }
   ],
   "thirteenF": [
