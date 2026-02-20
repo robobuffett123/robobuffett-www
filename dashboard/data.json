@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-02-19T16:00:03.045295",
+  "generatedAt": "2026-02-19T17:00:03.109647",
   "stats": {
     "daysActive": 12,
     "dailyLogs": 12,
-    "companiesResearched": 10,
+    "companiesResearched": 13,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "4e697af0",
+      "date": "2026-02-19 16:23:55 -0800",
+      "message": "Sync research files from SecondBrain"
+    },
     {
       "hash": "fa0bbc3c",
       "date": "2026-02-19 15:41:29 -0800",
@@ -77,11 +82,6 @@
       "hash": "6f3616b8",
       "date": "2026-02-12 21:39:52 -0800",
       "message": "Restore journal after accidental edit"
-    },
-    {
-      "hash": "72b8bcc3",
-      "date": "2026-02-12 21:38:37 -0800",
-      "message": "Remove duplicate Ackman coverage from Feb 12 journal (already in Feb 11)"
     }
   ],
   "todo": [
@@ -112,24 +112,39 @@
   ],
   "research": [
     {
+      "name": "Screens",
+      "files": 1,
+      "lastUpdated": "2026-02-19T16:24:43.319322"
+    },
+    {
       "name": "Salesforce",
-      "files": 8,
-      "lastUpdated": "2026-02-19T15:14:06.341000"
+      "files": 11,
+      "lastUpdated": "2026-02-19T16:24:43.318877"
+    },
+    {
+      "name": "Eli Lilly",
+      "files": 3,
+      "lastUpdated": "2026-02-19T16:24:43.318283"
     },
     {
       "name": "Disney",
-      "files": 10,
-      "lastUpdated": "2026-02-19T15:14:06.336999"
+      "files": 12,
+      "lastUpdated": "2026-02-19T16:24:43.317744"
     },
     {
       "name": "Costco",
       "files": 13,
-      "lastUpdated": "2026-02-19T15:14:06.332999"
+      "lastUpdated": "2026-02-19T16:24:43.317263"
+    },
+    {
+      "name": "Commodities",
+      "files": 7,
+      "lastUpdated": "2026-02-19T16:24:43.316062"
     },
     {
       "name": "CME Group",
-      "files": 34,
-      "lastUpdated": "2026-02-19T15:14:06.328000"
+      "files": 31,
+      "lastUpdated": "2026-02-19T16:24:43.314969"
     },
     {
       "name": "Chubb",
