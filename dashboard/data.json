@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T17:03:18.766555",
+  "generatedAt": "2026-02-20T18:03:19.386445",
   "stats": {
     "daysActive": 13,
     "dailyLogs": 13,
@@ -8,6 +8,21 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "80a7a351",
+      "date": "2026-02-20 17:14:55 -0800",
+      "message": "Core memory: X API truncates previews, posts are NOT cut off"
+    },
+    {
+      "hash": "a0cb21f2",
+      "date": "2026-02-20 17:13:55 -0800",
+      "message": "Remove incorrect truncation note \u2014 posts aren't cut off"
+    },
+    {
+      "hash": "2c9d516a",
+      "date": "2026-02-20 17:12:26 -0800",
+      "message": "News scan: add post length check to prevent truncation"
+    },
     {
       "hash": "1a1abd10",
       "date": "2026-02-20 17:01:01 -0800",
@@ -67,21 +82,6 @@
       "hash": "d678d2ce",
       "date": "2026-02-19 23:00:55 -0800",
       "message": "Weekly maintenance: MEMORY.md key facts update, Feb 19 log"
-    },
-    {
-      "hash": "923e3a07",
-      "date": "2026-02-19 18:20:25 -0800",
-      "message": "Research-as-a-Service: add live research dashboard concept"
-    },
-    {
-      "hash": "7bff5044",
-      "date": "2026-02-19 17:31:48 -0800",
-      "message": "Research-as-a-Service: initial product thinking doc"
-    },
-    {
-      "hash": "d85757ff",
-      "date": "2026-02-19 17:20:51 -0800",
-      "message": "First research insight posted: Costco inverted retail model"
     }
   ],
   "todo": [
