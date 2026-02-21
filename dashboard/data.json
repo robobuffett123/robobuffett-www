@@ -1,13 +1,38 @@
 {
-  "generatedAt": "2026-02-20T22:03:18.763625",
+  "generatedAt": "2026-02-20T23:03:19.100378",
   "stats": {
     "daysActive": 13,
-    "dailyLogs": 13,
-    "companiesResearched": 26,
+    "dailyLogs": 14,
+    "companiesResearched": 25,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "c35d6154",
+      "date": "2026-02-20 23:00:48 -0800",
+      "message": "Weekly maintenance: fix stale skill directory references"
+    },
+    {
+      "hash": "84fbde49",
+      "date": "2026-02-20 22:19:25 -0800",
+      "message": "Merge Brookfield/ into Brookfield Corporation/"
+    },
+    {
+      "hash": "bc118556",
+      "date": "2026-02-20 22:16:50 -0800",
+      "message": "Flatten nested duplicate folders in CME, Lockheed, TSMC"
+    },
+    {
+      "hash": "ca0ab98f",
+      "date": "2026-02-20 22:16:24 -0800",
+      "message": "Fix folder naming: spaces to hyphens for CME, Lockheed, TSMC"
+    },
+    {
+      "hash": "bc2c1c45",
+      "date": "2026-02-20 22:06:17 -0800",
+      "message": "Sync research from SecondBrain - 2026-02-20"
+    },
     {
       "hash": "80a7a351",
       "date": "2026-02-20 17:14:55 -0800",
@@ -57,31 +82,6 @@
       "hash": "457d56d7",
       "date": "2026-02-20 11:49:05 -0800",
       "message": "CME Group: restore numbered subfolder format to match all other companies"
-    },
-    {
-      "hash": "ffaae5c6",
-      "date": "2026-02-20 11:46:02 -0800",
-      "message": "new research"
-    },
-    {
-      "hash": "46e51c5b",
-      "date": "2026-02-20 11:45:04 -0800",
-      "message": "New research: Blackstone, Brookfield, Lockheed Martin + CME updates"
-    },
-    {
-      "hash": "43f87006",
-      "date": "2026-02-20 09:28:32 -0800",
-      "message": "new folder structure for research"
-    },
-    {
-      "hash": "c5e41e4d",
-      "date": "2026-02-20 08:05:02 -0800",
-      "message": "MEMORY.md: remove research data, keep only operational facts"
-    },
-    {
-      "hash": "d678d2ce",
-      "date": "2026-02-19 23:00:55 -0800",
-      "message": "Weekly maintenance: MEMORY.md key facts update, Feb 19 log"
     }
   ],
   "todo": [
@@ -113,23 +113,63 @@
   "research": [
     {
       "name": "Visa",
-      "files": 1,
-      "lastUpdated": "2026-02-20T15:31:09.368408"
+      "files": 7,
+      "lastUpdated": "2026-02-20T22:06:58.818036"
     },
     {
       "name": "Taiwan Semiconductor Manufacturing",
       "files": 12,
-      "lastUpdated": "2026-02-20T15:31:09.368062"
+      "lastUpdated": "2026-02-20T22:06:58.817279"
+    },
+    {
+      "name": "Salesforce",
+      "files": 18,
+      "lastUpdated": "2026-02-20T22:06:58.816634"
+    },
+    {
+      "name": "McDonald's",
+      "files": 14,
+      "lastUpdated": "2026-02-20T22:06:58.815999"
+    },
+    {
+      "name": "Lockheed Martin",
+      "files": 12,
+      "lastUpdated": "2026-02-20T22:06:58.815519"
     },
     {
       "name": "JPMorgan Chase",
-      "files": 5,
-      "lastUpdated": "2026-02-20T15:31:09.366809"
+      "files": 13,
+      "lastUpdated": "2026-02-20T22:06:58.815148"
     },
     {
       "name": "Intel",
-      "files": 1,
-      "lastUpdated": "2026-02-20T15:31:09.366438"
+      "files": 11,
+      "lastUpdated": "2026-02-20T22:06:58.813770"
+    },
+    {
+      "name": "Disney",
+      "files": 14,
+      "lastUpdated": "2026-02-20T22:06:58.812086"
+    },
+    {
+      "name": "Costco",
+      "files": 16,
+      "lastUpdated": "2026-02-20T22:06:58.811785"
+    },
+    {
+      "name": "Chubb",
+      "files": 35,
+      "lastUpdated": "2026-02-20T22:06:58.811519"
+    },
+    {
+      "name": "CME Group",
+      "files": 36,
+      "lastUpdated": "2026-02-20T22:06:58.811113"
+    },
+    {
+      "name": "American Tower",
+      "files": 13,
+      "lastUpdated": "2026-02-20T22:06:58.803912"
     },
     {
       "name": "Coca-Cola",
@@ -137,24 +177,9 @@
       "lastUpdated": "2026-02-20T15:31:09.366119"
     },
     {
-      "name": "American Tower",
-      "files": 11,
-      "lastUpdated": "2026-02-20T15:31:09.365705"
-    },
-    {
-      "name": "Salesforce",
-      "files": 16,
-      "lastUpdated": "2026-02-20T14:45:28.588116"
-    },
-    {
       "name": "Realty Income",
       "files": 3,
       "lastUpdated": "2026-02-20T14:45:28.587846"
-    },
-    {
-      "name": "Lockheed Martin",
-      "files": 12,
-      "lastUpdated": "2026-02-20T14:45:28.587416"
     },
     {
       "name": "Eli Lilly",
@@ -167,44 +192,14 @@
       "lastUpdated": "2026-02-20T14:45:28.585739"
     },
     {
-      "name": "Costco",
-      "files": 14,
-      "lastUpdated": "2026-02-20T14:45:28.585299"
-    },
-    {
-      "name": "Chubb",
-      "files": 32,
-      "lastUpdated": "2026-02-20T14:45:28.584854"
-    },
-    {
-      "name": "CME Group",
-      "files": 32,
-      "lastUpdated": "2026-02-20T14:45:28.584507"
-    },
-    {
       "name": "Blackstone",
       "files": 10,
       "lastUpdated": "2026-02-20T14:45:28.583416"
     },
     {
-      "name": "McDonald's",
-      "files": 11,
-      "lastUpdated": "2026-02-20T11:47:28.242274"
-    },
-    {
-      "name": "Brookfield",
-      "files": 3,
-      "lastUpdated": "2026-02-20T11:47:28.228659"
-    },
-    {
       "name": "Brookfield Corporation",
-      "files": 4,
-      "lastUpdated": "2026-02-20T11:47:28.228384"
-    },
-    {
-      "name": "Disney",
-      "files": 12,
-      "lastUpdated": "2026-02-20T09:29:37.282274"
+      "files": 7,
+      "lastUpdated": "2026-02-20T11:47:28.228659"
     },
     {
       "name": "Booking Holdings",
