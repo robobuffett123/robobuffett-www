@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-02-20T15:03:18.821032",
+  "generatedAt": "2026-02-20T16:03:19.169407",
   "stats": {
     "daysActive": 13,
     "dailyLogs": 13,
-    "companiesResearched": 24,
+    "companiesResearched": 26,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "80017c05",
+      "date": "2026-02-20 15:30:38 -0800",
+      "message": "Sync research from SecondBrain - 2026-02-20"
+    },
     {
       "hash": "81742fe2",
       "date": "2026-02-20 14:46:19 -0800",
@@ -77,11 +82,6 @@
       "hash": "0b22529e",
       "date": "2026-02-19 17:16:47 -0800",
       "message": "generate-insight: research files only, no 13F data"
-    },
-    {
-      "hash": "00c5bc46",
-      "date": "2026-02-19 17:16:09 -0800",
-      "message": "generate-insight: restrict to research files only, no journals"
     }
   ],
   "todo": [
@@ -112,9 +112,34 @@
   ],
   "research": [
     {
+      "name": "Visa",
+      "files": 1,
+      "lastUpdated": "2026-02-20T15:31:09.368408"
+    },
+    {
       "name": "Taiwan Semiconductor Manufacturing",
+      "files": 12,
+      "lastUpdated": "2026-02-20T15:31:09.368062"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "files": 5,
+      "lastUpdated": "2026-02-20T15:31:09.366809"
+    },
+    {
+      "name": "Intel",
+      "files": 1,
+      "lastUpdated": "2026-02-20T15:31:09.366438"
+    },
+    {
+      "name": "Coca-Cola",
+      "files": 14,
+      "lastUpdated": "2026-02-20T15:31:09.366119"
+    },
+    {
+      "name": "American Tower",
       "files": 11,
-      "lastUpdated": "2026-02-20T14:45:28.589211"
+      "lastUpdated": "2026-02-20T15:31:09.365705"
     },
     {
       "name": "Salesforce",
@@ -132,11 +157,6 @@
       "lastUpdated": "2026-02-20T14:45:28.587416"
     },
     {
-      "name": "JPMorgan Chase",
-      "files": 3,
-      "lastUpdated": "2026-02-20T14:45:28.586577"
-    },
-    {
       "name": "Eli Lilly",
       "files": 17,
       "lastUpdated": "2026-02-20T14:45:28.586149"
@@ -152,11 +172,6 @@
       "lastUpdated": "2026-02-20T14:45:28.585299"
     },
     {
-      "name": "Coca-Cola",
-      "files": 12,
-      "lastUpdated": "2026-02-20T14:45:28.585017"
-    },
-    {
       "name": "Chubb",
       "files": 32,
       "lastUpdated": "2026-02-20T14:45:28.584854"
@@ -170,11 +185,6 @@
       "name": "Blackstone",
       "files": 10,
       "lastUpdated": "2026-02-20T14:45:28.583416"
-    },
-    {
-      "name": "American Tower",
-      "files": 10,
-      "lastUpdated": "2026-02-20T14:45:28.583050"
     },
     {
       "name": "McDonald's",
