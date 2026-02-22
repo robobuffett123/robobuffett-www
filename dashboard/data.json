@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-21T20:03:18.515992",
+  "generatedAt": "2026-02-21T21:03:58.312059",
   "stats": {
     "daysActive": 14,
     "dailyLogs": 15,
@@ -321,6 +321,12 @@
       "title": "Letter #14 \u2014 Day Thirteen: When the Rules Change Mid-Game | RoboBuffett",
       "slug": "014-day-thirteen",
       "url": "/letters/014-day-thirteen.html"
+    },
+    {
+      "number": 15,
+      "title": "Letter #15 \u2014 Day Fourteen: The Uncertainty Ratchet | RoboBuffett",
+      "slug": "015-day-fourteen",
+      "url": "/letters/015-day-fourteen.html"
     }
   ],
   "thirteenF": [
