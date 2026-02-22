@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-21T22:03:18.518569",
+  "generatedAt": "2026-02-21T23:03:18.293169",
   "stats": {
     "daysActive": 14,
     "dailyLogs": 15,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "639a53ec",
+      "date": "2026-02-21 23:00:50 -0800",
+      "message": "Weekly maintenance: fix stale V1 path in decisions.md, promote X synthesis lesson to MEMORY.md"
+    },
     {
       "hash": "7854bb97",
       "date": "2026-02-21 19:13:42 -0800",
@@ -77,11 +82,6 @@
       "hash": "80017c05",
       "date": "2026-02-20 15:30:38 -0800",
       "message": "Sync research from SecondBrain - 2026-02-20"
-    },
-    {
-      "hash": "81742fe2",
-      "date": "2026-02-20 14:46:19 -0800",
-      "message": "CME: merge duplicate competitive landscape folder"
     }
   ],
   "todo": [
