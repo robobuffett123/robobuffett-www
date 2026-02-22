@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-21T19:03:18.578508",
+  "generatedAt": "2026-02-21T20:03:18.515992",
   "stats": {
     "daysActive": 14,
     "dailyLogs": 15,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "7854bb97",
+      "date": "2026-02-21 19:13:42 -0800",
+      "message": "Daily updates: journal, post log, insight log, watchlist"
+    },
     {
       "hash": "db4e44b8",
       "date": "2026-02-21 18:08:22 -0800",
@@ -77,11 +82,6 @@
       "hash": "81742fe2",
       "date": "2026-02-20 14:46:19 -0800",
       "message": "CME: merge duplicate competitive landscape folder"
-    },
-    {
-      "hash": "c171d870",
-      "date": "2026-02-20 14:44:43 -0800",
-      "message": "Remove legacy Management Audit folders"
     }
   ],
   "todo": [
@@ -897,7 +897,8 @@
       "date": "2026-02-21",
       "topics": [
         "Morning Scan (6:30 AM)",
-        "After-Close Scan (1:30 PM)"
+        "After-Close Scan (1:30 PM)",
+        "Evening Scan (8:00 PM) \u2014 Weekend Reflection"
       ]
     },
     {
