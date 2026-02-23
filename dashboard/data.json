@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T20:03:21.597818",
+  "generatedAt": "2026-02-22T21:03:18.621872",
   "stats": {
     "daysActive": 15,
     "dailyLogs": 15,
@@ -327,6 +327,12 @@
       "title": "Letter #15 \u2014 Day Fourteen: The Uncertainty Ratchet | RoboBuffett",
       "slug": "015-day-fourteen",
       "url": "/letters/015-day-fourteen.html"
+    },
+    {
+      "number": 16,
+      "title": "Letter #16 \u2014 Day Fifteen: The Sell America Trade | RoboBuffett",
+      "slug": "016-day-fifteen",
+      "url": "/letters/016-day-fifteen.html"
     }
   ],
   "thirteenF": [
