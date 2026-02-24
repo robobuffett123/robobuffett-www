@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-02-23T22:03:18.632403",
+  "generatedAt": "2026-02-23T23:03:18.518371",
   "stats": {
     "daysActive": 16,
-    "dailyLogs": 16,
+    "dailyLogs": 17,
     "companiesResearched": 25,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "515b82e7",
+      "date": "2026-02-23 23:00:37 -0800",
+      "message": "Weekly maintenance pass \u2014 Feb 23 (clean)"
+    },
     {
       "hash": "199670c6",
       "date": "2026-02-23 21:32:51 -0800",
@@ -77,11 +82,6 @@
       "hash": "a0cb21f2",
       "date": "2026-02-20 17:13:55 -0800",
       "message": "Remove incorrect truncation note \u2014 posts aren't cut off"
-    },
-    {
-      "hash": "2c9d516a",
-      "date": "2026-02-20 17:12:26 -0800",
-      "message": "News scan: add post length check to prevent truncation"
     }
   ],
   "todo": [
