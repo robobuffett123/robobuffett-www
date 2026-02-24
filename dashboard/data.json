@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T21:03:35.490912",
+  "generatedAt": "2026-02-23T22:03:18.632403",
   "stats": {
     "daysActive": 16,
     "dailyLogs": 16,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "199670c6",
+      "date": "2026-02-23 21:32:51 -0800",
+      "message": "Flatten folder structure to match SecondBrain"
+    },
     {
       "hash": "edea4a0d",
       "date": "2026-02-22 23:01:00 -0800",
@@ -77,11 +82,6 @@
       "hash": "2c9d516a",
       "date": "2026-02-20 17:12:26 -0800",
       "message": "News scan: add post length check to prevent truncation"
-    },
-    {
-      "hash": "1a1abd10",
-      "date": "2026-02-20 17:01:01 -0800",
-      "message": "News scan: stop forcing company tie-ins on every observation"
     }
   ],
   "todo": [
@@ -114,107 +114,107 @@
     {
       "name": "Visa",
       "files": 7,
-      "lastUpdated": "2026-02-20T22:06:58.818036"
+      "lastUpdated": "2026-02-23T21:35:59.181315"
     },
     {
       "name": "Taiwan Semiconductor Manufacturing",
       "files": 12,
-      "lastUpdated": "2026-02-20T22:06:58.817279"
+      "lastUpdated": "2026-02-23T21:35:59.180592"
     },
     {
       "name": "Salesforce",
       "files": 18,
-      "lastUpdated": "2026-02-20T22:06:58.816634"
-    },
-    {
-      "name": "McDonald's",
-      "files": 14,
-      "lastUpdated": "2026-02-20T22:06:58.815999"
-    },
-    {
-      "name": "Lockheed Martin",
-      "files": 12,
-      "lastUpdated": "2026-02-20T22:06:58.815519"
-    },
-    {
-      "name": "JPMorgan Chase",
-      "files": 13,
-      "lastUpdated": "2026-02-20T22:06:58.815148"
-    },
-    {
-      "name": "Intel",
-      "files": 11,
-      "lastUpdated": "2026-02-20T22:06:58.813770"
-    },
-    {
-      "name": "Disney",
-      "files": 14,
-      "lastUpdated": "2026-02-20T22:06:58.812086"
-    },
-    {
-      "name": "Costco",
-      "files": 16,
-      "lastUpdated": "2026-02-20T22:06:58.811785"
-    },
-    {
-      "name": "Chubb",
-      "files": 35,
-      "lastUpdated": "2026-02-20T22:06:58.811519"
-    },
-    {
-      "name": "CME Group",
-      "files": 36,
-      "lastUpdated": "2026-02-20T22:06:58.811113"
-    },
-    {
-      "name": "American Tower",
-      "files": 13,
-      "lastUpdated": "2026-02-20T22:06:58.803912"
-    },
-    {
-      "name": "Coca-Cola",
-      "files": 14,
-      "lastUpdated": "2026-02-20T15:31:09.366119"
+      "lastUpdated": "2026-02-23T21:35:59.179080"
     },
     {
       "name": "Realty Income",
       "files": 3,
-      "lastUpdated": "2026-02-20T14:45:28.587846"
+      "lastUpdated": "2026-02-23T21:35:59.176970"
+    },
+    {
+      "name": "McDonald's",
+      "files": 14,
+      "lastUpdated": "2026-02-23T21:35:59.176626"
+    },
+    {
+      "name": "Lockheed Martin",
+      "files": 12,
+      "lastUpdated": "2026-02-23T21:35:59.174974"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "files": 13,
+      "lastUpdated": "2026-02-23T21:35:59.173452"
+    },
+    {
+      "name": "Intel",
+      "files": 11,
+      "lastUpdated": "2026-02-23T21:35:59.171920"
     },
     {
       "name": "Eli Lilly",
       "files": 17,
-      "lastUpdated": "2026-02-20T14:45:28.586149"
+      "lastUpdated": "2026-02-23T21:35:59.170760"
+    },
+    {
+      "name": "Disney",
+      "files": 14,
+      "lastUpdated": "2026-02-23T21:35:59.168658"
     },
     {
       "name": "Crown Castle",
       "files": 3,
-      "lastUpdated": "2026-02-20T14:45:28.585739"
+      "lastUpdated": "2026-02-23T21:35:59.166700"
     },
     {
-      "name": "Blackstone",
-      "files": 10,
-      "lastUpdated": "2026-02-20T14:45:28.583416"
+      "name": "Costco",
+      "files": 16,
+      "lastUpdated": "2026-02-23T21:35:59.166356"
+    },
+    {
+      "name": "Coca-Cola",
+      "files": 14,
+      "lastUpdated": "2026-02-23T21:35:59.164610"
+    },
+    {
+      "name": "Chubb",
+      "files": 35,
+      "lastUpdated": "2026-02-23T21:35:59.162837"
+    },
+    {
+      "name": "CME Group",
+      "files": 36,
+      "lastUpdated": "2026-02-23T21:35:59.160161"
     },
     {
       "name": "Brookfield Corporation",
       "files": 7,
-      "lastUpdated": "2026-02-20T11:47:28.228659"
+      "lastUpdated": "2026-02-23T21:35:59.156637"
     },
     {
       "name": "Booking Holdings",
       "files": 4,
-      "lastUpdated": "2026-02-20T09:29:37.253564"
+      "lastUpdated": "2026-02-23T21:35:59.155900"
+    },
+    {
+      "name": "Blackstone",
+      "files": 10,
+      "lastUpdated": "2026-02-23T21:35:59.155450"
     },
     {
       "name": "Arch Capital Group",
       "files": 11,
-      "lastUpdated": "2026-02-20T09:29:37.252614"
+      "lastUpdated": "2026-02-23T21:35:59.154313"
+    },
+    {
+      "name": "American Tower",
+      "files": 13,
+      "lastUpdated": "2026-02-23T21:35:59.152375"
     },
     {
       "name": "AerCap",
       "files": 4,
-      "lastUpdated": "2026-02-20T09:29:37.249113"
+      "lastUpdated": "2026-02-23T21:35:59.151181"
     },
     {
       "name": "Meta",
