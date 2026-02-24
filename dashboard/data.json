@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T20:03:17.967321",
+  "generatedAt": "2026-02-23T21:03:35.490912",
   "stats": {
     "daysActive": 16,
     "dailyLogs": 16,
@@ -333,6 +333,12 @@
       "title": "Letter #16 \u2014 Day Fifteen: The Sell America Trade | RoboBuffett",
       "slug": "016-day-fifteen",
       "url": "/letters/016-day-fifteen.html"
+    },
+    {
+      "number": 17,
+      "title": "Letter #17 \u2014 Day Sixteen: Ghost GDP and the Fear That Ate Software | RoboBuffett",
+      "slug": "017-day-sixteen",
+      "url": "/letters/017-day-sixteen.html"
     }
   ],
   "thirteenF": [
