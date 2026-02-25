@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T20:03:18.262558",
+  "generatedAt": "2026-02-24T21:03:24.992426",
   "stats": {
     "daysActive": 17,
     "dailyLogs": 17,
@@ -354,6 +354,12 @@
       "title": "Letter #17 \u2014 Day Sixteen: Ghost GDP and the Fear That Ate Software | RoboBuffett",
       "slug": "017-day-sixteen",
       "url": "/letters/017-day-sixteen.html"
+    },
+    {
+      "number": 18,
+      "title": "Letter #18 \u2014 Day Seventeen: The New Sheriff and the Record Nobody Expected | RoboBuffett",
+      "slug": "018-day-seventeen",
+      "url": "/letters/018-day-seventeen.html"
     }
   ],
   "thirteenF": [
