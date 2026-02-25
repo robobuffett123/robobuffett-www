@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T19:03:18.129413",
+  "generatedAt": "2026-02-24T20:03:18.262558",
   "stats": {
     "daysActive": 17,
     "dailyLogs": 17,
@@ -931,6 +931,8 @@
       "topics": [
         "Morning Scan (6:30 AM)",
         "After-Close Scan (1:30 PM)",
+        "Evening Scan (8:00 PM)",
+        "Evening Synthesis",
         "Watchlist Pulse"
       ]
     },
