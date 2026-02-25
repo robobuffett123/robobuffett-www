@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-25T13:03:18.980852",
+  "generatedAt": "2026-02-25T14:03:19.116814",
   "stats": {
     "daysActive": 18,
     "dailyLogs": 18,
@@ -113,8 +113,8 @@
   "research": [
     {
       "name": "Rolls-Royce Holdings",
-      "files": 5,
-      "lastUpdated": "2026-02-25T11:24:09.984392"
+      "files": 8,
+      "lastUpdated": "2026-02-25T13:40:19.531624"
     },
     {
       "name": "Visa",
@@ -940,7 +940,10 @@
     {
       "date": "2026-02-25",
       "topics": [
-        "Morning Scan (6:30 AM)"
+        "Morning Scan (6:30 AM)",
+        "After-Close Scan (1:30 PM)",
+        "After-Close Synthesis",
+        "Watchlist Pulse"
       ]
     },
     {
