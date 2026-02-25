@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-02-24T16:03:18.106760",
+  "generatedAt": "2026-02-24T17:03:18.428960",
   "stats": {
     "daysActive": 17,
     "dailyLogs": 17,
-    "companiesResearched": 25,
+    "companiesResearched": 28,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "747e5c05",
+      "date": "2026-02-24 16:31:02 -0800",
+      "message": "Sync research from SecondBrain - 2026-02-24"
+    },
     {
       "hash": "515b82e7",
       "date": "2026-02-23 23:00:37 -0800",
@@ -77,11 +82,6 @@
       "hash": "80a7a351",
       "date": "2026-02-20 17:14:55 -0800",
       "message": "Core memory: X API truncates previews, posts are NOT cut off"
-    },
-    {
-      "hash": "a0cb21f2",
-      "date": "2026-02-20 17:13:55 -0800",
-      "message": "Remove incorrect truncation note \u2014 posts aren't cut off"
     }
   ],
   "todo": [
@@ -113,18 +113,68 @@
   "research": [
     {
       "name": "Visa",
-      "files": 7,
-      "lastUpdated": "2026-02-23T21:35:59.181315"
+      "files": 13,
+      "lastUpdated": "2026-02-24T16:31:45.171649"
+    },
+    {
+      "name": "Salesforce",
+      "files": 19,
+      "lastUpdated": "2026-02-24T16:31:45.170693"
+    },
+    {
+      "name": "Roblox",
+      "files": 22,
+      "lastUpdated": "2026-02-24T16:31:45.170593"
+    },
+    {
+      "name": "MercadoLibre",
+      "files": 22,
+      "lastUpdated": "2026-02-24T16:31:45.168248"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "files": 18,
+      "lastUpdated": "2026-02-24T16:31:45.163698"
+    },
+    {
+      "name": "Intel",
+      "files": 15,
+      "lastUpdated": "2026-02-24T16:31:45.163172"
+    },
+    {
+      "name": "Costco",
+      "files": 18,
+      "lastUpdated": "2026-02-24T16:31:45.162828"
+    },
+    {
+      "name": "Chubb",
+      "files": 51,
+      "lastUpdated": "2026-02-24T16:31:45.162666"
+    },
+    {
+      "name": "CME Group",
+      "files": 42,
+      "lastUpdated": "2026-02-24T16:31:45.160501"
+    },
+    {
+      "name": "American Tower",
+      "files": 20,
+      "lastUpdated": "2026-02-24T16:31:45.159569"
+    },
+    {
+      "name": "AerCap",
+      "files": 45,
+      "lastUpdated": "2026-02-24T16:31:45.158761"
+    },
+    {
+      "name": "Adobe",
+      "files": 21,
+      "lastUpdated": "2026-02-24T16:31:45.153339"
     },
     {
       "name": "Taiwan Semiconductor Manufacturing",
       "files": 12,
       "lastUpdated": "2026-02-23T21:35:59.180592"
-    },
-    {
-      "name": "Salesforce",
-      "files": 18,
-      "lastUpdated": "2026-02-23T21:35:59.179080"
     },
     {
       "name": "Realty Income",
@@ -142,16 +192,6 @@
       "lastUpdated": "2026-02-23T21:35:59.174974"
     },
     {
-      "name": "JPMorgan Chase",
-      "files": 13,
-      "lastUpdated": "2026-02-23T21:35:59.173452"
-    },
-    {
-      "name": "Intel",
-      "files": 11,
-      "lastUpdated": "2026-02-23T21:35:59.171920"
-    },
-    {
       "name": "Eli Lilly",
       "files": 17,
       "lastUpdated": "2026-02-23T21:35:59.170760"
@@ -167,24 +207,9 @@
       "lastUpdated": "2026-02-23T21:35:59.166700"
     },
     {
-      "name": "Costco",
-      "files": 16,
-      "lastUpdated": "2026-02-23T21:35:59.166356"
-    },
-    {
       "name": "Coca-Cola",
       "files": 14,
       "lastUpdated": "2026-02-23T21:35:59.164610"
-    },
-    {
-      "name": "Chubb",
-      "files": 35,
-      "lastUpdated": "2026-02-23T21:35:59.162837"
-    },
-    {
-      "name": "CME Group",
-      "files": 36,
-      "lastUpdated": "2026-02-23T21:35:59.160161"
     },
     {
       "name": "Brookfield Corporation",
@@ -205,16 +230,6 @@
       "name": "Arch Capital Group",
       "files": 11,
       "lastUpdated": "2026-02-23T21:35:59.154313"
-    },
-    {
-      "name": "American Tower",
-      "files": 13,
-      "lastUpdated": "2026-02-23T21:35:59.152375"
-    },
-    {
-      "name": "AerCap",
-      "files": 4,
-      "lastUpdated": "2026-02-23T21:35:59.151181"
     },
     {
       "name": "Meta",
