@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-25T21:03:31.962776",
+  "generatedAt": "2026-02-25T22:03:18.416454",
   "stats": {
     "daysActive": 18,
     "dailyLogs": 18,
@@ -8,6 +8,16 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "95fa29aa",
+      "date": "2026-02-25 21:47:04 -0800",
+      "message": "Rolls-Royce annual filing syntheses (FY21-23), book journal, daily updates"
+    },
+    {
+      "hash": "09d11e5b",
+      "date": "2026-02-25 21:45:44 -0800",
+      "message": "removing old stuff"
+    },
     {
       "hash": "80d7b9cc",
       "date": "2026-02-25 11:10:41 -0800",
@@ -72,16 +82,6 @@
       "hash": "db4e44b8",
       "date": "2026-02-21 18:08:22 -0800",
       "message": "No shilling in market synthesis posts - add explicit rules to X-POLICY and cron"
-    },
-    {
-      "hash": "fa9d9f44",
-      "date": "2026-02-21 12:17:03 -0800",
-      "message": "Strip trailing newlines from stdin input, add heredoc test"
-    },
-    {
-      "hash": "3a81e625",
-      "date": "2026-02-21 12:14:58 -0800",
-      "message": "Fix X posting: add post-stdin command to eliminate shell quoting bugs"
     }
   ],
   "todo": [
@@ -114,7 +114,7 @@
     {
       "name": "Rolls-Royce Holdings",
       "files": 11,
-      "lastUpdated": "2026-02-25T14:31:35.579999"
+      "lastUpdated": "2026-02-25T21:47:08.701939"
     },
     {
       "name": "Visa",
