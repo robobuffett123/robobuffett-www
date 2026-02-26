@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-26T10:03:19.092314",
+  "generatedAt": "2026-02-26T11:03:19.195628",
   "stats": {
     "daysActive": 19,
     "dailyLogs": 20,
@@ -111,6 +111,11 @@
     }
   ],
   "research": [
+    {
+      "name": "SAP",
+      "files": 15,
+      "lastUpdated": "2026-02-26T10:51:09.631463"
+    },
     {
       "name": "Rolls-Royce Holdings",
       "files": 11,
@@ -255,11 +260,6 @@
       "name": "Live-Experiences-Travel-Theme",
       "files": 3,
       "lastUpdated": "2026-02-18T21:18:49.974999"
-    },
-    {
-      "name": "SAP",
-      "files": 0,
-      "lastUpdated": null
     }
   ],
   "letters": [
