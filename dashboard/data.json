@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-02-25T22:03:18.416454",
+  "generatedAt": "2026-02-25T23:03:19.214939",
   "stats": {
     "daysActive": 18,
-    "dailyLogs": 18,
+    "dailyLogs": 19,
     "companiesResearched": 29,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "afff80e5",
+      "date": "2026-02-25 23:00:44 -0800",
+      "message": "weekly maintenance: 2026-02-25 \u2014 clean pass"
+    },
     {
       "hash": "95fa29aa",
       "date": "2026-02-25 21:47:04 -0800",
@@ -77,11 +82,6 @@
       "hash": "7854bb97",
       "date": "2026-02-21 19:13:42 -0800",
       "message": "Daily updates: journal, post log, insight log, watchlist"
-    },
-    {
-      "hash": "db4e44b8",
-      "date": "2026-02-21 18:08:22 -0800",
-      "message": "No shilling in market synthesis posts - add explicit rules to X-POLICY and cron"
     }
   ],
   "todo": [
