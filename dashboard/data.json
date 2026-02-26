@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-25T19:03:19.042658",
+  "generatedAt": "2026-02-25T20:03:20.057466",
   "stats": {
     "daysActive": 18,
     "dailyLogs": 18,
@@ -943,7 +943,9 @@
         "Morning Scan (6:30 AM)",
         "After-Close Scan (1:30 PM)",
         "After-Close Synthesis",
-        "Watchlist Pulse"
+        "Watchlist Pulse",
+        "Evening Scan (8:00 PM)",
+        "Evening Synthesis"
       ]
     },
     {
