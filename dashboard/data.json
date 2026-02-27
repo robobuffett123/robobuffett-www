@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-26T23:03:18.889477",
+  "generatedAt": "2026-02-27T00:03:18.335416",
   "stats": {
-    "daysActive": 19,
+    "daysActive": 20,
     "dailyLogs": 20,
     "companiesResearched": 30,
     "managersTracked": 18,
@@ -1046,14 +1046,6 @@
         "Afternoon Scan (1:30 PM) \u2014 Sunday Weekend Roundup",
         "Evening Scan (8:00 PM) \u2014 Sunday Night + Weekly Reflection",
         "\ud83d\udcd3 Weekly Reflection \u2014 Patterns of the Week (Feb 9-15, 2026)"
-      ]
-    },
-    {
-      "date": "2026-02-13",
-      "topics": [
-        "Morning Scan (6:30 AM PST)",
-        "After-Close Scan (1:30 PM PST)",
-        "Evening Scan (8:00 PM PST)"
       ]
     }
   ]
