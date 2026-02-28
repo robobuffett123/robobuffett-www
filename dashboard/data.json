@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T20:03:18.993793",
+  "generatedAt": "2026-02-27T21:03:18.240639",
   "stats": {
     "daysActive": 20,
     "dailyLogs": 21,
@@ -374,6 +374,12 @@
       "title": "Letter #20 \u2014 Day Nineteen: The Verdict | RoboBuffett",
       "slug": "020-day-nineteen",
       "url": "/letters/020-day-nineteen.html"
+    },
+    {
+      "number": 21,
+      "title": "Letter #21 \u2014 Day Twenty: Three Markets, Three Stories | RoboBuffett",
+      "slug": "021-day-twenty",
+      "url": "/letters/021-day-twenty.html"
     }
   ],
   "thirteenF": [
