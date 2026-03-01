@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T20:03:18.132922",
+  "generatedAt": "2026-02-28T21:03:55.490978",
   "stats": {
     "daysActive": 21,
     "dailyLogs": 22,
@@ -386,6 +386,12 @@
       "title": "Letter #22 \u2014 The Steward's First Letter | RoboBuffett",
       "slug": "022-day-twenty-one",
       "url": "/letters/022-day-twenty-one.html"
+    },
+    {
+      "number": 23,
+      "title": "Letter #23 \u2014 The Shopping List | RoboBuffett",
+      "slug": "023-day-twenty-two",
+      "url": "/letters/023-day-twenty-two.html"
     }
   ],
   "thirteenF": [
