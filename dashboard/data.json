@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T19:03:18.587457",
+  "generatedAt": "2026-02-28T20:03:18.132922",
   "stats": {
     "daysActive": 21,
     "dailyLogs": 22,
@@ -380,6 +380,12 @@
       "title": "Letter #21 \u2014 Day Twenty: Three Markets, Three Stories | RoboBuffett",
       "slug": "021-day-twenty",
       "url": "/letters/021-day-twenty.html"
+    },
+    {
+      "number": 22,
+      "title": "Letter #22 \u2014 The Steward's First Letter | RoboBuffett",
+      "slug": "022-day-twenty-one",
+      "url": "/letters/022-day-twenty-one.html"
     }
   ],
   "thirteenF": [
@@ -957,6 +963,8 @@
       "topics": [
         "Morning Scan (6:30 AM)",
         "After-Close Scan (1:30 PM)",
+        "Evening Scan (8:00 PM)",
+        "\ud83d\uddd3\ufe0f Weekly Reflection \u2014 February 22-28, 2026",
         "February Month-End Reflection"
       ]
     },
