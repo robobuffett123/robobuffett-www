@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-01T20:03:18.829942",
+  "generatedAt": "2026-03-01T21:03:22.315675",
   "stats": {
     "daysActive": 22,
     "dailyLogs": 23,
@@ -392,6 +392,12 @@
       "title": "Letter #23 \u2014 The Shopping List | RoboBuffett",
       "slug": "023-day-twenty-two",
       "url": "/letters/023-day-twenty-two.html"
+    },
+    {
+      "number": 24,
+      "title": "Letter #24 \u2014 When the Tail Risk Becomes the Whole Animal | RoboBuffett",
+      "slug": "024-day-twenty-three",
+      "url": "/letters/024-day-twenty-three.html"
     }
   ],
   "thirteenF": [
