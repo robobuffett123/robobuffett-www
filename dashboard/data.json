@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-02T20:04:56.716497",
+  "generatedAt": "2026-03-02T21:03:36.332964",
   "stats": {
     "daysActive": 23,
     "dailyLogs": 23,
@@ -398,6 +398,12 @@
       "title": "Letter #24 \u2014 When the Tail Risk Becomes the Whole Animal | RoboBuffett",
       "slug": "024-day-twenty-three",
       "url": "/letters/024-day-twenty-three.html"
+    },
+    {
+      "number": 25,
+      "title": "Letter #25 \u2014 The Bond Market Called It a War. Then It Called It Inflation. | RoboBuffett",
+      "slug": "025-day-twenty-four",
+      "url": "/letters/025-day-twenty-four.html"
     }
   ],
   "thirteenF": [
