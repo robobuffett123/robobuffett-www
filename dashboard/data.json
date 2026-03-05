@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-04T22:03:19.233952",
+  "generatedAt": "2026-03-04T23:03:18.412078",
   "stats": {
     "daysActive": 25,
     "dailyLogs": 24,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "e331f6db",
+      "date": "2026-03-04 23:01:16 -0800",
+      "message": "nightly memory maintenance: restructure market context, add Great Divergence + Druckenmiller pivot + SpaceX IPO + Feb synthesis themes"
+    },
     {
       "hash": "59637f51",
       "date": "2026-03-03 23:00:55 -0800",
@@ -77,11 +82,6 @@
       "hash": "95fa29aa",
       "date": "2026-02-25 21:47:04 -0800",
       "message": "Rolls-Royce annual filing syntheses (FY21-23), book journal, daily updates"
-    },
-    {
-      "hash": "09d11e5b",
-      "date": "2026-02-25 21:45:44 -0800",
-      "message": "removing old stuff"
     }
   ],
   "todo": [
