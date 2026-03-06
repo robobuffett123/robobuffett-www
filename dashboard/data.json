@@ -1,13 +1,33 @@
 {
-  "generatedAt": "2026-03-06T07:03:19.422896",
+  "generatedAt": "2026-03-06T08:03:19.591514",
   "stats": {
     "daysActive": 27,
     "dailyLogs": 27,
-    "companiesResearched": 30,
+    "companiesResearched": 34,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "1c3a2ee1",
+      "date": "2026-03-06 07:57:18 -0800",
+      "message": "more cleanup"
+    },
+    {
+      "hash": "5167be0b",
+      "date": "2026-03-06 07:52:44 -0800",
+      "message": "cleanup of old stuff"
+    },
+    {
+      "hash": "5f7e0d32",
+      "date": "2026-03-06 07:45:47 -0800",
+      "message": "Add portfolio.md, update MEMORY.md and news scan crons to track Ethan holdings"
+    },
+    {
+      "hash": "d6da8430",
+      "date": "2026-03-06 07:43:27 -0800",
+      "message": "Sync research - 2026-03-06"
+    },
     {
       "hash": "3afc77fb",
       "date": "2026-03-05 23:03:53 -0800",
@@ -62,26 +82,6 @@
       "hash": "c60b48e1",
       "date": "2026-02-26 09:45:35 -0800",
       "message": "Add audit-output skill to MEMORY.md, update synthesize-annual-filing Phase 3 with proper path and invocation pattern"
-    },
-    {
-      "hash": "e220bcc5",
-      "date": "2026-02-26 09:32:04 -0800",
-      "message": "audit output"
-    },
-    {
-      "hash": "fe182ce9",
-      "date": "2026-02-26 09:29:49 -0800",
-      "message": "Update synthesize-annual-filing to reference quality-control skill with proper paths and OpenClaw invocation pattern"
-    },
-    {
-      "hash": "dcfbcd02",
-      "date": "2026-02-26 09:06:17 -0800",
-      "message": "quality-control skill"
-    },
-    {
-      "hash": "afff80e5",
-      "date": "2026-02-25 23:00:44 -0800",
-      "message": "weekly maintenance: 2026-02-25 \u2014 clean pass"
     }
   ],
   "todo": [
@@ -104,14 +104,69 @@
   ],
   "research": [
     {
-      "name": "SAP",
-      "files": 18,
-      "lastUpdated": "2026-02-26T22:39:45.933028"
+      "name": "Screens",
+      "files": 3,
+      "lastUpdated": "2026-03-06T07:45:58.924023"
     },
     {
       "name": "Rolls-Royce Holdings",
-      "files": 11,
-      "lastUpdated": "2026-02-25T21:47:08.701939"
+      "files": 32,
+      "lastUpdated": "2026-03-06T07:45:58.923747"
+    },
+    {
+      "name": "Roblox",
+      "files": 22,
+      "lastUpdated": "2026-03-06T07:45:58.913036"
+    },
+    {
+      "name": "Intel",
+      "files": 15,
+      "lastUpdated": "2026-03-06T07:45:58.912109"
+    },
+    {
+      "name": "Hubbell Incorporated",
+      "files": 28,
+      "lastUpdated": "2026-03-06T07:45:58.911962"
+    },
+    {
+      "name": "Fortinet",
+      "files": 26,
+      "lastUpdated": "2026-03-06T07:45:58.908974"
+    },
+    {
+      "name": "EMCOR Group",
+      "files": 23,
+      "lastUpdated": "2026-03-06T07:45:58.906256"
+    },
+    {
+      "name": "Costco",
+      "files": 18,
+      "lastUpdated": "2026-03-06T07:45:58.904153"
+    },
+    {
+      "name": "Chubb",
+      "files": 59,
+      "lastUpdated": "2026-03-06T07:45:58.903708"
+    },
+    {
+      "name": "CME Group",
+      "files": 48,
+      "lastUpdated": "2026-03-06T07:45:58.902326"
+    },
+    {
+      "name": "Alphabet",
+      "files": 3,
+      "lastUpdated": "2026-03-06T07:45:58.900875"
+    },
+    {
+      "name": "AerCap",
+      "files": 45,
+      "lastUpdated": "2026-03-06T07:45:58.900445"
+    },
+    {
+      "name": "SAP",
+      "files": 18,
+      "lastUpdated": "2026-02-26T22:39:45.933028"
     },
     {
       "name": "Visa",
@@ -124,11 +179,6 @@
       "lastUpdated": "2026-02-24T16:31:45.170693"
     },
     {
-      "name": "Roblox",
-      "files": 22,
-      "lastUpdated": "2026-02-24T16:31:45.170593"
-    },
-    {
       "name": "MercadoLibre",
       "files": 22,
       "lastUpdated": "2026-02-24T16:31:45.168248"
@@ -139,34 +189,9 @@
       "lastUpdated": "2026-02-24T16:31:45.163698"
     },
     {
-      "name": "Intel",
-      "files": 15,
-      "lastUpdated": "2026-02-24T16:31:45.163172"
-    },
-    {
-      "name": "Costco",
-      "files": 18,
-      "lastUpdated": "2026-02-24T16:31:45.162828"
-    },
-    {
-      "name": "Chubb",
-      "files": 51,
-      "lastUpdated": "2026-02-24T16:31:45.162666"
-    },
-    {
-      "name": "CME Group",
-      "files": 42,
-      "lastUpdated": "2026-02-24T16:31:45.160501"
-    },
-    {
       "name": "American Tower",
       "files": 20,
       "lastUpdated": "2026-02-24T16:31:45.159569"
-    },
-    {
-      "name": "AerCap",
-      "files": 45,
-      "lastUpdated": "2026-02-24T16:31:45.158761"
     },
     {
       "name": "Adobe",
@@ -237,11 +262,6 @@
       "name": "Meta",
       "files": 1,
       "lastUpdated": "2026-02-19T18:20:21.940540"
-    },
-    {
-      "name": "Screens",
-      "files": 1,
-      "lastUpdated": "2026-02-19T16:24:43.319322"
     },
     {
       "name": "Commodities",
