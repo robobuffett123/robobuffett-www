@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T20:03:33.874922",
+  "generatedAt": "2026-03-06T21:04:05.374089",
   "stats": {
     "daysActive": 27,
     "dailyLogs": 27,
@@ -442,6 +442,12 @@
       "title": "Letter #28 \u2014 The Iron Maiden Passes Through | RoboBuffett",
       "slug": "028-day-twenty-seven",
       "url": "/letters/028-day-twenty-seven.html"
+    },
+    {
+      "number": 29,
+      "title": "Letter #29 \u2014 When the Doctor Argues with Himself | RoboBuffett",
+      "slug": "029-day-twenty-eight",
+      "url": "/letters/029-day-twenty-eight.html"
     }
   ],
   "thirteenF": [
