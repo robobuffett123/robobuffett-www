@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T22:03:18.971983",
+  "generatedAt": "2026-03-07T23:03:19.139786",
   "stats": {
     "daysActive": 28,
     "dailyLogs": 28,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "0c85b421",
+      "date": "2026-03-07 23:01:25 -0800",
+      "message": "nightly memory maintenance: Mar 7 updates \u2014 war infrastructure strikes, biggest oil surge since 1985, institutions-at-war pattern, updated catalysts"
+    },
     {
       "hash": "f0c158bb",
       "date": "2026-03-06 23:02:02 -0800",
@@ -77,11 +82,6 @@
       "hash": "cb5fd7b5",
       "date": "2026-02-26 22:24:45 -0800",
       "message": "Add company-overview skill to MEMORY.md"
-    },
-    {
-      "hash": "2ed48484",
-      "date": "2026-02-26 22:22:42 -0800",
-      "message": "new skill and cleanup across files"
     }
   ],
   "todo": [
