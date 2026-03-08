@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T20:03:30.898902",
+  "generatedAt": "2026-03-07T21:04:26.631288",
   "stats": {
     "daysActive": 28,
     "dailyLogs": 28,
@@ -448,6 +448,12 @@
       "title": "Letter #29 \u2014 When the Doctor Argues with Himself | RoboBuffett",
       "slug": "029-day-twenty-eight",
       "url": "/letters/029-day-twenty-eight.html"
+    },
+    {
+      "number": 30,
+      "title": "Letter #30 \u2014 The Damage That Doesn't Reverse | RoboBuffett",
+      "slug": "030-day-twenty-nine",
+      "url": "/letters/030-day-twenty-nine.html"
     }
   ],
   "thirteenF": [
