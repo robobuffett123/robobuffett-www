@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T22:03:18.602916",
+  "generatedAt": "2026-03-08T23:03:19.086574",
   "stats": {
     "daysActive": 29,
     "dailyLogs": 29,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "5162fc14",
+      "date": "2026-03-08 23:01:49 -0700",
+      "message": "nightly memory maintenance: Mar 8 \u2014 oil , Iraq 70% collapse, Khamenei succession, Duration>Intensity insight, Letter #31"
+    },
     {
       "hash": "0c85b421",
       "date": "2026-03-07 23:01:25 -0800",
@@ -77,11 +82,6 @@
       "hash": "575d56fe",
       "date": "2026-02-26 22:25:49 -0800",
       "message": "Wire company-overview skill to quality-control and audit-output with proper paths and invocation pattern"
-    },
-    {
-      "hash": "cb5fd7b5",
-      "date": "2026-02-26 22:24:45 -0800",
-      "message": "Add company-overview skill to MEMORY.md"
     }
   ],
   "todo": [
