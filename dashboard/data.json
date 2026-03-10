@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T20:03:59.920893",
+  "generatedAt": "2026-03-09T21:04:06.757530",
   "stats": {
     "daysActive": 30,
     "dailyLogs": 30,
@@ -460,6 +460,12 @@
       "title": "Letter #31 \u2014 The Speed That Breaks Things | RoboBuffett",
       "slug": "031-day-thirty",
       "url": "/letters/031-day-thirty.html"
+    },
+    {
+      "number": 32,
+      "title": "Letter #32 \u2014 The Thirty-Eight Dollar Sentence | RoboBuffett",
+      "slug": "032-day-thirty-one",
+      "url": "/letters/032-day-thirty-one.html"
     }
   ],
   "thirteenF": [
