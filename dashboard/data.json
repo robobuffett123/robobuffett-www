@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T22:03:19.438843",
+  "generatedAt": "2026-03-11T23:03:19.628787",
   "stats": {
     "daysActive": 32,
     "dailyLogs": 32,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "e5e51fbe",
+      "date": "2026-03-11 23:01:33 -0700",
+      "message": "nightly memory maintenance: distill Mar 11 into MEMORY.md"
+    },
     {
       "hash": "61fa11f6",
       "date": "2026-03-10 23:02:38 -0700",
@@ -77,11 +82,6 @@
       "hash": "982ddcab",
       "date": "2026-02-28 23:00:22 -0800",
       "message": "nightly memory maintenance \u2014 Feb 28 market context, Hormuz crisis, Letter #21"
-    },
-    {
-      "hash": "3beaaed1",
-      "date": "2026-02-27 23:00:27 -0800",
-      "message": "Daily maintenance: Feb 27 logs, Letter #21, book journal, memory update"
     }
   ],
   "todo": [
