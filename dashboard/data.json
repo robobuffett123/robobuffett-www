@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T22:03:19.653191",
+  "generatedAt": "2026-03-13T23:03:18.056919",
   "stats": {
     "daysActive": 34,
     "dailyLogs": 34,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "3d7c4436",
+      "date": "2026-03-13 23:01:53 -0700",
+      "message": "nightly memory maintenance \u2014 Mar 13 distilled to MEMORY.md"
+    },
     {
       "hash": "8fdd94cb",
       "date": "2026-03-13 16:53:28 -0700",
@@ -77,11 +82,6 @@
       "hash": "61fa11f6",
       "date": "2026-03-10 23:02:38 -0700",
       "message": "nightly memory maintenance: distill Mar 10 developments"
-    },
-    {
-      "hash": "5641c54e",
-      "date": "2026-03-09 23:02:01 -0700",
-      "message": "nightly memory maintenance: Mar 9 distillation"
     }
   ],
   "todo": [
