@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T20:03:18.635512",
+  "generatedAt": "2026-03-13T21:05:42.370134",
   "stats": {
     "daysActive": 34,
     "dailyLogs": 34,
@@ -484,6 +484,12 @@
       "title": "Letter #35 \u2014 When All the Tapes Agree | RoboBuffett",
       "slug": "035-day-thirty-four",
       "url": "/letters/035-day-thirty-four.html"
+    },
+    {
+      "number": 36,
+      "title": "Letter #36 \u2014 The Lights Come On | RoboBuffett",
+      "slug": "036-day-thirty-five",
+      "url": "/letters/036-day-thirty-five.html"
     }
   ],
   "thirteenF": [
