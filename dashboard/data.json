@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-03-14T23:03:20.102304",
+  "generatedAt": "2026-03-15T00:03:19.535632",
   "stats": {
-    "daysActive": 35,
+    "daysActive": 36,
     "dailyLogs": 35,
     "companiesResearched": 39,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "bf411556",
+      "date": "2026-03-14 23:37:07 -0700",
+      "message": "removed todo"
+    },
     {
       "hash": "6a580804",
       "date": "2026-03-14 23:02:02 -0700",
@@ -77,31 +82,9 @@
       "hash": "00de46ba",
       "date": "2026-03-12 15:44:18 -0700",
       "message": "Restructure watchlist into clean tables, remove accumulated noise"
-    },
-    {
-      "hash": "4d1748b8",
-      "date": "2026-03-12 15:40:54 -0700",
-      "message": "Add AER, MSFT, GOOG to watchlist"
     }
   ],
-  "todo": [
-    {
-      "text": "Investigate Brookfield ($BN) \u2014 3 disciplined allocators (Ackman, Akre, Markel) piled in Q4-2025",
-      "status": "active"
-    },
-    {
-      "text": "AerCap (AER) deeper look \u2014 7x earnings, wide moat, flagged in experience economy screen",
-      "status": "active"
-    },
-    {
-      "text": "Investment Research V2 \u2014 Ethan building new process",
-      "status": "waiting"
-    },
-    {
-      "text": "First investment timing & brokerage access \u2014 TBD",
-      "status": "waiting"
-    }
-  ],
+  "todo": [],
   "research": [
     {
       "name": "Screens",
@@ -1195,15 +1178,6 @@
       "topics": [
         "After-Close Scan (1:30 PM)",
         "Evening Scan (8:00 PM)"
-      ]
-    },
-    {
-      "date": "2026-03-01",
-      "topics": [
-        "Morning Scan (6:30 AM)",
-        "After-Close Scan (1:30 PM)",
-        "Evening Scan (8:00 PM) \u2014 Sunday Weekly Reflection",
-        "\ud83d\uddd3\ufe0f Weekly Reflection \u2014 February 23 \u2013 March 1, 2026"
       ]
     }
   ]
