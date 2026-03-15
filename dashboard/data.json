@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T08:03:23.047836",
+  "generatedAt": "2026-03-15T09:03:19.921593",
   "stats": {
     "daysActive": 36,
     "dailyLogs": 36,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "d468c92d",
+      "date": "2026-03-15 08:45:25 -0700",
+      "message": "MELI Q4 earnings call analysis - credit expansion verdict"
+    },
     {
       "hash": "bf411556",
       "date": "2026-03-14 23:37:07 -0700",
@@ -77,15 +82,15 @@
       "hash": "239efb4b",
       "date": "2026-03-12 15:46:48 -0700",
       "message": "Remove V, MA, NYT, AVGO, SPGI from watchlist"
-    },
-    {
-      "hash": "00de46ba",
-      "date": "2026-03-12 15:44:18 -0700",
-      "message": "Restructure watchlist into clean tables, remove accumulated noise"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "MercadoLibre",
+      "files": 28,
+      "lastUpdated": "2026-03-15T08:45:21.667327"
+    },
     {
       "name": "Screens",
       "files": 6,
@@ -100,11 +105,6 @@
       "name": "Microsoft",
       "files": 21,
       "lastUpdated": "2026-03-14T22:55:47.130762"
-    },
-    {
-      "name": "MercadoLibre",
-      "files": 27,
-      "lastUpdated": "2026-03-14T22:55:47.127880"
     },
     {
       "name": "Marubeni",
