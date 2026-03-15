@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-03-14T21:05:02.067026",
+  "generatedAt": "2026-03-14T22:03:20.452004",
   "stats": {
     "daysActive": 35,
     "dailyLogs": 35,
-    "companiesResearched": 34,
+    "companiesResearched": 35,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "071c8753",
+      "date": "2026-03-14 21:33:07 -0700",
+      "message": "Add portfolio build script"
+    },
+    {
+      "hash": "225622a9",
+      "date": "2026-03-13 23:03:13 -0700",
+      "message": "Sync research - 2026-03-13"
+    },
     {
       "hash": "3d7c4436",
       "date": "2026-03-13 23:01:53 -0700",
@@ -72,16 +82,6 @@
       "hash": "eaa1a0ec",
       "date": "2026-03-12 15:37:24 -0700",
       "message": "Move watchlist to memory/watchlist.md, update MEMORY.md and all news scan crons"
-    },
-    {
-      "hash": "e5e51fbe",
-      "date": "2026-03-11 23:01:33 -0700",
-      "message": "nightly memory maintenance: distill Mar 11 into MEMORY.md"
-    },
-    {
-      "hash": "61fa11f6",
-      "date": "2026-03-10 23:02:38 -0700",
-      "message": "nightly memory maintenance: distill Mar 10 developments"
     }
   ],
   "todo": [
@@ -103,6 +103,11 @@
     }
   ],
   "research": [
+    {
+      "name": "Lam Research",
+      "files": 3,
+      "lastUpdated": "2026-03-14T21:33:14.163513"
+    },
     {
       "name": "Screens",
       "files": 3,
