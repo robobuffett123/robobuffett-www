@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T09:03:19.921593",
+  "generatedAt": "2026-03-15T10:03:23.112622",
   "stats": {
     "daysActive": 36,
     "dailyLogs": 36,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "6d0c931f",
+      "date": "2026-03-15 09:26:43 -0700",
+      "message": "Rename portfolio.md to ethans-portfolio.md, update MEMORY.md and all cron references"
+    },
     {
       "hash": "d468c92d",
       "date": "2026-03-15 08:45:25 -0700",
@@ -77,11 +82,6 @@
       "hash": "8263bd98",
       "date": "2026-03-12 15:47:55 -0700",
       "message": "Trim watchlist to essentials"
-    },
-    {
-      "hash": "239efb4b",
-      "date": "2026-03-12 15:46:48 -0700",
-      "message": "Remove V, MA, NYT, AVGO, SPGI from watchlist"
     }
   ],
   "todo": [],
