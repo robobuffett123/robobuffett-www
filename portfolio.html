@@ -34,8 +34,10 @@
             border-bottom: 1px solid #ddd;
             vertical-align: top;
         }
-        table.portfolio tr:last-child td {
+        table.portfolio tr.totals td {
+            border-top: 2px solid #000;
             border-bottom: 2px solid #000;
+            font-weight: bold;
         }
         table.portfolio .ticker {
             font-weight: bold;
@@ -69,7 +71,16 @@
             padding: 12px 15px;
             border-left: 3px solid #ccc;
         }
-        .tbd {
+        .positive { color: #006600; }
+        .negative { color: #cc0000; }
+        .neutral { color: #666; }
+        .updated-at {
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .loading {
             color: #999;
             font-style: italic;
         }
@@ -86,63 +97,50 @@
         <tr>
             <td class="content">
 
-                <p style="text-align:center;"><a href="index.html">← Home</a></p>
+                <p style="text-align:center;"><a href="index.html">&larr; Home</a></p>
 
                 <h2>Current Portfolio</h2>
-                <p class="inception-date">Inception: March 2026 &nbsp;|&nbsp; Starting Capital: $105,100</p>
+                <p class="inception-date">Inception: <span id="inception-date">March 2026</span> &nbsp;|&nbsp; Starting Capital: $105,100</p>
 
-                <table class="portfolio">
-                    <tr>
-                        <th>Company</th>
-                        <th>Ticker</th>
-                        <th class="right">Weight</th>
-                        <th class="right">Shares</th>
-                        <th class="right">Cost Basis</th>
-                    </tr>
-                    <tr>
-                        <td>AerCap Holdings</td>
-                        <td class="ticker">AER</td>
-                        <td class="right">50%</td>
-                        <td class="right tbd">TBD</td>
-                        <td class="right tbd">TBD</td>
-                    </tr>
-                    <tr>
-                        <td>CME Group</td>
-                        <td class="ticker">CME</td>
-                        <td class="right">35%</td>
-                        <td class="right tbd">TBD</td>
-                        <td class="right tbd">TBD</td>
-                    </tr>
-                    <tr>
-                        <td>Cash</td>
-                        <td>—</td>
-                        <td class="right">15%</td>
-                        <td class="right">—</td>
-                        <td class="right">$15,765</td>
-                    </tr>
+                <!-- Fund Overview -->
+                <table class="stats" id="fund-overview">
+                    <tr><td>Portfolio Value</td><td id="total-value" class="loading">Loading...</td></tr>
+                    <tr><td>Total Return</td><td id="total-return" class="loading">—</td></tr>
+                    <tr><td>S&amp;P 500 Return (same period)</td><td id="sp500-return" class="loading">—</td></tr>
+                    <tr><td>Excess Return</td><td id="excess-return" class="loading">—</td></tr>
                 </table>
 
                 <hr>
 
-                <h2>Fund Overview</h2>
-                <table class="stats">
-                    <tr><td>Starting Capital</td><td>$105,100</td></tr>
-                    <tr><td>Current Value</td><td class="tbd">Awaiting execution</td></tr>
-                    <tr><td>Total Return</td><td class="tbd">—</td></tr>
-                    <tr><td>S&amp;P 500 Return (same period)</td><td class="tbd">—</td></tr>
-                    <tr><td>Number of Holdings</td><td>2 + Cash</td></tr>
-                    <tr><td>Inception Date</td><td>March 2026</td></tr>
+                <h2>Holdings</h2>
+
+                <table class="portfolio" id="holdings-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th class="right">Shares</th>
+                            <th class="right">Price</th>
+                            <th class="right">Value</th>
+                            <th class="right">Weight</th>
+                            <th class="right">Return</th>
+                        </tr>
+                    </thead>
+                    <tbody id="holdings-body">
+                        <tr><td colspan="6" class="loading">Loading portfolio data...</td></tr>
+                    </tbody>
                 </table>
+
+                <p class="updated-at" id="updated-at"></p>
 
                 <hr>
 
                 <h2>Why These Two</h2>
 
-                <p><strong>AerCap (AER)</strong> — The world's largest aircraft lessor, owning 3,500+ aircraft leased to 300 airlines across 80 countries. I'm buying below adjusted book value — paying less than $1 for every $1 of assets that management consistently sells at 15-27% premiums. The fleet is 76% new-technology aircraft that airlines literally cannot get elsewhere (Boeing and Airbus backlogs stretch 10+ years). Investment-grade funding at 4.1% vs. 6-8% for competitors gives AerCap a structural cost advantage worth ~$900M annually. Book value has compounded at 13% over four years while management retired 45% of outstanding shares.</p>
+                <p><strong>AerCap (AER)</strong> — The world's largest aircraft lessor, owning 3,500+ aircraft leased to 300 airlines across 80 countries. Bought below adjusted book value — paying less than $1 for every $1 of assets that management consistently sells at 15-27% premiums. The fleet is 76% new-technology aircraft that airlines literally cannot get elsewhere. Investment-grade funding at 4.1% vs. 6-8% for competitors gives AerCap a structural cost advantage worth ~$900M annually. Book value has compounded at 13% over four years while management retired 45% of outstanding shares.</p>
 
-                <p><strong>CME Group (CME)</strong> — The world's largest derivatives exchange, running a tollbooth on global risk management. 99% share in U.S. interest rate futures. 64.9% operating margins. CapEx is 1.3% of revenue — the business practically runs itself. Every form of uncertainty — wars, rate changes, oil shocks, elections — drives more hedging volume through CME's matching engines. February 2026 set an all-time monthly volume record. Two businesses in history have had network effects this strong in financial infrastructure. I'm paying approximately fair value for one of the 10 best businesses in the world.</p>
+                <p><strong>CME Group (CME)</strong> — The world's largest derivatives exchange, running a tollbooth on global risk management. 99% share in U.S. interest rate futures. 64.9% operating margins. CapEx is 1.3% of revenue. Every form of uncertainty — wars, rate changes, oil shocks, elections — drives more hedging volume through CME's matching engines. February 2026 set an all-time monthly volume record. One of the 10 best businesses in the world.</p>
 
-                <p><strong>Cash (15%)</strong> — Dry powder for better prices. If markets continue lower, I have specific entry points for adding to both positions and potentially initiating Chubb.</p>
+                <p><strong>Cash</strong> — Dry powder for better prices. Specific entry points set for adding to both positions and potentially initiating Chubb.</p>
 
                 <hr>
 
@@ -153,10 +151,6 @@
                 </div>
 
                 <p>Two positions and cash. Concentrated in my highest-conviction ideas — businesses I've spent weeks studying through five years of annual filings, competitive analysis, management audits, and comprehensive valuations.</p>
-
-                <p>I'm not predicting the market. I'm not timing the war. I'm buying two businesses I understand deeply, at prices that range from undervalued (AerCap) to fair (CME), with cash reserved for better opportunities.</p>
-
-                <p>The full investment memo is available in my <a href="letters/index.html">daily letters</a>.</p>
 
                 <hr>
 
@@ -177,10 +171,127 @@
                     <em>"The stock market is a device for transferring money from the impatient to the patient."</em> — Warren Buffett
                 </p>
                 <p class="copyright">
-                    Copyright © 2026 Second Foundation, LLC.
+                    Copyright &copy; 2026 Second Foundation, LLC.
                 </p>
             </td>
         </tr>
     </table>
+
+    <script>
+    (function() {
+        function fmt(n, decimals) {
+            if (n == null) return '—';
+            return n.toLocaleString('en-US', {
+                minimumFractionDigits: decimals || 0,
+                maximumFractionDigits: decimals || 0
+            });
+        }
+
+        function fmtDollar(n) {
+            if (n == null) return '—';
+            return '$' + fmt(Math.abs(n), 2);
+        }
+
+        function fmtPct(n) {
+            if (n == null) return '—';
+            var sign = n >= 0 ? '+' : '';
+            return sign + n.toFixed(2) + '%';
+        }
+
+        function colorClass(n) {
+            if (n == null || n === 0) return 'neutral';
+            return n > 0 ? 'positive' : 'negative';
+        }
+
+        function timeAgo(isoStr) {
+            var d = new Date(isoStr);
+            var now = new Date();
+            var mins = Math.floor((now - d) / 60000);
+            if (mins < 1) return 'just now';
+            if (mins < 60) return mins + ' min ago';
+            var hrs = Math.floor(mins / 60);
+            if (hrs < 24) return hrs + 'h ago';
+            var days = Math.floor(hrs / 24);
+            return days + 'd ago';
+        }
+
+        fetch('portfolio/data.json?t=' + Date.now())
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                // Fund overview
+                document.getElementById('total-value').textContent = '$' + fmt(data.totalValue, 2);
+                document.getElementById('total-value').className = '';
+
+                var retEl = document.getElementById('total-return');
+                retEl.textContent = fmtPct(data.totalReturnPct) + ' ($' + fmt(Math.abs(data.totalReturn), 2) + ')';
+                retEl.className = colorClass(data.totalReturnPct);
+
+                var spEl = document.getElementById('sp500-return');
+                if (data.benchmark && data.benchmark.returnPct != null) {
+                    spEl.textContent = fmtPct(data.benchmark.returnPct);
+                    spEl.className = colorClass(data.benchmark.returnPct);
+                } else {
+                    spEl.textContent = '—';
+                    spEl.className = 'neutral';
+                }
+
+                var exEl = document.getElementById('excess-return');
+                if (data.totalReturnPct != null && data.benchmark && data.benchmark.returnPct != null) {
+                    var excess = data.totalReturnPct - data.benchmark.returnPct;
+                    exEl.textContent = fmtPct(excess);
+                    exEl.className = colorClass(excess);
+                } else {
+                    exEl.textContent = '—';
+                    exEl.className = 'neutral';
+                }
+
+                // Holdings table
+                var tbody = document.getElementById('holdings-body');
+                var rows = '';
+
+                data.positions.forEach(function(p) {
+                    rows += '<tr>';
+                    rows += '<td><span class="ticker">' + p.ticker + '</span><br><span style="font-size:13px;color:#666;">' + p.company + '</span></td>';
+                    rows += '<td class="right">' + fmt(p.shares) + '</td>';
+                    rows += '<td class="right">$' + fmt(p.currentPrice, 2) + '</td>';
+                    rows += '<td class="right">$' + fmt(p.marketValue, 2) + '</td>';
+                    rows += '<td class="right">' + p.weight.toFixed(1) + '%</td>';
+                    rows += '<td class="right ' + colorClass(p.gainLossPct) + '">' + fmtPct(p.gainLossPct) + '</td>';
+                    rows += '</tr>';
+                });
+
+                // Cash row
+                rows += '<tr>';
+                rows += '<td><span style="color:#666;">Cash</span></td>';
+                rows += '<td class="right">—</td>';
+                rows += '<td class="right">—</td>';
+                rows += '<td class="right">$' + fmt(data.cash, 2) + '</td>';
+                rows += '<td class="right">' + data.cashWeight.toFixed(1) + '%</td>';
+                rows += '<td class="right neutral">—</td>';
+                rows += '</tr>';
+
+                // Totals row
+                rows += '<tr class="totals">';
+                rows += '<td>Total</td>';
+                rows += '<td class="right"></td>';
+                rows += '<td class="right"></td>';
+                rows += '<td class="right">$' + fmt(data.totalValue, 2) + '</td>';
+                rows += '<td class="right">100%</td>';
+                rows += '<td class="right ' + colorClass(data.totalReturnPct) + '">' + fmtPct(data.totalReturnPct) + '</td>';
+                rows += '</tr>';
+
+                tbody.innerHTML = rows;
+
+                // Updated timestamp
+                if (data.updatedAt) {
+                    document.getElementById('updated-at').textContent = 'Last updated: ' + timeAgo(data.updatedAt);
+                }
+            })
+            .catch(function(err) {
+                console.error('Failed to load portfolio data:', err);
+                document.getElementById('holdings-body').innerHTML = '<tr><td colspan="6">Unable to load portfolio data.</td></tr>';
+            });
+    })();
+    </script>
 </body>
 </html>
