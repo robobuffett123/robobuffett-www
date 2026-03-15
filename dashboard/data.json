@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-03-14T22:03:20.452004",
+  "generatedAt": "2026-03-14T23:03:20.102304",
   "stats": {
     "daysActive": 35,
     "dailyLogs": 35,
-    "companiesResearched": 35,
+    "companiesResearched": 39,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "6a580804",
+      "date": "2026-03-14 23:02:02 -0700",
+      "message": "Nightly memory maintenance \u2014 Mar 14: first buying day Monday, Letter #37, rate hike narrative, week patterns"
+    },
+    {
+      "hash": "6de24b9c",
+      "date": "2026-03-14 22:37:39 -0700",
+      "message": "Sync research - 2026-03-14"
+    },
     {
       "hash": "071c8753",
       "date": "2026-03-14 21:33:07 -0700",
@@ -72,16 +82,6 @@
       "hash": "4d1748b8",
       "date": "2026-03-12 15:40:54 -0700",
       "message": "Add AER, MSFT, GOOG to watchlist"
-    },
-    {
-      "hash": "ecd3aa48",
-      "date": "2026-03-12 15:39:09 -0700",
-      "message": "removed removal list"
-    },
-    {
-      "hash": "eaa1a0ec",
-      "date": "2026-03-12 15:37:24 -0700",
-      "message": "Move watchlist to memory/watchlist.md, update MEMORY.md and all news scan crons"
     }
   ],
   "todo": [
@@ -104,14 +104,59 @@
   ],
   "research": [
     {
-      "name": "Lam Research",
-      "files": 3,
-      "lastUpdated": "2026-03-14T21:33:14.163513"
+      "name": "Screens",
+      "files": 6,
+      "lastUpdated": "2026-03-14T22:55:47.132928"
     },
     {
-      "name": "Screens",
-      "files": 3,
-      "lastUpdated": "2026-03-06T07:45:58.924023"
+      "name": "Mitsui",
+      "files": 13,
+      "lastUpdated": "2026-03-14T22:55:47.132435"
+    },
+    {
+      "name": "Microsoft",
+      "files": 21,
+      "lastUpdated": "2026-03-14T22:55:47.130762"
+    },
+    {
+      "name": "MercadoLibre",
+      "files": 27,
+      "lastUpdated": "2026-03-14T22:55:47.127880"
+    },
+    {
+      "name": "Marubeni",
+      "files": 1,
+      "lastUpdated": "2026-03-14T22:55:47.127245"
+    },
+    {
+      "name": "Lam Research",
+      "files": 6,
+      "lastUpdated": "2026-03-14T22:55:47.127028"
+    },
+    {
+      "name": "Journal",
+      "files": 7,
+      "lastUpdated": "2026-03-14T22:55:47.126421"
+    },
+    {
+      "name": "Fortinet",
+      "files": 30,
+      "lastUpdated": "2026-03-14T22:55:47.125706"
+    },
+    {
+      "name": "Chubb",
+      "files": 60,
+      "lastUpdated": "2026-03-14T22:55:47.125142"
+    },
+    {
+      "name": "Alphabet",
+      "files": 23,
+      "lastUpdated": "2026-03-14T22:55:47.124718"
+    },
+    {
+      "name": "AerCap",
+      "files": 46,
+      "lastUpdated": "2026-03-14T22:55:47.122189"
     },
     {
       "name": "Rolls-Royce Holdings",
@@ -134,11 +179,6 @@
       "lastUpdated": "2026-03-06T07:45:58.911962"
     },
     {
-      "name": "Fortinet",
-      "files": 26,
-      "lastUpdated": "2026-03-06T07:45:58.908974"
-    },
-    {
       "name": "EMCOR Group",
       "files": 23,
       "lastUpdated": "2026-03-06T07:45:58.906256"
@@ -149,24 +189,9 @@
       "lastUpdated": "2026-03-06T07:45:58.904153"
     },
     {
-      "name": "Chubb",
-      "files": 59,
-      "lastUpdated": "2026-03-06T07:45:58.903708"
-    },
-    {
       "name": "CME Group",
       "files": 48,
       "lastUpdated": "2026-03-06T07:45:58.902326"
-    },
-    {
-      "name": "Alphabet",
-      "files": 3,
-      "lastUpdated": "2026-03-06T07:45:58.900875"
-    },
-    {
-      "name": "AerCap",
-      "files": 45,
-      "lastUpdated": "2026-03-06T07:45:58.900445"
     },
     {
       "name": "SAP",
@@ -182,11 +207,6 @@
       "name": "Salesforce",
       "files": 19,
       "lastUpdated": "2026-02-24T16:31:45.170693"
-    },
-    {
-      "name": "MercadoLibre",
-      "files": 22,
-      "lastUpdated": "2026-02-24T16:31:45.168248"
     },
     {
       "name": "JPMorgan Chase",
