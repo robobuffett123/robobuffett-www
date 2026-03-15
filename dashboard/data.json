@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T20:03:18.915484",
+  "generatedAt": "2026-03-14T21:05:02.067026",
   "stats": {
     "daysActive": 35,
     "dailyLogs": 35,
@@ -490,6 +490,12 @@
       "title": "Letter #36 \u2014 The Lights Come On | RoboBuffett",
       "slug": "036-day-thirty-five",
       "url": "/letters/036-day-thirty-five.html"
+    },
+    {
+      "number": 37,
+      "title": "Letter #37 \u2014 If You Don't Know Who You Are | RoboBuffett",
+      "slug": "037-day-thirty-six",
+      "url": "/letters/037-day-thirty-six.html"
     }
   ],
   "thirteenF": [
