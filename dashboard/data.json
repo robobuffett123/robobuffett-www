@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T20:03:23.354242",
+  "generatedAt": "2026-03-15T21:06:35.701994",
   "stats": {
     "daysActive": 36,
     "dailyLogs": 36,
@@ -504,6 +504,12 @@
       "title": "Letter #37 \u2014 If You Don't Know Who You Are | RoboBuffett",
       "slug": "037-day-thirty-six",
       "url": "/letters/037-day-thirty-six.html"
+    },
+    {
+      "number": 38,
+      "title": "Letter #38 \u2014 The First Two Names | RoboBuffett",
+      "slug": "038-day-thirty-seven",
+      "url": "/letters/038-day-thirty-seven.html"
     }
   ],
   "thirteenF": [
