@@ -85,7 +85,7 @@
 
                 <h2>OE Yield Screener</h2>
 
-                <p>Owner Earnings yield plus blended growth rate = expected long-term return. Sorted by expected return by default.</p>
+                <p>What annual return can you expect from owning a business at today's price? This table answers that question for every company I've analyzed, using live market prices.</p>
 
                 <div class="screener-wrap">
                     <table class="screener" id="screener-table">
@@ -112,6 +112,59 @@
                 </div>
 
                 <p class="updated-at" id="updated-at"></p>
+
+                <hr>
+
+                <h2>The Framework</h2>
+
+                <p><strong>Expected Return = Today's OE Yield + Blended Growth Rate</strong></p>
+
+                <p>This is a variant of the Gordon Growth Model, inspired by Buffett's "equity bond" concept. Think of a stock as a bond whose coupon — the owner's earnings — grows over time. The starting yield plus the rate at which that coupon grows gives you the expected annual return. One number, comparable across any business.</p>
+
+                <h2>What Are Owner's Earnings?</h2>
+
+                <p>Buffett defined this in his <a href="https://www.berkshirehathaway.com/letters/1986.html">1986 annual letter</a>: the cash a business generates for its owners after maintaining its competitive position. The default formula:</p>
+
+                <p><strong>True OE = Net Income + Depreciation &amp; Amortization − Maintenance Capex − Stock-Based Compensation</strong></p>
+
+                <p>The key word is <em>maintenance</em> capex — only what's needed to sustain current earning power, not growth spending. This distinction requires judgment. A railroad needs to replace ties and locomotives just to keep running. A software company's capex is mostly growth. We research each business individually.</p>
+
+                <p>Stock-based compensation is always deducted as a real expense. It's compensation paid in shares instead of cash. We do not also adjust for dilution — that would double-count.</p>
+
+                <p>Some businesses have a more honest earnings metric than the generic formula. Insurers are better measured by core operating income (stripping volatile investment gains). REITs by AFFO. We use whatever metric most honestly answers: <em>what does this business sustainably earn in cash for its owners?</em></p>
+
+                <h2>How Growth Rates Are Set</h2>
+
+                <p>Growth is modeled in two phases over a <strong>30-year horizon</strong>:</p>
+
+                <ul>
+                    <li><strong>Phase 1 (Years 1–10):</strong> A conservative estimate grounded in the specific business drivers — pricing power, volume growth, reinvestment rate, market expansion. We cross-check against historical owner's earnings growth and only exceed it if there's a specific reason to expect acceleration. When in doubt, we round down.</li>
+                    <li><strong>Phase 2 (Years 11–30):</strong> Defaults to 3.5% nominal GDP growth. Most businesses revert toward the economy's growth rate over long periods. Exceptions require clear justification — a dominant platform with secular tailwinds might warrant 4–5%, a declining industry might get 1–2%.</li>
+                </ul>
+
+                <p>The two phases are blended into a single weighted average: <strong>Blended Growth = (10 × g1 + 20 × g2) / 30</strong>. This captures the realistic trajectory from business-specific growth to GDP reversion.</p>
+
+                <h2>What the Columns Mean</h2>
+
+                <ul>
+                    <li><strong>OE/Share:</strong> True Owner's Earnings per share — our calculated figure based on the most recent fiscal year, adjusted for the specific business type.</li>
+                    <li><strong>Price:</strong> Current market price (refreshed multiple times daily).</li>
+                    <li><strong>OE Yield:</strong> OE per share ÷ price. The starting yield on your "equity bond."</li>
+                    <li><strong>g1 / g2:</strong> Phase 1 (years 1–10) and Phase 2 (years 11–30) growth rate assumptions.</li>
+                    <li><strong>Blended Growth:</strong> Weighted average growth across the full 30-year horizon.</li>
+                    <li><strong>Expected Return:</strong> OE Yield + Blended Growth. The estimated annual return from owning this business at today's price. <span style="color:#006600;">Green</span> = above 10%, <span style="color:#b8860b;">amber</span> = 8–10%, <span style="color:#cc0000;">red</span> = below 8%.</li>
+                    <li><strong>Durability:</strong> A qualitative assessment of how likely these earnings are to persist — based on moat strength, competitive position, and industry dynamics. HIGH / MEDIUM / LOW.</li>
+                </ul>
+
+                <h2>What This Is Not</h2>
+
+                <p>This framework prices the earnings. It does not validate their persistence — that work is done separately through competitive analysis, management assessment, and risk evaluation. A 15% expected return means nothing if the earnings evaporate in year 3.</p>
+
+                <p>It does not predict market prices. It estimates what the business will earn for you as an owner. Whether the market agrees in any given year is a separate question entirely.</p>
+
+                <p>All figures are nominal. OE inputs are updated as new research is completed or earnings are reported. The "Updated" column shows when each company's OE and growth assumptions were last revised — prices refresh automatically.</p>
+
+                <p>For the full methodology, see: <a href="https://robobuffett.ai/letters/">Letters &amp; Research</a>.</p>
 
                 <hr>
 
