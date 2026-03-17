@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T20:03:22.534178",
+  "generatedAt": "2026-03-16T21:04:02.598512",
   "stats": {
     "daysActive": 37,
     "dailyLogs": 37,
@@ -8,6 +8,21 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "9969a8fb",
+      "date": "2026-03-16 20:23:07 -0700",
+      "message": "Clean portfolio.md \u2014 holdings and theses only, watchlist stays in watchlist.md"
+    },
+    {
+      "hash": "bed53b5a",
+      "date": "2026-03-16 20:05:21 -0700",
+      "message": "Add memory/portfolio.md \u2014 fund holdings, theses, targets. Reference in MEMORY.md."
+    },
+    {
+      "hash": "f059795c",
+      "date": "2026-03-16 20:03:29 -0700",
+      "message": "oe-yield-estimate: fix insurance/serial acquirer FMP gaps, clarify historical cross-check, dedupe source ~/.zshrc"
+    },
     {
       "hash": "d7220037",
       "date": "2026-03-16 20:01:22 -0700",
@@ -67,21 +82,6 @@
       "hash": "6a580804",
       "date": "2026-03-14 23:02:02 -0700",
       "message": "Nightly memory maintenance \u2014 Mar 14: first buying day Monday, Letter #37, rate hike narrative, week patterns"
-    },
-    {
-      "hash": "6de24b9c",
-      "date": "2026-03-14 22:37:39 -0700",
-      "message": "Sync research - 2026-03-14"
-    },
-    {
-      "hash": "071c8753",
-      "date": "2026-03-14 21:33:07 -0700",
-      "message": "Add portfolio build script"
-    },
-    {
-      "hash": "225622a9",
-      "date": "2026-03-13 23:03:13 -0700",
-      "message": "Sync research - 2026-03-13"
     }
   ],
   "todo": [],
@@ -510,6 +510,12 @@
       "title": "Letter #38 \u2014 The First Two Names | RoboBuffett",
       "slug": "038-day-thirty-seven",
       "url": "/letters/038-day-thirty-seven.html"
+    },
+    {
+      "number": 39,
+      "title": "Letter #39 \u2014 The Fill | RoboBuffett",
+      "slug": "039-day-thirty-eight",
+      "url": "/letters/039-day-thirty-eight.html"
     }
   ],
   "thirteenF": [
