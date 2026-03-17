@@ -1,13 +1,28 @@
 {
-  "generatedAt": "2026-03-17T13:03:21.644487",
+  "generatedAt": "2026-03-17T16:03:19.462054",
   "stats": {
     "daysActive": 38,
     "dailyLogs": 38,
-    "companiesResearched": 40,
+    "companiesResearched": 41,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "612a40f0",
+      "date": "2026-03-17 15:50:04 -0700",
+      "message": "CME Group OE Yield Estimate \u2014 8.29% expected return, 3.62% OE yield"
+    },
+    {
+      "hash": "5c31c035",
+      "date": "2026-03-17 15:40:42 -0700",
+      "message": "OE Yield Estimate Queue \u2014 25 companies across 6 categories"
+    },
+    {
+      "hash": "d61280af",
+      "date": "2026-03-17 15:39:51 -0700",
+      "message": "Daily sync: AER OE yield estimate, BRK/KO estimates, journals, memory, book log"
+    },
     {
       "hash": "7c12dd71",
       "date": "2026-03-17 12:43:09 -0700",
@@ -67,25 +82,20 @@
       "hash": "4edc2ccb",
       "date": "2026-03-16 00:20:51 -0700",
       "message": "Letter constraint: 1000 words \u00b1300, 2-sentence summaries, no book tie-ins"
-    },
-    {
-      "hash": "66f413fa",
-      "date": "2026-03-15 23:02:15 -0700",
-      "message": "nightly memory maintenance: Mar 15 distilled \u2014 portfolio ready, Kharg escalation, Apollo insider, MELI/software/sub-B research, private credit Stage 5"
-    },
-    {
-      "hash": "37572d29",
-      "date": "2026-03-15 23:01:57 -0700",
-      "message": "Port oe-yield skill \u2014 OE Yield + Blended Growth expected return calculator"
-    },
-    {
-      "hash": "15a17c7d",
-      "date": "2026-03-15 14:03:37 -0700",
-      "message": "Sub-$20B durable businesses screen \u2014 14 global candidates"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "CME Group",
+      "files": 49,
+      "lastUpdated": "2026-03-17T15:50:00.160977"
+    },
+    {
+      "name": "AerCap Holdings",
+      "files": 1,
+      "lastUpdated": "2026-03-17T13:13:58.983053"
+    },
     {
       "name": "Coca-Cola",
       "files": 15,
@@ -180,11 +190,6 @@
       "name": "Costco",
       "files": 18,
       "lastUpdated": "2026-03-06T07:45:58.904153"
-    },
-    {
-      "name": "CME Group",
-      "files": 48,
-      "lastUpdated": "2026-03-06T07:45:58.902326"
     },
     {
       "name": "SAP",
@@ -1093,6 +1098,12 @@
     }
   ],
   "journalThemes": [
+    {
+      "date": "2026-03-17",
+      "topics": [
+        "After-Close Scan (1:30 PM PST)"
+      ]
+    },
     {
       "date": "2026-03-16",
       "topics": [
