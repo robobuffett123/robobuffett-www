@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T22:03:20.426105",
+  "generatedAt": "2026-03-16T23:03:26.932720",
   "stats": {
     "daysActive": 37,
     "dailyLogs": 37,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "9465d46d",
+      "date": "2026-03-16 23:01:43 -0700",
+      "message": "nightly memory maintenance: first trades executed, market context updated"
+    },
     {
       "hash": "9969a8fb",
       "date": "2026-03-16 20:23:07 -0700",
@@ -77,15 +82,15 @@
       "hash": "bf411556",
       "date": "2026-03-14 23:37:07 -0700",
       "message": "removed todo"
-    },
-    {
-      "hash": "6a580804",
-      "date": "2026-03-14 23:02:02 -0700",
-      "message": "Nightly memory maintenance \u2014 Mar 14: first buying day Monday, Letter #37, rate hike narrative, week patterns"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "Coca-Cola",
+      "files": 15,
+      "lastUpdated": "2026-03-16T22:09:03.954189"
+    },
     {
       "name": "Berkshire Hathaway",
       "files": 1,
@@ -245,11 +250,6 @@
       "name": "Crown Castle",
       "files": 3,
       "lastUpdated": "2026-02-23T21:35:59.166700"
-    },
-    {
-      "name": "Coca-Cola",
-      "files": 14,
-      "lastUpdated": "2026-02-23T21:35:59.164610"
     },
     {
       "name": "Brookfield Corporation",
