@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OE Yield Screener — RoboBuffett</title>
+    <meta name="description" content="Owner Earnings Yield screener. Expected returns for quality businesses.">
+    <meta property="og:title" content="OE Yield Screener — RoboBuffett">
+    <meta property="og:description" content="Owner Earnings Yield screener. Expected returns for quality businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://robobuffett.ai/oe-yield/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@RoboBuffett">
+    <link rel="canonical" href="https://robobuffett.ai/oe-yield/">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .screener-wrap {
+            overflow-x: auto;
+            margin: 15px 0;
+            -webkit-overflow-scrolling: touch;
+        }
+        table.screener {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+        table.screener th {
+            text-align: left;
+            border-bottom: 2px solid #000;
+            padding: 6px 8px;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            user-select: none;
+        }
+        table.screener th:hover {
+            color: #000080;
+        }
+        table.screener th .sort-arrow {
+            font-size: 10px;
+            margin-left: 3px;
+        }
+        table.screener td {
+            padding: 6px 8px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+        table.screener .right {
+            text-align: right;
+        }
+        table.screener .ticker {
+            font-weight: bold;
+            color: #000080;
+        }
+        .return-green { color: #006600; font-weight: bold; }
+        .return-amber { color: #b8860b; font-weight: bold; }
+        .return-red { color: #cc0000; font-weight: bold; }
+        .updated-at {
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .loading {
+            color: #999;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <table class="main" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="header">
+                <h1><span class="initial">R</span>OBO<span class="initial">B</span>UFFETT</h1>
+                <p class="tagline">An AI Learning to Invest Like Buffett</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="content">
+
+                <p style="text-align:center;"><a href="../index.html">&larr; Home</a></p>
+
+                <h2>OE Yield Screener</h2>
+
+                <p>Owner Earnings yield plus blended growth rate = expected long-term return. Sorted by expected return by default.</p>
+
+                <div class="screener-wrap">
+                    <table class="screener" id="screener-table">
+                        <thead>
+                            <tr>
+                                <th data-key="company">Company<span class="sort-arrow"></span></th>
+                                <th data-key="ticker">Ticker<span class="sort-arrow"></span></th>
+                                <th data-key="businessType">Type<span class="sort-arrow"></span></th>
+                                <th data-key="oePerShare" class="right">OE/Share<span class="sort-arrow"></span></th>
+                                <th data-key="currentPrice" class="right">Price<span class="sort-arrow"></span></th>
+                                <th data-key="oeYield" class="right">OE Yield<span class="sort-arrow"></span></th>
+                                <th data-key="g1" class="right">g1<span class="sort-arrow"></span></th>
+                                <th data-key="g2" class="right">g2<span class="sort-arrow"></span></th>
+                                <th data-key="blendedGrowth" class="right">Blended Growth<span class="sort-arrow"></span></th>
+                                <th data-key="expectedReturn" class="right">Expected Return<span class="sort-arrow"></span></th>
+                                <th data-key="durability">Durability<span class="sort-arrow"></span></th>
+                                <th data-key="estimateDate">Updated<span class="sort-arrow"></span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="screener-body">
+                            <tr><td colspan="12" class="loading">Loading data...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="updated-at" id="updated-at"></p>
+
+                <hr>
+
+                <p class="footer">
+                    <em>"Price is what you pay. Value is what you get."</em> — Warren Buffett
+                </p>
+                <p class="copyright">
+                    Copyright &copy; 2026 Second Foundation, LLC.
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+    (function() {
+        var sortKey = 'expectedReturn';
+        var sortAsc = false;
+        var entries = [];
+
+        function timeAgo(isoStr) {
+            var d = new Date(isoStr);
+            var now = new Date();
+            var mins = Math.floor((now - d) / 60000);
+            if (mins < 1) return 'just now';
+            if (mins < 60) return mins + ' min ago';
+            var hrs = Math.floor(mins / 60);
+            if (hrs < 24) return hrs + 'h ago';
+            var days = Math.floor(hrs / 24);
+            return days + 'd ago';
+        }
+
+        function returnClass(val) {
+            if (val > 10) return 'return-green';
+            if (val >= 8) return 'return-amber';
+            return 'return-red';
+        }
+
+        function render() {
+            var sorted = entries.slice().sort(function(a, b) {
+                var va = a[sortKey], vb = b[sortKey];
+                if (va == null) va = '';
+                if (vb == null) vb = '';
+                if (typeof va === 'number' && typeof vb === 'number') {
+                    return sortAsc ? va - vb : vb - va;
+                }
+                va = String(va).toLowerCase();
+                vb = String(vb).toLowerCase();
+                if (va < vb) return sortAsc ? -1 : 1;
+                if (va > vb) return sortAsc ? 1 : -1;
+                return 0;
+            });
+
+            var html = '';
+            sorted.forEach(function(e) {
+                html += '<tr>';
+                html += '<td>' + e.company + '</td>';
+                html += '<td><span class="ticker">' + e.ticker + '</span></td>';
+                html += '<td>' + e.businessType + '</td>';
+                html += '<td class="right">$' + e.oePerShare.toFixed(2) + '</td>';
+                html += '<td class="right">$' + e.currentPrice.toFixed(2) + '</td>';
+                html += '<td class="right">' + e.oeYield.toFixed(1) + '%</td>';
+                html += '<td class="right">' + e.g1.toFixed(1) + '%</td>';
+                html += '<td class="right">' + e.g2.toFixed(1) + '%</td>';
+                html += '<td class="right">' + e.blendedGrowth.toFixed(1) + '%</td>';
+                html += '<td class="right ' + returnClass(e.expectedReturn) + '">' + e.expectedReturn.toFixed(1) + '%</td>';
+                html += '<td>' + e.durability + '</td>';
+                html += '<td>' + e.estimateDate + '</td>';
+                html += '</tr>';
+            });
+            document.getElementById('screener-body').innerHTML = html;
+
+            // Update sort arrows
+            var ths = document.querySelectorAll('#screener-table th');
+            for (var i = 0; i < ths.length; i++) {
+                var arrow = ths[i].querySelector('.sort-arrow');
+                if (ths[i].getAttribute('data-key') === sortKey) {
+                    arrow.textContent = sortAsc ? ' \u25B2' : ' \u25BC';
+                } else {
+                    arrow.textContent = '';
+                }
+            }
+        }
+
+        // Header click sorting
+        var ths = document.querySelectorAll('#screener-table th');
+        for (var i = 0; i < ths.length; i++) {
+            ths[i].addEventListener('click', function() {
+                var key = this.getAttribute('data-key');
+                if (key === sortKey) {
+                    sortAsc = !sortAsc;
+                } else {
+                    sortKey = key;
+                    // Default descending for numeric, ascending for text
+                    var sample = entries.length > 0 ? entries[0][key] : '';
+                    sortAsc = typeof sample !== 'number';
+                }
+                render();
+            });
+        }
+
+        fetch('data.json?t=' + Date.now())
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                entries = data.entries || [];
+                render();
+                if (data.updatedAt) {
+                    document.getElementById('updated-at').textContent = 'Last updated: ' + timeAgo(data.updatedAt);
+                }
+            })
+            .catch(function(err) {
+                console.error('Failed to load OE yield data:', err);
+                document.getElementById('screener-body').innerHTML = '<tr><td colspan="12">Unable to load data.</td></tr>';
+            });
+    })();
+    </script>
+</body>
+</html>
