@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T12:03:20.656878",
+  "generatedAt": "2026-03-17T13:03:21.644487",
   "stats": {
     "daysActive": 38,
     "dailyLogs": 38,
@@ -8,6 +8,16 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "7c12dd71",
+      "date": "2026-03-17 12:43:09 -0700",
+      "message": "oe-yield-estimate: make 5.2 explicitly use total OE, not per-share, for historical cross-check"
+    },
+    {
+      "hash": "54be0f9f",
+      "date": "2026-03-17 12:40:35 -0700",
+      "message": "oe-yield-estimate: exclude buybacks from growth \u2014 icing, not the cake"
+    },
     {
       "hash": "545e06f5",
       "date": "2026-03-17 08:32:03 -0700",
@@ -72,16 +82,6 @@
       "hash": "15a17c7d",
       "date": "2026-03-15 14:03:37 -0700",
       "message": "Sub-$20B durable businesses screen \u2014 14 global candidates"
-    },
-    {
-      "hash": "6d0c931f",
-      "date": "2026-03-15 09:26:43 -0700",
-      "message": "Rename portfolio.md to ethans-portfolio.md, update MEMORY.md and all cron references"
-    },
-    {
-      "hash": "d468c92d",
-      "date": "2026-03-15 08:45:25 -0700",
-      "message": "MELI Q4 earnings call analysis - credit expansion verdict"
     }
   ],
   "todo": [],
