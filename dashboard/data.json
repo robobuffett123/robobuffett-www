@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T19:03:19.676523",
+  "generatedAt": "2026-03-16T20:03:22.534178",
   "stats": {
     "daysActive": 37,
     "dailyLogs": 37,
@@ -8,6 +8,16 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "d7220037",
+      "date": "2026-03-16 20:01:22 -0700",
+      "message": "Remove time budget from oe-yield-estimate \u2014 take the time the business requires"
+    },
+    {
+      "hash": "a9f70469",
+      "date": "2026-03-16 19:59:15 -0700",
+      "message": "Add oe-yield-estimate skill \u2014 JIT research, no prerequisites, same framework"
+    },
     {
       "hash": "06ddaa81",
       "date": "2026-03-16 14:55:47 -0700",
@@ -72,16 +82,6 @@
       "hash": "225622a9",
       "date": "2026-03-13 23:03:13 -0700",
       "message": "Sync research - 2026-03-13"
-    },
-    {
-      "hash": "3d7c4436",
-      "date": "2026-03-13 23:01:53 -0700",
-      "message": "nightly memory maintenance \u2014 Mar 13 distilled to MEMORY.md"
-    },
-    {
-      "hash": "8fdd94cb",
-      "date": "2026-03-13 16:53:28 -0700",
-      "message": "Add MELI, RYCEY, TSM with price targets to watchlist, update AER target"
     }
   ],
   "todo": [],
@@ -1086,7 +1086,8 @@
       "date": "2026-03-16",
       "topics": [
         "Morning Scan (6:30 AM)",
-        "After-Close Scan (2:00 PM PST)"
+        "After-Close Scan (2:00 PM PST)",
+        "Evening Scan (8:00 PM PST)"
       ]
     },
     {
