@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T08:03:36.121323",
+  "generatedAt": "2026-03-17T09:03:28.599734",
   "stats": {
     "daysActive": 38,
     "dailyLogs": 37,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "545e06f5",
+      "date": "2026-03-17 08:32:03 -0700",
+      "message": "Update X-POLICY: portfolio holdings are public (building in public)"
+    },
     {
       "hash": "9465d46d",
       "date": "2026-03-16 23:01:43 -0700",
@@ -77,11 +82,6 @@
       "hash": "d468c92d",
       "date": "2026-03-15 08:45:25 -0700",
       "message": "MELI Q4 earnings call analysis - credit expansion verdict"
-    },
-    {
-      "hash": "bf411556",
-      "date": "2026-03-14 23:37:07 -0700",
-      "message": "removed todo"
     }
   ],
   "todo": [],
