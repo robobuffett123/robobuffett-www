@@ -17,9 +17,9 @@
         "oePerShare": 2.73,
         "g1": 10.0,
         "g2": 3.5,
-        "durability": "MEDIUM",
+        "durability": "HIGH",
         "estimateDate": "2026-03-13",
-        "notes": "Asset-light cybersecurity. Full OE Yield analysis. Durability downgraded 2026-03-18: ASIC moat real but R&D treadmill + cloud-native disruption risk = execution-dependent durability."
+        "notes": "Asset-light cybersecurity. Full OE Yield analysis. Durability 2.75/4.0 (HIGH): RevQ 3, CompPos 3, MarginRes 3, CapReq 2, ExtRisk 2. ASIC moat real but R&D treadmill + cloud-native disruption risk."
     },
     {
         "ticker": "GOOG",
@@ -84,9 +84,9 @@
         "oePerShare": 14.91,
         "g1": 5.0,
         "g2": 3.5,
-        "durability": "MEDIUM",
+        "durability": "HIGH",
         "estimateDate": "2026-03-17",
-        "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this. Durability downgraded 2026-03-18: framework score 3.45 (RevQuality 4, CompPosition 4, MarginRes 3, CapReqs 2, ExtRisk 3). Funding moat real but capital-intensive + cyclical margins + above mid-cycle earnings."
+        "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this. Durability 2.60/4.0 (HIGH): RevQ 3, CompPos 3, MarginRes 2, CapReq 2, ExtRisk 2. Funding moat real but capital-intensive + cyclical margins."
     },
     {
         "ticker": "CME",
