@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-03-17T22:03:19.270643",
+  "generatedAt": "2026-03-17T23:03:32.425448",
   "stats": {
     "daysActive": 38,
     "dailyLogs": 38,
-    "companiesResearched": 40,
+    "companiesResearched": 45,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "15909328",
+      "date": "2026-03-17 23:01:25 -0700",
+      "message": "nightly memory maintenance \u2014 Mar 17 distillation"
+    },
     {
       "hash": "04e98120",
       "date": "2026-03-17 21:56:40 -0700",
@@ -77,15 +82,40 @@
       "hash": "06ddaa81",
       "date": "2026-03-16 14:55:47 -0700",
       "message": "Update portfolio: actual execution prices AER@135.01, CME@313.76, inception 2026-03-16"
-    },
-    {
-      "hash": "8978d359",
-      "date": "2026-03-16 00:21:47 -0700",
-      "message": "Clarify: letter constraint applies to evening scan only"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "S&P Global",
+      "files": 1,
+      "lastUpdated": "2026-03-17T22:54:48.303121"
+    },
+    {
+      "name": "Tradeweb",
+      "files": 1,
+      "lastUpdated": "2026-03-17T22:36:05.524259"
+    },
+    {
+      "name": "Nu Holdings",
+      "files": 1,
+      "lastUpdated": "2026-03-17T22:29:31.944957"
+    },
+    {
+      "name": "TSMC",
+      "files": 1,
+      "lastUpdated": "2026-03-17T22:21:24.676808"
+    },
+    {
+      "name": "Rolls-Royce",
+      "files": 1,
+      "lastUpdated": "2026-03-17T22:17:44.918656"
+    },
+    {
+      "name": "Lam Research",
+      "files": 7,
+      "lastUpdated": "2026-03-17T22:09:30.656469"
+    },
     {
       "name": "MercadoLibre",
       "files": 29,
@@ -98,7 +128,7 @@
     },
     {
       "name": "AerCap Holdings",
-      "files": 17,
+      "files": 47,
       "lastUpdated": "2026-03-17T13:13:58.983053"
     },
     {
@@ -130,11 +160,6 @@
       "name": "Marubeni",
       "files": 1,
       "lastUpdated": "2026-03-14T22:55:47.127245"
-    },
-    {
-      "name": "Lam Research",
-      "files": 6,
-      "lastUpdated": "2026-03-14T22:55:47.127028"
     },
     {
       "name": "Journal",
