@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-03-18T20:03:21.373092+00:00",
+  "updatedAt": "2026-03-18T21:03:26.500001+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 105100.0,
-  "totalValue": 104840.54,
-  "totalReturn": -259.46,
+  "totalValue": 104834.62,
+  "totalReturn": -265.38,
   "totalReturnPct": -0.25,
   "cash": 14747.37,
   "cashWeight": 14.07,
@@ -13,14 +13,14 @@
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 135.81,
-      "marketValue": 53642.98,
+      "currentPrice": 135.79,
+      "marketValue": 53637.05,
       "costValue": 53328.95,
-      "gainLoss": 314.03,
-      "gainLossPct": 0.59,
+      "gainLoss": 308.1,
+      "gainLossPct": 0.58,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 51.17
+      "weight": 51.16
     },
     {
       "ticker": "CME",
