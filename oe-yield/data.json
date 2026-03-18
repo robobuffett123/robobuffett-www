@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T03:03:45.291859+00:00",
+  "updatedAt": "2026-03-18T04:53:53.972738+00:00",
   "entries": [
     {
       "ticker": "CB",
@@ -35,13 +35,13 @@
       "ticker": "GOOG",
       "company": "Alphabet Inc",
       "businessType": "Exchange / Asset-Light",
-      "oePerShare": 13.59,
+      "oePerShare": 6.28,
       "currentPrice": 309.41,
-      "oeYield": 4.39,
-      "g1": 9.0,
+      "oeYield": 2.03,
+      "g1": 10.0,
       "g2": 3.5,
-      "blendedGrowth": 5.33,
-      "expectedReturn": 9.73,
+      "blendedGrowth": 5.67,
+      "expectedReturn": 7.7,
       "durability": "HIGH",
       "estimateDate": "2026-03-13",
       "notes": "Full OE Yield analysis."
@@ -50,16 +50,16 @@
       "ticker": "MSFT",
       "company": "Microsoft",
       "businessType": "Software / SaaS",
-      "oePerShare": 6.28,
+      "oePerShare": 13.59,
       "currentPrice": 399.41,
-      "oeYield": 1.57,
-      "g1": 10.0,
-      "g2": 3.5,
-      "blendedGrowth": 5.67,
-      "expectedReturn": 7.24,
+      "oeYield": 3.4,
+      "g1": 11.0,
+      "g2": 4.0,
+      "blendedGrowth": 6.33,
+      "expectedReturn": 9.74,
       "durability": "HIGH",
       "estimateDate": "2026-03-13",
-      "notes": "Full OE Yield analysis."
+      "notes": "Full OE Yield analysis. Subscription platform + cloud infrastructure."
     },
     {
       "ticker": "BRK-B",
@@ -90,6 +90,51 @@
       "durability": "HIGH",
       "estimateDate": "2026-03-16",
       "notes": "OE Yield Estimate. Comparable net income, franchise model."
+    },
+    {
+      "ticker": "AER",
+      "company": "AerCap Holdings",
+      "businessType": "Aircraft Lessor",
+      "oePerShare": 14.91,
+      "currentPrice": 137.42,
+      "oeYield": 10.85,
+      "g1": 5.0,
+      "g2": 3.5,
+      "blendedGrowth": 4.0,
+      "expectedReturn": 14.85,
+      "durability": "HIGH",
+      "estimateDate": "2026-03-17",
+      "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this."
+    },
+    {
+      "ticker": "CME",
+      "company": "CME Group",
+      "businessType": "Exchange / Asset-Light",
+      "oePerShare": 11.35,
+      "currentPrice": 313.33,
+      "oeYield": 3.62,
+      "g1": 6.0,
+      "g2": 4.0,
+      "blendedGrowth": 4.67,
+      "expectedReturn": 8.29,
+      "durability": "HIGH",
+      "estimateDate": "2026-03-17",
+      "notes": "OE Yield Estimate. Asset-light tollbooth. We own this."
+    },
+    {
+      "ticker": "MELI",
+      "company": "MercadoLibre",
+      "businessType": "E-Commerce / Fintech",
+      "oePerShare": 42.92,
+      "currentPrice": 1728.14,
+      "oeYield": 2.48,
+      "g1": 15.0,
+      "g2": 4.5,
+      "blendedGrowth": 8.0,
+      "expectedReturn": 10.48,
+      "durability": "HIGH",
+      "estimateDate": "2026-03-17",
+      "notes": "OE Yield Estimate. LatAm dominant platform. Buy-below target $1,500."
     }
   ]
 }

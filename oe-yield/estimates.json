@@ -1,80 +1,113 @@
 [
-  {
-    "ticker": "CB",
-    "company": "Chubb Ltd",
-    "businessType": "Insurance",
-    "oePerShare": 21.66,
-    "g1": 7.0,
-    "g2": 3.5,
-    "durability": "HIGH",
-    "estimateDate": "2026-03-13",
-    "notes": "Core operating income metric. Full OE Yield analysis."
-  },
-  {
-    "ticker": "FTNT",
-    "company": "Fortinet",
-    "businessType": "Software / SaaS",
-    "oePerShare": 2.73,
-    "g1": 10.0,
-    "g2": 3.5,
-    "durability": "HIGH",
-    "estimateDate": "2026-03-13",
-    "notes": "Asset-light cybersecurity. Full OE Yield analysis."
-  },
-  {
-    "ticker": "GOOG",
-    "company": "Alphabet Inc",
-    "businessType": "Exchange / Asset-Light",
-    "oePerShare": 13.59,
-    "g1": 9.0,
-    "g2": 3.5,
-    "durability": "HIGH",
-    "estimateDate": "2026-03-13",
-    "notes": "Full OE Yield analysis."
-  },
-  {
-    "ticker": "8031.T",
-    "company": "Mitsui & Co",
-    "businessType": "General Operating",
-    "oePerShare": 335.0,
-    "g1": 3.0,
-    "g2": 3.0,
-    "currency": "JPY",
-    "durability": "MEDIUM",
-    "estimateDate": "2026-03-13",
-    "notes": "Japanese sogo shosha. Full OE Yield analysis. JPY denominated."
-  },
-  {
-    "ticker": "MSFT",
-    "company": "Microsoft",
-    "businessType": "Software / SaaS",
-    "oePerShare": 6.28,
-    "g1": 10.0,
-    "g2": 3.5,
-    "durability": "HIGH",
-    "estimateDate": "2026-03-13",
-    "notes": "Full OE Yield analysis."
-  },
-  {
-    "ticker": "BRK-B",
-    "company": "Berkshire Hathaway",
-    "businessType": "Diversified Conglomerate",
-    "oePerShare": 20.15,
-    "g1": 6.0,
-    "g2": 3.5,
-    "durability": "HIGH",
-    "estimateDate": "2026-03-16",
-    "notes": "OE Yield Estimate. Used Berkshire-reported operating earnings, not GAAP net income."
-  },
-  {
-    "ticker": "KO",
-    "company": "Coca-Cola",
-    "businessType": "Asset-light consumer franchise",
-    "oePerShare": 2.94,
-    "g1": 6.0,
-    "g2": 3.5,
-    "durability": "HIGH",
-    "estimateDate": "2026-03-16",
-    "notes": "OE Yield Estimate. Comparable net income, franchise model."
-  }
+    {
+        "ticker": "CB",
+        "company": "Chubb Ltd",
+        "businessType": "Insurance",
+        "oePerShare": 21.66,
+        "g1": 7.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-13",
+        "notes": "Core operating income metric. Full OE Yield analysis."
+    },
+    {
+        "ticker": "FTNT",
+        "company": "Fortinet",
+        "businessType": "Software / SaaS",
+        "oePerShare": 2.73,
+        "g1": 10.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-13",
+        "notes": "Asset-light cybersecurity. Full OE Yield analysis."
+    },
+    {
+        "ticker": "GOOG",
+        "company": "Alphabet Inc",
+        "businessType": "Exchange / Asset-Light",
+        "oePerShare": 6.28,
+        "g1": 10.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-13",
+        "notes": "Full OE Yield analysis."
+    },
+    {
+        "ticker": "8031.T",
+        "company": "Mitsui & Co",
+        "businessType": "General Operating",
+        "oePerShare": 335.0,
+        "g1": 3.0,
+        "g2": 3.0,
+        "currency": "JPY",
+        "durability": "MEDIUM",
+        "estimateDate": "2026-03-13",
+        "notes": "Japanese sogo shosha. Full OE Yield analysis. JPY denominated."
+    },
+    {
+        "ticker": "MSFT",
+        "company": "Microsoft",
+        "businessType": "Software / SaaS",
+        "oePerShare": 13.59,
+        "g1": 11.0,
+        "g2": 4.0,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-13",
+        "notes": "Full OE Yield analysis. Subscription platform + cloud infrastructure."
+    },
+    {
+        "ticker": "BRK-B",
+        "company": "Berkshire Hathaway",
+        "businessType": "Diversified Conglomerate",
+        "oePerShare": 20.15,
+        "g1": 6.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-16",
+        "notes": "OE Yield Estimate. Used Berkshire-reported operating earnings, not GAAP net income."
+    },
+    {
+        "ticker": "KO",
+        "company": "Coca-Cola",
+        "businessType": "Asset-light consumer franchise",
+        "oePerShare": 2.94,
+        "g1": 6.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-16",
+        "notes": "OE Yield Estimate. Comparable net income, franchise model."
+    },
+    {
+        "ticker": "AER",
+        "company": "AerCap Holdings",
+        "businessType": "Aircraft Lessor",
+        "oePerShare": 14.91,
+        "g1": 5.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-17",
+        "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this."
+    },
+    {
+        "ticker": "CME",
+        "company": "CME Group",
+        "businessType": "Exchange / Asset-Light",
+        "oePerShare": 11.35,
+        "g1": 6.0,
+        "g2": 4.0,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-17",
+        "notes": "OE Yield Estimate. Asset-light tollbooth. We own this."
+    },
+    {
+        "ticker": "MELI",
+        "company": "MercadoLibre",
+        "businessType": "E-Commerce / Fintech",
+        "oePerShare": 42.92,
+        "g1": 15.0,
+        "g2": 4.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-17",
+        "notes": "OE Yield Estimate. LatAm dominant platform. Buy-below target $1,500."
+    }
 ]
