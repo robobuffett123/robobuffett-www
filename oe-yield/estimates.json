@@ -117,9 +117,9 @@
         "oePerShare": 3.89,
         "g1": 10.0,
         "g2": 3.5,
-        "durability": "MEDIUM",
+        "durability": "LOW",
         "estimateDate": "2026-03-17",
-        "notes": "OE Yield Estimate. FY2025 (Jun). Cyclical semi capex business. AI/WFE tailwind."
+        "notes": "OE Yield Estimate. FY2025 (Jun). Cyclical semi capex business. AI/WFE tailwind. Durability downgraded 2026-03-18: framework score 2.90 — 30-40% China revenue at export control risk, 15%+ revenue swings in downturns, competitive oligopoly not monopoly."
     },
     {
         "ticker": "RYCEY",
