@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T05:29:59.642644+00:00",
+  "updatedAt": "2026-03-18T05:36:38.219409+00:00",
   "entries": [
     {
       "ticker": "CB",
@@ -195,6 +195,21 @@
       "durability": "MEDIUM",
       "estimateDate": "2026-03-17",
       "notes": "OE Yield Estimate. 115M customers. LatAm digital bank. SBC estimated ~$300M. Credit cycle untested at scale."
+    },
+    {
+      "ticker": "TW",
+      "company": "Tradeweb Markets",
+      "businessType": "Exchange / Marketplace",
+      "oePerShare": 3.34,
+      "currentPrice": 126.17,
+      "oeYield": 2.65,
+      "g1": 12.0,
+      "g2": 3.5,
+      "blendedGrowth": 6.33,
+      "expectedReturn": 8.98,
+      "durability": "HIGH",
+      "estimateDate": "2026-03-17",
+      "notes": "OE Yield Estimate. Conservative OE \u2014 used real D&A only, excluded ~$200M acquisition amortization. Bond electronification tailwind."
     }
   ]
 }

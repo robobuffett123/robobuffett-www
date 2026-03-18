@@ -153,5 +153,16 @@
         "durability": "MEDIUM",
         "estimateDate": "2026-03-17",
         "notes": "OE Yield Estimate. 115M customers. LatAm digital bank. SBC estimated ~$300M. Credit cycle untested at scale."
+    },
+    {
+        "ticker": "TW",
+        "company": "Tradeweb Markets",
+        "businessType": "Exchange / Marketplace",
+        "oePerShare": 3.34,
+        "g1": 12.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-17",
+        "notes": "OE Yield Estimate. Conservative OE — used real D&A only, excluded ~$200M acquisition amortization. Bond electronification tailwind."
     }
 ]
