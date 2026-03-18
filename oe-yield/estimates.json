@@ -256,5 +256,17 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. CHF listing, USD reporting. Large turbocharger monopoly. 180K+ installed base. Data center backup power = new growth driver. Zero SBC."
+    },
+    {
+        "ticker": "DPLM.L",
+        "company": "Diploma PLC",
+        "businessType": "Serial Acquirer / Industrial Distribution",
+        "oePerShare": 191,
+        "g1": 10.0,
+        "g2": 3.5,
+        "currency": "GBp",
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. GBP pence. FY ends Sep. Essential products distribution (seals, diagnostics, wiring). Serial acquirer with CSI-like playbook."
     }
 ]
