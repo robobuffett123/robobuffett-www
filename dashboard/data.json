@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-03-17T21:06:06.746776",
+  "generatedAt": "2026-03-17T22:03:19.270643",
   "stats": {
     "daysActive": 38,
     "dailyLogs": 38,
-    "companiesResearched": 41,
+    "companiesResearched": 40,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "04e98120",
+      "date": "2026-03-17 21:56:40 -0700",
+      "message": "Move OE Yield estimates into 4.4-OE-Yield subfolders, update skill output path"
+    },
     {
       "hash": "612a40f0",
       "date": "2026-03-17 15:50:04 -0700",
@@ -77,11 +82,6 @@
       "hash": "8978d359",
       "date": "2026-03-16 00:21:47 -0700",
       "message": "Clarify: letter constraint applies to evening scan only"
-    },
-    {
-      "hash": "4edc2ccb",
-      "date": "2026-03-16 00:20:51 -0700",
-      "message": "Letter constraint: 1000 words \u00b1300, 2-sentence summaries, no book tie-ins"
     }
   ],
   "todo": [],
@@ -98,7 +98,7 @@
     },
     {
       "name": "AerCap Holdings",
-      "files": 1,
+      "files": 17,
       "lastUpdated": "2026-03-17T13:13:58.983053"
     },
     {
@@ -155,11 +155,6 @@
       "name": "Alphabet",
       "files": 23,
       "lastUpdated": "2026-03-14T22:55:47.124718"
-    },
-    {
-      "name": "AerCap",
-      "files": 46,
-      "lastUpdated": "2026-03-14T22:55:47.122189"
     },
     {
       "name": "Rolls-Royce Holdings",
