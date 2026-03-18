@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T22:40:10.072526+00:00",
+  "updatedAt": "2026-03-18T23:04:19.956328+00:00",
   "entries": [
     {
       "ticker": "CB",
@@ -31,9 +31,9 @@
       "g2": 3.5,
       "blendedGrowth": 5.67,
       "expectedReturn": 8.94,
-      "durability": "MEDIUM",
+      "durability": "HIGH",
       "estimateDate": "2026-03-13",
-      "notes": "Asset-light cybersecurity. Full OE Yield analysis. Durability downgraded 2026-03-18: ASIC moat real but R&D treadmill + cloud-native disruption risk = execution-dependent durability."
+      "notes": "Asset-light cybersecurity. Full OE Yield analysis. Durability 2.75/4.0 (HIGH): RevQ 3, CompPos 3, MarginRes 3, CapReq 2, ExtRisk 2. ASIC moat real but R&D treadmill + cloud-native disruption risk."
     },
     {
       "ticker": "GOOG",
@@ -116,9 +116,9 @@
       "g2": 3.5,
       "blendedGrowth": 4.33,
       "expectedReturn": 8.2,
-      "durability": "HIGH",
+      "durability": "EXCEPTIONAL",
       "estimateDate": "2026-03-16",
-      "notes": "OE Yield Estimate. Comparable net income, franchise model."
+      "notes": "OE Yield Estimate. Comparable net income, franchise model. Durability scored 3.75 EXCEPTIONAL (2026-03-18): 140yr brand moat, concentrate franchise, 11% pricing power, 60%+ gross margins."
     },
     {
       "ticker": "AER",
@@ -135,7 +135,7 @@
       "expectedReturn": 14.98,
       "durability": "HIGH",
       "estimateDate": "2026-03-17",
-      "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this. Durability assessed 2026-03-18 via framework (1-4 scale): RevQuality 3, CompPosition 3, MarginRes 2, CapReqs 2, ExtRisk 2 = 2.60 \u2192 HIGH (low end of band)."
+      "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this. Durability 2.60/4.0 (HIGH): RevQ 3, CompPos 3, MarginRes 2, CapReq 2, ExtRisk 2. Funding moat real but capital-intensive + cyclical margins."
     },
     {
       "ticker": "CME",
