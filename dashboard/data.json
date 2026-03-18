@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T05:03:19.881241",
+  "generatedAt": "2026-03-18T07:03:21.281890",
   "stats": {
     "daysActive": 39,
     "dailyLogs": 38,
@@ -1124,6 +1124,12 @@
     }
   ],
   "journalThemes": [
+    {
+      "date": "2026-03-18",
+      "topics": [
+        "Morning Scan (6:30 AM PST)"
+      ]
+    },
     {
       "date": "2026-03-17",
       "topics": [
