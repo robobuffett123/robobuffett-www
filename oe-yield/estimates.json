@@ -142,5 +142,16 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-17",
         "notes": "OE Yield Estimate. TWD reporting, USD ADR (1 ADR = 5 shares). Monopoly foundry. AI capex supercycle."
+    },
+    {
+        "ticker": "NU",
+        "company": "Nu Holdings",
+        "businessType": "Digital Bank / Fintech",
+        "oePerShare": 0.54,
+        "g1": 18.0,
+        "g2": 4.0,
+        "durability": "MEDIUM",
+        "estimateDate": "2026-03-17",
+        "notes": "OE Yield Estimate. 115M customers. LatAm digital bank. SBC estimated ~$300M. Credit cycle untested at scale."
     }
 ]
