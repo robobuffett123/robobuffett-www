@@ -17,9 +17,9 @@
         "oePerShare": 2.73,
         "g1": 10.0,
         "g2": 3.5,
-        "durability": "HIGH",
+        "durability": "MEDIUM",
         "estimateDate": "2026-03-13",
-        "notes": "Asset-light cybersecurity. Full OE Yield analysis."
+        "notes": "Asset-light cybersecurity. Full OE Yield analysis. Durability downgraded 2026-03-18: ASIC moat real but R&D treadmill + cloud-native disruption risk = execution-dependent durability."
     },
     {
         "ticker": "GOOG",
