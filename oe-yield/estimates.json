@@ -84,9 +84,9 @@
         "oePerShare": 14.91,
         "g1": 5.0,
         "g2": 3.5,
-        "durability": "MEDIUM",
+        "durability": "HIGH",
         "estimateDate": "2026-03-17",
-        "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this. Durability downgraded 2026-03-18: excellent business but leverage dependency, capital intensity, geopolitical exposure, and airline credit cyclicality = MEDIUM durability (score 3.45)."
+        "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this. Durability assessed 2026-03-18 via framework (1-4 scale): RevQuality 3, CompPosition 3, MarginRes 2, CapReqs 2, ExtRisk 2 = 2.60 → HIGH (low end of band)."
     },
     {
         "ticker": "CME",
