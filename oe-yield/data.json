@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T05:09:54.716554+00:00",
+  "updatedAt": "2026-03-18T05:18:06.576066+00:00",
   "entries": [
     {
       "ticker": "CB",
@@ -150,6 +150,21 @@
       "durability": "MEDIUM",
       "estimateDate": "2026-03-17",
       "notes": "OE Yield Estimate. FY2025 (Jun). Cyclical semi capex business. AI/WFE tailwind."
+    },
+    {
+      "ticker": "RYCEY",
+      "company": "Rolls-Royce",
+      "businessType": "Aerospace / Defence",
+      "oePerShare": 0.37,
+      "currentPrice": 16.82,
+      "oeYield": 2.2,
+      "g1": 12.0,
+      "g2": 3.5,
+      "blendedGrowth": 6.33,
+      "expectedReturn": 8.53,
+      "durability": "MEDIUM",
+      "estimateDate": "2026-03-17",
+      "notes": "OE Yield Estimate. GBP reporting, USD ADR. Underlying PAT ex DTA credit. Widebody engine duopoly + LTSA repricing."
     }
   ]
 }
