@@ -186,5 +186,17 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. FY ends Sep. Cleanest OE calc in screener — no acq amort distortion. Cash-to-digital tollbooth."
+    },
+    {
+        "ticker": "JDG.L",
+        "company": "Judges Scientific",
+        "businessType": "Serial Acquirer / Scientific Instruments",
+        "oePerShare": 266,
+        "g1": 8.0,
+        "g2": 3.5,
+        "currency": "GBP",
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. GBP pence. OE = adjusted EPS (adds back acq amort) - SBC. Trough earnings — stock halved. Mini Constellation Software for lab instruments."
     }
 ]
