@@ -290,5 +290,41 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. PitchBook (private market data monopoly) is growth engine. DBRS ratings = 4th NRSRO. Star rating brand moat. SBC elevated at 17%."
+    },
+    {
+        "ticker": "214150.KQ",
+        "company": "Classys",
+        "businessType": "Medical Devices / Razor-Blade",
+        "oePerShare": 1530,
+        "g1": 15.0,
+        "g2": 3.5,
+        "currency": "KRW",
+        "durability": "MEDIUM",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. KRW. Korea's #1 HIFU device maker (>50% share). Razor/blade model — recurring cartridge consumables. 79% gross margins, 50% op margins. Negligible SBC. Bain Capital selling down = entry opportunity. US/Europe expansion pending."
+    },
+    {
+        "ticker": "403870.KQ",
+        "company": "HPSP",
+        "businessType": "Semiconductor Equipment Monopoly",
+        "oePerShare": 943,
+        "g1": 12.0,
+        "g2": 3.5,
+        "currency": "KRW",
+        "durability": "MEDIUM",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. KRW. World's only mass-production high-pressure annealing equipment maker. 30+ patents, won lawsuit vs sole competitor YEST (Oct 2024). 52% op margins, 94 employees. Customer concentration risk (Samsung/SK Hynix)."
+    },
+    {
+        "ticker": "058470.KQ",
+        "company": "Leeno Industrial",
+        "businessType": "Semiconductor Test Components",
+        "oePerShare": 1471,
+        "g1": 8.0,
+        "g2": 3.5,
+        "currency": "KRW",
+        "durability": "MEDIUM",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. KRW. #2 global test socket maker. Supplies pins to competitors (vertical integration moat). 37% op margins, zero SBC. Too expensive after 220% run — needs semi downturn for entry."
     }
 ]
