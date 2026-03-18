@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-18T11:03:19.969528",
+  "generatedAt": "2026-03-18T12:03:20.123596",
   "stats": {
     "daysActive": 39,
     "dailyLogs": 39,
-    "companiesResearched": 54,
+    "companiesResearched": 57,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
@@ -86,6 +86,21 @@
   ],
   "todo": [],
   "research": [
+    {
+      "name": "Disco Corporation",
+      "files": 1,
+      "lastUpdated": "2026-03-18T12:00:32.296198"
+    },
+    {
+      "name": "Diploma PLC",
+      "files": 1,
+      "lastUpdated": "2026-03-18T11:59:14.055123"
+    },
+    {
+      "name": "Accelleron",
+      "files": 1,
+      "lastUpdated": "2026-03-18T11:55:15.788209"
+    },
     {
       "name": "Classys",
       "files": 1,

@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-03-18T18:03:21.227224+00:00",
+  "updatedAt": "2026-03-18T19:03:21.359065+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 105100.0,
-  "totalValue": 105671.97,
-  "totalReturn": 571.97,
-  "totalReturnPct": 0.54,
+  "totalValue": 105263.99,
+  "totalReturn": 163.99,
+  "totalReturnPct": 0.16,
   "cash": 14747.37,
-  "cashWeight": 13.96,
+  "cashWeight": 14.01,
   "positions": [
     {
       "ticker": "AER",
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 137.29,
-      "marketValue": 54229.55,
+      "currentPrice": 136.54,
+      "marketValue": 53933.3,
       "costValue": 53328.95,
-      "gainLoss": 900.6,
-      "gainLossPct": 1.69,
+      "gainLoss": 604.35,
+      "gainLossPct": 1.13,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 51.32
+      "weight": 51.24
     },
     {
       "ticker": "CME",
       "company": "CME Group",
       "shares": 118,
       "costBasis": 313.76,
-      "currentPrice": 310.98,
-      "marketValue": 36695.05,
+      "currentPrice": 310.03,
+      "marketValue": 36583.32,
       "costValue": 37023.68,
-      "gainLoss": -328.63,
-      "gainLossPct": -0.89,
+      "gainLoss": -440.36,
+      "gainLossPct": -1.19,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 34.73
+      "weight": 34.75
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 613.13,
-    "returnPct": 0.66
+    "currentPrice": 610.59,
+    "returnPct": 0.25
   }
 }
