@@ -175,5 +175,16 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-17",
         "notes": "OE Yield Estimate. Conservative OE — excluded ~$980M IHS Markit acquisition amortization. Ratings duopoly + index royalty + data monopoly."
+    },
+    {
+        "ticker": "V",
+        "company": "Visa",
+        "businessType": "Payment Network",
+        "oePerShare": 9.75,
+        "g1": 10.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. FY ends Sep. Cleanest OE calc in screener — no acq amort distortion. Cash-to-digital tollbooth."
     }
 ]
