@@ -268,5 +268,27 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. GBP pence. FY ends Sep. Essential products distribution (seals, diagnostics, wiring). Serial acquirer with CSI-like playbook."
+    },
+    {
+        "ticker": "RBC",
+        "company": "RBC Bearings",
+        "businessType": "Aerospace / Precision Components",
+        "oePerShare": 7.17,
+        "g1": 10.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. FY ends Mar. Sole-source aerospace bearings + Dodge Industrial. Great business, premium price. Lowest ER in screener."
+    },
+    {
+        "ticker": "MORN",
+        "company": "Morningstar",
+        "businessType": "Financial Data / Research",
+        "oePerShare": 7.56,
+        "g1": 10.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. PitchBook (private market data monopoly) is growth engine. DBRS ratings = 4th NRSRO. Star rating brand moat. SBC elevated at 17%."
     }
 ]
