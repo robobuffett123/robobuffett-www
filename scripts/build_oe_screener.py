@@ -42,6 +42,29 @@ def filter_usd_only(entries):
     return [e for e in entries if "currency" not in e]
 
 
+def filter_all(entries):
+    """Return all entries regardless of currency."""
+    return list(entries)
+
+
+CURRENCY_SYMBOLS = {
+    "USD": "$",
+    "GBp": "£",
+    "GBP": "£",
+    "JPY": "¥",
+    "EUR": "€",
+    "CAD": "C$",
+    "AUD": "A$",
+    "CHF": "CHF ",
+    "BRL": "R$",
+}
+
+
+def currency_symbol(code):
+    """Map currency code to display symbol. Unknown codes return 'CODE '."""
+    return CURRENCY_SYMBOLS.get(code, code + " ")
+
+
 def _parse_fmp_response(data):
     """Extract price from FMP API response. Returns None if unavailable."""
     if not data or not isinstance(data, list) or len(data) == 0:
@@ -54,12 +77,15 @@ def build_output_entry(estimate, price):
     oe_yield = calc_oe_yield(estimate["oePerShare"], price)
     blended = calc_blended_growth(estimate["g1"], estimate["g2"])
     expected = calc_expected_return(oe_yield, blended)
+    cur = estimate.get("currency", "USD")
     return {
         "ticker": estimate["ticker"],
         "company": estimate["company"],
         "businessType": estimate["businessType"],
         "oePerShare": estimate["oePerShare"],
         "currentPrice": price,
+        "currency": cur,
+        "currencySymbol": currency_symbol(cur),
         "oeYield": round(oe_yield, 2),
         "g1": estimate["g1"],
         "g2": estimate["g2"],
@@ -90,20 +116,21 @@ def main():
     with open(ESTIMATES_PATH, "r") as f:
         estimates = json.load(f)
 
-    usd_estimates = filter_usd_only(estimates)
-    print(f"Processing {len(usd_estimates)} USD-denominated estimates "
-          f"(skipped {len(estimates) - len(usd_estimates)} non-USD)")
+    all_estimates = filter_all(estimates)
+    print(f"Processing {len(all_estimates)} estimates")
 
     results = []
-    for est in usd_estimates:
+    for est in all_estimates:
         ticker = est["ticker"]
-        print(f"  Fetching {ticker}...", end=" ")
+        cur = est.get("currency", "USD")
+        sym = currency_symbol(cur)
+        print(f"  Fetching {ticker} ({cur})...", end=" ")
         price = fetch_price(ticker)
         if price is None:
             print("SKIPPED (no price)")
             continue
         entry = build_output_entry(est, price)
-        print(f"${price:.2f} → OE Yield {entry['oeYield']:.1f}%, "
+        print(f"{sym}{price:,.2f} → OE Yield {entry['oeYield']:.1f}%, "
               f"Expected Return {entry['expectedReturn']:.1f}%")
         results.append(entry)
 

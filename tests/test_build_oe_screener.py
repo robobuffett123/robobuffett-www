@@ -88,6 +88,52 @@ class TestBuildOutputEntry(unittest.TestCase):
         self.assertEqual(entry["notes"], "Test note")
 
 
+class TestMultiCurrency(unittest.TestCase):
+    """Tests for multi-currency support — all currencies in one table."""
+
+    def test_filter_all_includes_all_entries(self):
+        """filter_all should return every entry regardless of currency."""
+        entries = [
+            {"ticker": "MSFT", "oePerShare": 6.28, "g1": 10, "g2": 3.5},
+            {"ticker": "8031.T", "oePerShare": 335, "g1": 3, "g2": 3, "currency": "JPY"},
+            {"ticker": "JDG.L", "oePerShare": 266, "g1": 8, "g2": 3.5, "currency": "GBp"},
+        ]
+        from build_oe_screener import filter_all
+        result = filter_all(entries)
+        self.assertEqual(len(result), 3)
+
+    def test_build_output_entry_includes_currency(self):
+        """Output entry should include currency field, defaulting to USD."""
+        estimate = {
+            "ticker": "CB", "company": "Chubb", "businessType": "Insurance",
+            "oePerShare": 21.66, "g1": 7.0, "g2": 3.5,
+            "durability": "HIGH", "estimateDate": "2026-03-13",
+        }
+        entry = build_output_entry(estimate, 280.0)
+        self.assertEqual(entry["currency"], "USD")
+
+    def test_build_output_entry_preserves_currency(self):
+        """Output entry should pass through non-USD currency."""
+        estimate = {
+            "ticker": "JDG.L", "company": "Judges Scientific",
+            "businessType": "Serial Acquirer", "oePerShare": 266,
+            "g1": 8.0, "g2": 3.5, "durability": "MEDIUM",
+            "estimateDate": "2026-03-18", "currency": "GBp",
+        }
+        entry = build_output_entry(estimate, 3860)
+        self.assertEqual(entry["currency"], "GBp")
+        self.assertAlmostEqual(entry["oeYield"], round(266 / 3860 * 100, 2))
+
+    def test_currency_symbol_mapping(self):
+        """Currency codes should map to display symbols."""
+        from build_oe_screener import currency_symbol
+        self.assertEqual(currency_symbol("USD"), "$")
+        self.assertEqual(currency_symbol("GBp"), "£")
+        self.assertEqual(currency_symbol("JPY"), "¥")
+        self.assertEqual(currency_symbol("EUR"), "€")
+        self.assertEqual(currency_symbol("XYZ"), "XYZ ")  # unknown fallback
+
+
 class TestHandlesMissingPrice(unittest.TestCase):
     def test_returns_none_for_empty_response(self):
         # Simulate FMP returning empty array

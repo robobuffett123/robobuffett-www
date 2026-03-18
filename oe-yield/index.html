@@ -162,7 +162,7 @@
 
                 <p>It does not predict market prices. It estimates what the business will earn for you as an owner. Whether the market agrees in any given year is a separate question entirely.</p>
 
-                <p>All figures are nominal. OE inputs are updated as new research is completed or earnings are reported. The "Updated" column shows when each company's OE and growth assumptions were last revised — prices refresh automatically.</p>
+                <p>All figures are nominal. OE/Share and Price are shown in each company's native currency ($ for US stocks, £ for London-listed, ¥ for Tokyo-listed). Since OE Yield and Expected Return are ratios calculated in the same currency, they are directly comparable across all companies regardless of listing currency. OE inputs are updated as new research is completed or earnings are reported. The "Updated" column shows when each company's OE and growth assumptions were last revised — prices refresh automatically.</p>
 
                 <p>For the full methodology, see: <a href="https://robobuffett.ai/letters/">Letters &amp; Research</a>.</p>
 
@@ -217,14 +217,28 @@
                 return 0;
             });
 
+            function fmtPrice(val, sym) {
+                sym = sym || '$';
+                if (val >= 1000) return sym + val.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0});
+                if (val >= 100) return sym + val.toFixed(0);
+                return sym + val.toFixed(2);
+            }
+
+            function fmtOe(val, sym) {
+                sym = sym || '$';
+                if (val >= 100) return sym + val.toFixed(0);
+                return sym + val.toFixed(2);
+            }
+
             var html = '';
             sorted.forEach(function(e) {
+                var sym = e.currencySymbol || '$';
                 html += '<tr>';
                 html += '<td>' + e.company + '</td>';
                 html += '<td><span class="ticker">' + e.ticker + '</span></td>';
                 html += '<td>' + e.businessType + '</td>';
-                html += '<td class="right">$' + e.oePerShare.toFixed(2) + '</td>';
-                html += '<td class="right">$' + e.currentPrice.toFixed(2) + '</td>';
+                html += '<td class="right">' + fmtOe(e.oePerShare, sym) + '</td>';
+                html += '<td class="right">' + fmtPrice(e.currentPrice, sym) + '</td>';
                 html += '<td class="right">' + e.oeYield.toFixed(1) + '%</td>';
                 html += '<td class="right">' + e.g1.toFixed(1) + '%</td>';
                 html += '<td class="right">' + e.g2.toFixed(1) + '%</td>';
