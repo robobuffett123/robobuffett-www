@@ -210,5 +210,16 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. CAD listing, EUR reporting. Used FCFA2S (€218.7M). CSI spinoff. Zero SBC. GAAP NI distorted by Asseco charge."
+    },
+    {
+        "ticker": "MKTX",
+        "company": "MarketAxess",
+        "businessType": "Exchange / Marketplace",
+        "oePerShare": 5.92,
+        "g1": 8.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. Corporate bond electronic trading. TW competitor. Stock down 65% from highs. Growth stalled — 0% EPS CAGR over 3 years."
     }
 ]
