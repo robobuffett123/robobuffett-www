@@ -164,5 +164,16 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-17",
         "notes": "OE Yield Estimate. Conservative OE — used real D&A only, excluded ~$200M acquisition amortization. Bond electronification tailwind."
+    },
+    {
+        "ticker": "SPGI",
+        "company": "S&P Global",
+        "businessType": "Data / Ratings Monopoly",
+        "oePerShare": 13.90,
+        "g1": 10.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-17",
+        "notes": "OE Yield Estimate. Conservative OE — excluded ~$980M IHS Markit acquisition amortization. Ratings duopoly + index royalty + data monopoly."
     }
 ]

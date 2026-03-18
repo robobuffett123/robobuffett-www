@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T05:36:38.219409+00:00",
+  "updatedAt": "2026-03-18T05:55:11.196937+00:00",
   "entries": [
     {
       "ticker": "CB",
@@ -210,6 +210,21 @@
       "durability": "HIGH",
       "estimateDate": "2026-03-17",
       "notes": "OE Yield Estimate. Conservative OE \u2014 used real D&A only, excluded ~$200M acquisition amortization. Bond electronification tailwind."
+    },
+    {
+      "ticker": "SPGI",
+      "company": "S&P Global",
+      "businessType": "Data / Ratings Monopoly",
+      "oePerShare": 13.9,
+      "currentPrice": 432.94,
+      "oeYield": 3.21,
+      "g1": 10.0,
+      "g2": 3.5,
+      "blendedGrowth": 5.67,
+      "expectedReturn": 8.88,
+      "durability": "HIGH",
+      "estimateDate": "2026-03-17",
+      "notes": "OE Yield Estimate. Conservative OE \u2014 excluded ~$980M IHS Markit acquisition amortization. Ratings duopoly + index royalty + data monopoly."
     }
   ]
 }
