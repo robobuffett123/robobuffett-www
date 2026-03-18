@@ -221,5 +221,16 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. Corporate bond electronic trading. TW competitor. Stock down 65% from highs. Growth stalled — 0% EPS CAGR over 3 years."
+    },
+    {
+        "ticker": "DSGX",
+        "company": "Descartes Systems",
+        "businessType": "Logistics Data Network",
+        "oePerShare": 1.70,
+        "g1": 12.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. FY ends Jan. Multi-sided logistics network (26K+ companies). 0.8% capex/rev. Network effects like CME but for global trade."
     }
 ]
