@@ -232,5 +232,17 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. FY ends Jan. Multi-sided logistics network (26K+ companies). 0.8% capex/rev. Network effects like CME but for global trade."
+    },
+    {
+        "ticker": "RAA.DE",
+        "company": "Rational AG",
+        "businessType": "Industrial Monopoly / Cooking Systems",
+        "oePerShare": 22.02,
+        "g1": 8.0,
+        "g2": 3.5,
+        "currency": "EUR",
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. EUR. 50%+ global combi-oven share. Zero SBC. Cleanest OE calc in screener — OE = NI exactly."
     }
 ]
