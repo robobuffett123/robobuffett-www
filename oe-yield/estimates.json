@@ -131,5 +131,16 @@
         "durability": "MEDIUM",
         "estimateDate": "2026-03-17",
         "notes": "OE Yield Estimate. GBP reporting, USD ADR. Underlying PAT ex DTA credit. Widebody engine duopoly + LTSA repricing."
+    },
+    {
+        "ticker": "TSM",
+        "company": "TSMC",
+        "businessType": "Semiconductor Foundry",
+        "oePerShare": 10.29,
+        "g1": 12.0,
+        "g2": 3.5,
+        "durability": "HIGH",
+        "estimateDate": "2026-03-17",
+        "notes": "OE Yield Estimate. TWD reporting, USD ADR (1 ADR = 5 shares). Monopoly foundry. AI capex supercycle."
     }
 ]
