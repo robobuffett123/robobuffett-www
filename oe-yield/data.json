@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T04:53:53.972738+00:00",
+  "updatedAt": "2026-03-18T05:09:54.716554+00:00",
   "entries": [
     {
       "ticker": "CB",
@@ -135,6 +135,21 @@
       "durability": "HIGH",
       "estimateDate": "2026-03-17",
       "notes": "OE Yield Estimate. LatAm dominant platform. Buy-below target $1,500."
+    },
+    {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "businessType": "Semiconductor Equipment",
+      "oePerShare": 3.89,
+      "currentPrice": 226.47,
+      "oeYield": 1.72,
+      "g1": 10.0,
+      "g2": 3.5,
+      "blendedGrowth": 5.67,
+      "expectedReturn": 7.38,
+      "durability": "MEDIUM",
+      "estimateDate": "2026-03-17",
+      "notes": "OE Yield Estimate. FY2025 (Jun). Cyclical semi capex business. AI/WFE tailwind."
     }
   ]
 }

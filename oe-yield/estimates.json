@@ -109,5 +109,16 @@
         "durability": "HIGH",
         "estimateDate": "2026-03-17",
         "notes": "OE Yield Estimate. LatAm dominant platform. Buy-below target $1,500."
+    },
+    {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "businessType": "Semiconductor Equipment",
+        "oePerShare": 3.89,
+        "g1": 10.0,
+        "g2": 3.5,
+        "durability": "MEDIUM",
+        "estimateDate": "2026-03-17",
+        "notes": "OE Yield Estimate. FY2025 (Jun). Cyclical semi capex business. AI/WFE tailwind."
     }
 ]
