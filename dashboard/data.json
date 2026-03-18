@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-18T07:03:21.281890",
+  "generatedAt": "2026-03-18T08:03:21.108592",
   "stats": {
     "daysActive": 39,
-    "dailyLogs": 38,
-    "companiesResearched": 45,
+    "dailyLogs": 39,
+    "companiesResearched": 51,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
@@ -86,6 +86,41 @@
   ],
   "todo": [],
   "research": [
+    {
+      "name": "HPSP",
+      "files": 1,
+      "lastUpdated": "2026-03-18T08:01:41.614415"
+    },
+    {
+      "name": "MarketAxess",
+      "files": 1,
+      "lastUpdated": "2026-03-18T07:59:27.718013"
+    },
+    {
+      "name": "IHI Corporation",
+      "files": 1,
+      "lastUpdated": "2026-03-18T07:56:12.953908"
+    },
+    {
+      "name": "Leeno Industrial",
+      "files": 1,
+      "lastUpdated": "2026-03-18T07:52:50.662325"
+    },
+    {
+      "name": "Topicus",
+      "files": 1,
+      "lastUpdated": "2026-03-18T07:52:02.627724"
+    },
+    {
+      "name": "Judges Scientific",
+      "files": 1,
+      "lastUpdated": "2026-03-18T07:29:48.624745"
+    },
+    {
+      "name": "Visa",
+      "files": 14,
+      "lastUpdated": "2026-03-18T07:12:20.328816"
+    },
     {
       "name": "S&P Global",
       "files": 1,
@@ -215,11 +250,6 @@
       "name": "SAP",
       "files": 18,
       "lastUpdated": "2026-02-26T22:39:45.933028"
-    },
-    {
-      "name": "Visa",
-      "files": 13,
-      "lastUpdated": "2026-02-24T16:31:45.171649"
     },
     {
       "name": "Salesforce",
