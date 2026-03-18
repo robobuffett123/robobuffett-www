@@ -198,5 +198,17 @@
         "durability": "MEDIUM",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. GBP pence. OE Yield 6.89%, Expected Return 11.89%. Stock halved — trough earnings. Mini CSU for lab instruments. CEO transition risk."
+    },
+    {
+        "ticker": "TOI.V",
+        "company": "Topicus.com",
+        "businessType": "Serial Acquirer / VMS Software",
+        "oePerShare": 2.56,
+        "g1": 15.0,
+        "g2": 3.5,
+        "currency": "CAD",
+        "durability": "HIGH",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. CAD listing, EUR reporting. Used FCFA2S (€218.7M). CSI spinoff. Zero SBC. GAAP NI distorted by Asseco charge."
     }
 ]
