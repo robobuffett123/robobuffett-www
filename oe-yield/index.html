@@ -58,6 +58,10 @@
         .return-green { color: #006600; font-weight: bold; }
         .return-amber { color: #b8860b; font-weight: bold; }
         .return-red { color: #cc0000; font-weight: bold; }
+        .dur-exceptional { color: #006600; font-weight: bold; }
+        .dur-high { color: #2e7d32; }
+        .dur-medium { color: #b8860b; }
+        .dur-low { color: #cc0000; }
         .updated-at {
             font-size: 12px;
             color: #999;
@@ -202,11 +206,19 @@
             return 'return-red';
         }
 
+        var durabilityOrder = { 'EXCEPTIONAL': 4, 'HIGH': 3, 'MEDIUM': 2, 'LOW': 1 };
+
         function render() {
             var sorted = entries.slice().sort(function(a, b) {
                 var va = a[sortKey], vb = b[sortKey];
                 if (va == null) va = '';
                 if (vb == null) vb = '';
+                // Custom sort for durability column
+                if (sortKey === 'durability') {
+                    var da = durabilityOrder[String(va).toUpperCase()] || 0;
+                    var db = durabilityOrder[String(vb).toUpperCase()] || 0;
+                    return sortAsc ? da - db : db - da;
+                }
                 if (typeof va === 'number' && typeof vb === 'number') {
                     return sortAsc ? va - vb : vb - va;
                 }
@@ -244,7 +256,8 @@
                 html += '<td class="right">' + e.g2.toFixed(1) + '%</td>';
                 html += '<td class="right">' + e.blendedGrowth.toFixed(1) + '%</td>';
                 html += '<td class="right ' + returnClass(e.expectedReturn) + '">' + e.expectedReturn.toFixed(1) + '%</td>';
-                html += '<td>' + e.durability + '</td>';
+                var durClass = 'dur-' + (e.durability || '').toLowerCase();
+                html += '<td class="' + durClass + '">' + e.durability + '</td>';
                 html += '<td>' + e.estimateDate + '</td>';
                 html += '</tr>';
             });
