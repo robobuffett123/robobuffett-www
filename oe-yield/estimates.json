@@ -374,5 +374,17 @@
         "durability": "TBD",
         "estimateDate": "2026-03-19",
         "notes": "OE Yield Estimate. JPY. Fabless factory automation. 84% gross margins, 52% op margins. Direct-sales model (12K+ technical consultants). Zero debt, zero SBC, ¥452B cash. China competition risk flagged by East Asia Stock Insights."
+    },
+    {
+        "ticker": "4063.T",
+        "company": "Shin-Etsu Chemical",
+        "businessType": "Chemicals / Semiconductor Materials",
+        "oePerShare": 269,
+        "g1": 7.0,
+        "g2": 3.5,
+        "currency": "JPY",
+        "durability": "TBD",
+        "estimateDate": "2026-03-19",
+        "notes": "OE Yield Estimate. JPY. World #1 silicon wafer + PVC. D&A ≈ maint capex (asset-heavy). FY2025 is trough (PVC downcycle). Zero SBC, zero net debt. Aggressive buybacks (¥500B over 3 years). ~1.5%/yr buyback kicker not in g1."
     }
 ]
