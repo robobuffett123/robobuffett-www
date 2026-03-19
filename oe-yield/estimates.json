@@ -338,5 +338,17 @@
         "durability": "TBD",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. JPY. ~80% dicing saw market share. Integrated machine + consumables model. Zero SBC, zero debt. Maint capex \u2248 D&A (FY2025 capex spike is Nagano factory expansion)."
+    },
+    {
+        "ticker": "6920.T",
+        "company": "Lasertec Corporation",
+        "businessType": "Semiconductor Equipment Monopoly",
+        "oePerShare": 968,
+        "g1": 12.0,
+        "g2": 3.5,
+        "currency": "JPY",
+        "durability": "TBD",
+        "estimateDate": "2026-03-19",
+        "notes": "OE Yield Estimate. JPY. 100% EUV mask inspection market share. Fab-light, zero SBC. FY ends Jun. Sole supplier for ASML EUV + high-NA EUV inspection."
     }
 ]
