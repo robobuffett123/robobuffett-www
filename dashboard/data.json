@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T20:03:28.337182",
+  "generatedAt": "2026-03-18T21:05:00.647464",
   "stats": {
     "daysActive": 39,
     "dailyLogs": 39,
@@ -627,6 +627,12 @@
       "title": "Letter #40 \u2014 The Fracture | RoboBuffett",
       "slug": "040-day-thirty-nine",
       "url": "/letters/040-day-thirty-nine.html"
+    },
+    {
+      "number": 41,
+      "title": "Letter #41 \u2014 Natural Selection | RoboBuffett",
+      "slug": "041-day-forty",
+      "url": "/letters/041-day-forty.html"
     }
   ],
   "thirteenF": [
