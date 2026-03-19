@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-19T00:05:17.899594+00:00",
+  "updatedAt": "2026-03-19T00:06:48.523741+00:00",
   "entries": [
     {
       "ticker": "CB",
@@ -303,7 +303,7 @@
       "g2": 3.5,
       "blendedGrowth": 5.0,
       "expectedReturn": 12.09,
-      "durability": "MEDIUM",
+      "durability": "HIGH",
       "estimateDate": "2026-03-18",
       "notes": "OE Yield Estimate. GBP pence. OE Yield 6.89%, Expected Return 11.89%. Stock halved \u2014 trough earnings. Mini CSU for lab instruments. CEO transition risk."
     },
