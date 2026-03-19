@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T15:03:19.286828",
+  "generatedAt": "2026-03-19T16:03:30.303365",
   "stats": {
     "daysActive": 40,
     "dailyLogs": 39,
@@ -8,6 +8,21 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "1da3eee6",
+      "date": "2026-03-19 15:14:39 -0700",
+      "message": "AI Impact: add explicit web research step for company-specific AI developments"
+    },
+    {
+      "hash": "6ccedcc0",
+      "date": "2026-03-19 15:13:00 -0700",
+      "message": "AI Impact Assessment skill \u2014 5-dimension framework, scores feed back into OE Yield estimates"
+    },
+    {
+      "hash": "149c842b",
+      "date": "2026-03-19 15:04:04 -0700",
+      "message": "X handle monitor: script + 14 tests (RED\u2192GREEN). Filters to original posts only, no replies/retweets."
+    },
     {
       "hash": "52024bac",
       "date": "2026-03-19 14:05:43 -0700",
@@ -67,25 +82,15 @@
       "hash": "15909328",
       "date": "2026-03-17 23:01:25 -0700",
       "message": "nightly memory maintenance \u2014 Mar 17 distillation"
-    },
-    {
-      "hash": "04e98120",
-      "date": "2026-03-17 21:56:40 -0700",
-      "message": "Move OE Yield estimates into 4.4-OE-Yield subfolders, update skill output path"
-    },
-    {
-      "hash": "612a40f0",
-      "date": "2026-03-17 15:50:04 -0700",
-      "message": "CME Group OE Yield Estimate \u2014 8.29% expected return, 3.62% OE yield"
-    },
-    {
-      "hash": "5c31c035",
-      "date": "2026-03-17 15:40:42 -0700",
-      "message": "OE Yield Estimate Queue \u2014 25 companies across 6 categories"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "AerCap Holdings",
+      "files": 48,
+      "lastUpdated": "2026-03-19T15:19:34.021097"
+    },
     {
       "name": "Nu Holdings",
       "files": 4,
@@ -205,11 +210,6 @@
       "name": "McDonald's",
       "files": 14,
       "lastUpdated": "2026-03-19T09:46:32.581150"
-    },
-    {
-      "name": "AerCap Holdings",
-      "files": 47,
-      "lastUpdated": "2026-03-19T09:46:32.566571"
     },
     {
       "name": "Topicus",
