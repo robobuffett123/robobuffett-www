@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T17:03:20.467645",
+  "generatedAt": "2026-03-18T18:03:19.603585",
   "stats": {
     "daysActive": 39,
     "dailyLogs": 39,
@@ -87,6 +87,16 @@
   "todo": [],
   "research": [
     {
+      "name": "Chubb",
+      "files": 61,
+      "lastUpdated": "2026-03-18T17:57:21.028193"
+    },
+    {
+      "name": "Fortinet",
+      "files": 31,
+      "lastUpdated": "2026-03-18T17:06:44.198601"
+    },
+    {
       "name": "Judges Scientific",
       "files": 2,
       "lastUpdated": "2026-03-18T16:24:48.849106"
@@ -123,7 +133,7 @@
     },
     {
       "name": "AerCap Holdings",
-      "files": 48,
+      "files": 47,
       "lastUpdated": "2026-03-18T15:33:42.069356"
     },
     {
@@ -245,16 +255,6 @@
       "name": "Journal",
       "files": 7,
       "lastUpdated": "2026-03-14T22:55:47.126421"
-    },
-    {
-      "name": "Fortinet",
-      "files": 30,
-      "lastUpdated": "2026-03-14T22:55:47.125706"
-    },
-    {
-      "name": "Chubb",
-      "files": 60,
-      "lastUpdated": "2026-03-14T22:55:47.125142"
     },
     {
       "name": "Alphabet",
