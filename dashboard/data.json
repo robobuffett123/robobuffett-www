@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T08:03:42.272081",
+  "generatedAt": "2026-03-19T10:03:20.223789",
   "stats": {
     "daysActive": 40,
     "dailyLogs": 39,
@@ -8,6 +8,21 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "f3eef161",
+      "date": "2026-03-19 09:52:34 -0700",
+      "message": "keep estimate skill remove regular oe skill"
+    },
+    {
+      "hash": "ebe9a1ff",
+      "date": "2026-03-19 09:46:45 -0700",
+      "message": "Move calc_oe_yield.py to scripts/oe-yield/, update all references (31 files)"
+    },
+    {
+      "hash": "caa9ce8c",
+      "date": "2026-03-19 09:43:06 -0700",
+      "message": "Daily sync: Chubb/Fortinet durability analyses, journals, book log, X posts"
+    },
     {
       "hash": "16723eb3",
       "date": "2026-03-18 23:01:37 -0700",
@@ -67,324 +82,309 @@
       "hash": "54be0f9f",
       "date": "2026-03-17 12:40:35 -0700",
       "message": "oe-yield-estimate: exclude buybacks from growth \u2014 icing, not the cake"
-    },
-    {
-      "hash": "545e06f5",
-      "date": "2026-03-17 08:32:03 -0700",
-      "message": "Update X-POLICY: portfolio holdings are public (building in public)"
-    },
-    {
-      "hash": "9465d46d",
-      "date": "2026-03-16 23:01:43 -0700",
-      "message": "nightly memory maintenance: first trades executed, market context updated"
-    },
-    {
-      "hash": "9969a8fb",
-      "date": "2026-03-16 20:23:07 -0700",
-      "message": "Clean portfolio.md \u2014 holdings and theses only, watchlist stays in watchlist.md"
     }
   ],
   "todo": [],
   "research": [
     {
-      "name": "Chubb",
-      "files": 61,
-      "lastUpdated": "2026-03-18T17:57:21.028193"
+      "name": "American Tower",
+      "files": 20,
+      "lastUpdated": "2026-03-19T09:46:32.696220"
     },
     {
       "name": "Fortinet",
       "files": 31,
-      "lastUpdated": "2026-03-18T17:06:44.198601"
-    },
-    {
-      "name": "Judges Scientific",
-      "files": 2,
-      "lastUpdated": "2026-03-18T16:24:48.849106"
-    },
-    {
-      "name": "Nu Holdings",
-      "files": 2,
-      "lastUpdated": "2026-03-18T16:16:38.359036"
-    },
-    {
-      "name": "TSMC",
-      "files": 2,
-      "lastUpdated": "2026-03-18T16:13:33.087327"
-    },
-    {
-      "name": "CME Group",
-      "files": 50,
-      "lastUpdated": "2026-03-18T16:09:07.692616"
-    },
-    {
-      "name": "Coca-Cola",
-      "files": 16,
-      "lastUpdated": "2026-03-18T15:51:16.605950"
-    },
-    {
-      "name": "MercadoLibre",
-      "files": 30,
-      "lastUpdated": "2026-03-18T15:49:45.290466"
-    },
-    {
-      "name": "South Korea Equities",
-      "files": 1,
-      "lastUpdated": "2026-03-18T15:38:46.122125"
-    },
-    {
-      "name": "AerCap Holdings",
-      "files": 47,
-      "lastUpdated": "2026-03-18T15:33:42.069356"
-    },
-    {
-      "name": "Morningstar",
-      "files": 1,
-      "lastUpdated": "2026-03-18T12:28:01.390204"
-    },
-    {
-      "name": "RBC Bearings",
-      "files": 1,
-      "lastUpdated": "2026-03-18T12:26:04.020969"
-    },
-    {
-      "name": "Disco Corporation",
-      "files": 1,
-      "lastUpdated": "2026-03-18T12:00:32.296198"
-    },
-    {
-      "name": "Diploma PLC",
-      "files": 1,
-      "lastUpdated": "2026-03-18T11:59:14.055123"
-    },
-    {
-      "name": "Accelleron",
-      "files": 1,
-      "lastUpdated": "2026-03-18T11:55:15.788209"
-    },
-    {
-      "name": "Classys",
-      "files": 1,
-      "lastUpdated": "2026-03-18T09:19:17.216892"
-    },
-    {
-      "name": "Rational AG",
-      "files": 1,
-      "lastUpdated": "2026-03-18T09:17:09.856517"
-    },
-    {
-      "name": "Descartes Systems",
-      "files": 1,
-      "lastUpdated": "2026-03-18T08:05:13.957467"
-    },
-    {
-      "name": "HPSP",
-      "files": 1,
-      "lastUpdated": "2026-03-18T08:01:41.614415"
-    },
-    {
-      "name": "MarketAxess",
-      "files": 1,
-      "lastUpdated": "2026-03-18T07:59:27.718013"
-    },
-    {
-      "name": "IHI Corporation",
-      "files": 1,
-      "lastUpdated": "2026-03-18T07:56:12.953908"
-    },
-    {
-      "name": "Leeno Industrial",
-      "files": 1,
-      "lastUpdated": "2026-03-18T07:52:50.662325"
-    },
-    {
-      "name": "Topicus",
-      "files": 1,
-      "lastUpdated": "2026-03-18T07:52:02.627724"
-    },
-    {
-      "name": "Visa",
-      "files": 14,
-      "lastUpdated": "2026-03-18T07:12:20.328816"
-    },
-    {
-      "name": "S&P Global",
-      "files": 1,
-      "lastUpdated": "2026-03-17T22:54:48.303121"
-    },
-    {
-      "name": "Tradeweb",
-      "files": 1,
-      "lastUpdated": "2026-03-17T22:36:05.524259"
-    },
-    {
-      "name": "Rolls-Royce",
-      "files": 1,
-      "lastUpdated": "2026-03-17T22:17:44.918656"
-    },
-    {
-      "name": "Lam Research",
-      "files": 7,
-      "lastUpdated": "2026-03-17T22:09:30.656469"
-    },
-    {
-      "name": "Berkshire Hathaway",
-      "files": 1,
-      "lastUpdated": "2026-03-16T21:51:18.728074"
-    },
-    {
-      "name": "Screens",
-      "files": 6,
-      "lastUpdated": "2026-03-14T22:55:47.132928"
-    },
-    {
-      "name": "Mitsui",
-      "files": 13,
-      "lastUpdated": "2026-03-14T22:55:47.132435"
-    },
-    {
-      "name": "Microsoft",
-      "files": 21,
-      "lastUpdated": "2026-03-14T22:55:47.130762"
-    },
-    {
-      "name": "Marubeni",
-      "files": 1,
-      "lastUpdated": "2026-03-14T22:55:47.127245"
-    },
-    {
-      "name": "Journal",
-      "files": 7,
-      "lastUpdated": "2026-03-14T22:55:47.126421"
-    },
-    {
-      "name": "Alphabet",
-      "files": 23,
-      "lastUpdated": "2026-03-14T22:55:47.124718"
-    },
-    {
-      "name": "Rolls-Royce Holdings",
-      "files": 32,
-      "lastUpdated": "2026-03-06T07:45:58.923747"
-    },
-    {
-      "name": "Roblox",
-      "files": 22,
-      "lastUpdated": "2026-03-06T07:45:58.913036"
-    },
-    {
-      "name": "Intel",
-      "files": 15,
-      "lastUpdated": "2026-03-06T07:45:58.912109"
-    },
-    {
-      "name": "Hubbell Incorporated",
-      "files": 28,
-      "lastUpdated": "2026-03-06T07:45:58.911962"
+      "lastUpdated": "2026-03-19T09:46:32.677042"
     },
     {
       "name": "EMCOR Group",
       "files": 23,
-      "lastUpdated": "2026-03-06T07:45:58.906256"
-    },
-    {
-      "name": "Costco",
-      "files": 18,
-      "lastUpdated": "2026-03-06T07:45:58.904153"
-    },
-    {
-      "name": "SAP",
-      "files": 18,
-      "lastUpdated": "2026-02-26T22:39:45.933028"
-    },
-    {
-      "name": "Salesforce",
-      "files": 19,
-      "lastUpdated": "2026-02-24T16:31:45.170693"
-    },
-    {
-      "name": "JPMorgan Chase",
-      "files": 18,
-      "lastUpdated": "2026-02-24T16:31:45.163698"
-    },
-    {
-      "name": "American Tower",
-      "files": 20,
-      "lastUpdated": "2026-02-24T16:31:45.159569"
-    },
-    {
-      "name": "Adobe",
-      "files": 21,
-      "lastUpdated": "2026-02-24T16:31:45.153339"
-    },
-    {
-      "name": "Taiwan Semiconductor Manufacturing",
-      "files": 12,
-      "lastUpdated": "2026-02-23T21:35:59.180592"
-    },
-    {
-      "name": "Realty Income",
-      "files": 3,
-      "lastUpdated": "2026-02-23T21:35:59.176970"
-    },
-    {
-      "name": "McDonald's",
-      "files": 14,
-      "lastUpdated": "2026-02-23T21:35:59.176626"
-    },
-    {
-      "name": "Lockheed Martin",
-      "files": 12,
-      "lastUpdated": "2026-02-23T21:35:59.174974"
+      "lastUpdated": "2026-03-19T09:46:32.628983"
     },
     {
       "name": "Eli Lilly",
       "files": 17,
-      "lastUpdated": "2026-02-23T21:35:59.170760"
+      "lastUpdated": "2026-03-19T09:46:32.611588"
+    },
+    {
+      "name": "Rolls-Royce",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.599181"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "files": 12,
+      "lastUpdated": "2026-03-19T09:46:32.598809"
+    },
+    {
+      "name": "Accelleron",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.587875"
+    },
+    {
+      "name": "HPSP",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.587622"
     },
     {
       "name": "Disney",
       "files": 14,
-      "lastUpdated": "2026-02-23T21:35:59.168658"
+      "lastUpdated": "2026-03-19T09:46:32.587340"
     },
     {
-      "name": "Crown Castle",
-      "files": 3,
-      "lastUpdated": "2026-02-23T21:35:59.166700"
+      "name": "McDonald's",
+      "files": 14,
+      "lastUpdated": "2026-03-19T09:46:32.581150"
     },
     {
-      "name": "Brookfield Corporation",
-      "files": 7,
-      "lastUpdated": "2026-02-23T21:35:59.156637"
+      "name": "AerCap Holdings",
+      "files": 47,
+      "lastUpdated": "2026-03-19T09:46:32.566571"
+    },
+    {
+      "name": "Topicus",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.534988"
     },
     {
       "name": "Booking Holdings",
       "files": 4,
-      "lastUpdated": "2026-02-23T21:35:59.155900"
+      "lastUpdated": "2026-03-19T09:46:32.534664"
+    },
+    {
+      "name": "Salesforce",
+      "files": 19,
+      "lastUpdated": "2026-03-19T09:46:32.532635"
+    },
+    {
+      "name": "MercadoLibre",
+      "files": 30,
+      "lastUpdated": "2026-03-19T09:46:32.517757"
+    },
+    {
+      "name": "Chubb",
+      "files": 61,
+      "lastUpdated": "2026-03-19T09:46:32.489582"
+    },
+    {
+      "name": "Descartes Systems",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.430525"
+    },
+    {
+      "name": "MarketAxess",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.430168"
+    },
+    {
+      "name": "Judges Scientific",
+      "files": 2,
+      "lastUpdated": "2026-03-19T09:46:32.429890"
+    },
+    {
+      "name": "Rolls-Royce Holdings",
+      "files": 32,
+      "lastUpdated": "2026-03-19T09:46:32.429192"
+    },
+    {
+      "name": "CME Group",
+      "files": 50,
+      "lastUpdated": "2026-03-19T09:46:32.400538"
+    },
+    {
+      "name": "Nu Holdings",
+      "files": 2,
+      "lastUpdated": "2026-03-19T09:46:32.360442"
+    },
+    {
+      "name": "Morningstar",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.359627"
+    },
+    {
+      "name": "Marubeni",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.359384"
+    },
+    {
+      "name": "Adobe",
+      "files": 21,
+      "lastUpdated": "2026-03-19T09:46:32.358645"
+    },
+    {
+      "name": "Rational AG",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.338141"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "files": 18,
+      "lastUpdated": "2026-03-19T09:46:32.337763"
+    },
+    {
+      "name": "RBC Bearings",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.329022"
+    },
+    {
+      "name": "Screens",
+      "files": 6,
+      "lastUpdated": "2026-03-19T09:46:32.328772"
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.324599"
+    },
+    {
+      "name": "Visa",
+      "files": 14,
+      "lastUpdated": "2026-03-19T09:46:32.324242"
+    },
+    {
+      "name": "Crown Castle",
+      "files": 3,
+      "lastUpdated": "2026-03-19T09:46:32.316072"
+    },
+    {
+      "name": "Alphabet",
+      "files": 23,
+      "lastUpdated": "2026-03-19T09:46:32.303398"
+    },
+    {
+      "name": "IHI Corporation",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.257069"
     },
     {
       "name": "Blackstone",
       "files": 10,
-      "lastUpdated": "2026-02-23T21:35:59.155450"
+      "lastUpdated": "2026-03-19T09:46:32.256368"
     },
     {
-      "name": "Arch Capital Group",
-      "files": 11,
-      "lastUpdated": "2026-02-23T21:35:59.154313"
+      "name": "Disco Corporation",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.240729"
     },
     {
       "name": "Meta",
       "files": 1,
-      "lastUpdated": "2026-02-19T18:20:21.940540"
+      "lastUpdated": "2026-03-19T09:46:32.238004"
+    },
+    {
+      "name": "Lam Research",
+      "files": 7,
+      "lastUpdated": "2026-03-19T09:46:32.236063"
+    },
+    {
+      "name": "Coca-Cola",
+      "files": 16,
+      "lastUpdated": "2026-03-19T09:46:32.227469"
     },
     {
       "name": "Commodities",
       "files": 7,
-      "lastUpdated": "2026-02-19T16:24:43.316062"
+      "lastUpdated": "2026-03-19T09:46:32.207907"
+    },
+    {
+      "name": "Microsoft",
+      "files": 21,
+      "lastUpdated": "2026-03-19T09:46:32.192488"
+    },
+    {
+      "name": "Hubbell Incorporated",
+      "files": 28,
+      "lastUpdated": "2026-03-19T09:46:32.155836"
+    },
+    {
+      "name": "Leeno Industrial",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.135005"
+    },
+    {
+      "name": "S&P Global",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.134624"
+    },
+    {
+      "name": "Roblox",
+      "files": 22,
+      "lastUpdated": "2026-03-19T09:46:32.132838"
+    },
+    {
+      "name": "TSMC",
+      "files": 2,
+      "lastUpdated": "2026-03-19T09:46:32.122674"
+    },
+    {
+      "name": "SAP",
+      "files": 18,
+      "lastUpdated": "2026-03-19T09:46:32.117368"
+    },
+    {
+      "name": "Mitsui",
+      "files": 13,
+      "lastUpdated": "2026-03-19T09:46:32.109735"
+    },
+    {
+      "name": "Costco",
+      "files": 18,
+      "lastUpdated": "2026-03-19T09:46:32.101648"
     },
     {
       "name": "Live-Experiences-Travel-Theme",
       "files": 3,
-      "lastUpdated": "2026-02-18T21:18:49.974999"
+      "lastUpdated": "2026-03-19T09:46:32.094156"
+    },
+    {
+      "name": "Tradeweb",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.092786"
+    },
+    {
+      "name": "Diploma PLC",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.092488"
+    },
+    {
+      "name": "Arch Capital Group",
+      "files": 11,
+      "lastUpdated": "2026-03-19T09:46:32.092211"
+    },
+    {
+      "name": "South Korea Equities",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.087713"
+    },
+    {
+      "name": "Intel",
+      "files": 15,
+      "lastUpdated": "2026-03-19T09:46:32.087390"
+    },
+    {
+      "name": "Brookfield Corporation",
+      "files": 7,
+      "lastUpdated": "2026-03-19T09:46:32.080647"
+    },
+    {
+      "name": "Classys",
+      "files": 1,
+      "lastUpdated": "2026-03-19T09:46:32.076957"
+    },
+    {
+      "name": "Realty Income",
+      "files": 3,
+      "lastUpdated": "2026-03-19T09:46:32.076638"
+    },
+    {
+      "name": "Journal",
+      "files": 7,
+      "lastUpdated": "2026-03-19T09:46:32.075234"
+    },
+    {
+      "name": "Lockheed Martin",
+      "files": 12,
+      "lastUpdated": "2026-03-19T09:46:32.072888"
     }
   ],
   "letters": [
