@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-03-19T11:03:20.391657",
+  "generatedAt": "2026-03-19T12:03:19.836391",
   "stats": {
     "daysActive": 40,
     "dailyLogs": 39,
-    "companiesResearched": 61,
+    "companiesResearched": 63,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "b5dc6cc3",
+      "date": "2026-03-19 11:13:11 -0700",
+      "message": "clean up oe estimate skill"
+    },
+    {
+      "hash": "696a0d22",
+      "date": "2026-03-19 11:09:35 -0700",
+      "message": "Classys durability, Disco OE update, Lasertec OE estimate"
+    },
     {
       "hash": "f3eef161",
       "date": "2026-03-19 09:52:34 -0700",
@@ -72,20 +82,20 @@
       "hash": "d61280af",
       "date": "2026-03-17 15:39:51 -0700",
       "message": "Daily sync: AER OE yield estimate, BRK/KO estimates, journals, memory, book log"
-    },
-    {
-      "hash": "7c12dd71",
-      "date": "2026-03-17 12:43:09 -0700",
-      "message": "oe-yield-estimate: make 5.2 explicitly use total OE, not per-share, for historical cross-check"
-    },
-    {
-      "hash": "54be0f9f",
-      "date": "2026-03-17 12:40:35 -0700",
-      "message": "oe-yield-estimate: exclude buybacks from growth \u2014 icing, not the cake"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "Lasertec",
+      "files": 2,
+      "lastUpdated": "2026-03-19T11:20:12.546761"
+    },
+    {
+      "name": "Keyence",
+      "files": 1,
+      "lastUpdated": "2026-03-19T11:18:24.228676"
+    },
     {
       "name": "Disco Corporation",
       "files": 1,
