@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-03-19T14:03:20.754258",
+  "generatedAt": "2026-03-19T15:03:19.286828",
   "stats": {
     "daysActive": 40,
     "dailyLogs": 39,
-    "companiesResearched": 65,
+    "companiesResearched": 66,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "52024bac",
+      "date": "2026-03-19 14:05:43 -0700",
+      "message": "Sync research - 2026-03-19"
+    },
     {
       "hash": "b5dc6cc3",
       "date": "2026-03-19 11:13:11 -0700",
@@ -77,15 +82,50 @@
       "hash": "5c31c035",
       "date": "2026-03-17 15:40:42 -0700",
       "message": "OE Yield Estimate Queue \u2014 25 companies across 6 categories"
-    },
-    {
-      "hash": "d61280af",
-      "date": "2026-03-17 15:39:51 -0700",
-      "message": "Daily sync: AER OE yield estimate, BRK/KO estimates, journals, memory, book log"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "Nu Holdings",
+      "files": 4,
+      "lastUpdated": "2026-03-19T14:07:31.254569"
+    },
+    {
+      "name": "Mitsui",
+      "files": 14,
+      "lastUpdated": "2026-03-19T14:07:31.254199"
+    },
+    {
+      "name": "MercadoLibre",
+      "files": 35,
+      "lastUpdated": "2026-03-19T14:07:31.254009"
+    },
+    {
+      "name": "Marubeni",
+      "files": 2,
+      "lastUpdated": "2026-03-19T14:07:31.252884"
+    },
+    {
+      "name": "Lam Research",
+      "files": 10,
+      "lastUpdated": "2026-03-19T14:07:31.252441"
+    },
+    {
+      "name": "Judges Scientific",
+      "files": 3,
+      "lastUpdated": "2026-03-19T14:07:31.251452"
+    },
+    {
+      "name": "CME Group",
+      "files": 51,
+      "lastUpdated": "2026-03-19T14:07:31.251252"
+    },
+    {
+      "name": "AerCap",
+      "files": 27,
+      "lastUpdated": "2026-03-19T14:07:31.251112"
+    },
     {
       "name": "HD Hyundai Electric",
       "files": 1,
@@ -187,11 +227,6 @@
       "lastUpdated": "2026-03-19T09:46:32.532635"
     },
     {
-      "name": "MercadoLibre",
-      "files": 30,
-      "lastUpdated": "2026-03-19T09:46:32.517757"
-    },
-    {
       "name": "Chubb",
       "files": 61,
       "lastUpdated": "2026-03-19T09:46:32.489582"
@@ -207,34 +242,14 @@
       "lastUpdated": "2026-03-19T09:46:32.430168"
     },
     {
-      "name": "Judges Scientific",
-      "files": 2,
-      "lastUpdated": "2026-03-19T09:46:32.429890"
-    },
-    {
       "name": "Rolls-Royce Holdings",
       "files": 32,
       "lastUpdated": "2026-03-19T09:46:32.429192"
     },
     {
-      "name": "CME Group",
-      "files": 50,
-      "lastUpdated": "2026-03-19T09:46:32.400538"
-    },
-    {
-      "name": "Nu Holdings",
-      "files": 2,
-      "lastUpdated": "2026-03-19T09:46:32.360442"
-    },
-    {
       "name": "Morningstar",
       "files": 1,
       "lastUpdated": "2026-03-19T09:46:32.359627"
-    },
-    {
-      "name": "Marubeni",
-      "files": 1,
-      "lastUpdated": "2026-03-19T09:46:32.359384"
     },
     {
       "name": "Adobe",
@@ -297,11 +312,6 @@
       "lastUpdated": "2026-03-19T09:46:32.238004"
     },
     {
-      "name": "Lam Research",
-      "files": 7,
-      "lastUpdated": "2026-03-19T09:46:32.236063"
-    },
-    {
       "name": "Coca-Cola",
       "files": 16,
       "lastUpdated": "2026-03-19T09:46:32.227469"
@@ -345,11 +355,6 @@
       "name": "SAP",
       "files": 18,
       "lastUpdated": "2026-03-19T09:46:32.117368"
-    },
-    {
-      "name": "Mitsui",
-      "files": 13,
-      "lastUpdated": "2026-03-19T09:46:32.109735"
     },
     {
       "name": "Costco",
