@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-19T00:06:48.523741+00:00",
+  "updatedAt": "2026-03-19T00:08:01.847491+00:00",
   "entries": [
     {
       "ticker": "CB",
@@ -31,7 +31,7 @@
       "g2": 3.5,
       "blendedGrowth": 5.67,
       "expectedReturn": 8.94,
-      "durability": "TBD",
+      "durability": "HIGH",
       "estimateDate": "2026-03-13",
       "notes": "Asset-light cybersecurity. Full OE Yield analysis. Durability 2.75/4.0 (HIGH): RevQ 3, CompPos 3, MarginRes 3, CapReq 2, ExtRisk 2. ASIC moat real but R&D treadmill + cloud-native disruption risk."
     },
@@ -235,7 +235,7 @@
       "g2": 4.0,
       "blendedGrowth": 8.67,
       "expectedReturn": 12.53,
-      "durability": "MEDIUM",
+      "durability": "HIGH",
       "estimateDate": "2026-03-17",
       "notes": "OE Yield Estimate. 115M customers. LatAm digital bank. SBC estimated ~$300M. Credit cycle untested at scale."
     },
