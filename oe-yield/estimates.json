@@ -17,9 +17,9 @@
         "oePerShare": 2.73,
         "g1": 10.0,
         "g2": 3.5,
-        "durability": "TBD",
+        "durability": "HIGH",
         "estimateDate": "2026-03-13",
-        "notes": "Asset-light cybersecurity. Full OE Yield analysis. Durability 2.75/4.0 (HIGH): RevQ 3, CompPos 3, MarginRes 3, CapReq 2, ExtRisk 2. ASIC moat real but R&D treadmill + cloud-native disruption risk."
+        "notes": "Asset-light cybersecurity. Full OE Yield analysis. Durability 3.00/4.0 (HIGH floor): RevQ 3, CompPos 3, MarginRes 3, CapReq 3, ExtRisk 3. ASIC moat real but execution-dependent — R&D treadmill + cloud-native disruption risk."
     },
     {
         "ticker": "GOOG",
@@ -150,7 +150,7 @@
         "oePerShare": 0.54,
         "g1": 18.0,
         "g2": 4.0,
-        "durability": "MEDIUM",
+        "durability": "HIGH",
         "estimateDate": "2026-03-17",
         "notes": "OE Yield Estimate. 115M customers. LatAm digital bank. SBC estimated ~$300M. Credit cycle untested at scale."
     },
