@@ -326,5 +326,17 @@
         "durability": "TBD",
         "estimateDate": "2026-03-18",
         "notes": "OE Yield Estimate. KRW. #2 global test socket maker. Supplies pins to competitors (vertical integration moat). 37% op margins, zero SBC. Too expensive after 220% run \u2014 needs semi downturn for entry."
+    },
+    {
+        "ticker": "6146.T",
+        "company": "Disco Corporation",
+        "businessType": "Semiconductor Equipment",
+        "oePerShare": 1141,
+        "g1": 10.0,
+        "g2": 3.5,
+        "currency": "JPY",
+        "durability": "TBD",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. JPY. ~80% dicing saw market share. Integrated machine + consumables model. Zero SBC, zero debt. Maint capex \u2248 D&A (FY2025 capex spike is Nagano factory expansion)."
     }
 ]
