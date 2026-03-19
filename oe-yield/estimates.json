@@ -350,5 +350,29 @@
         "durability": "TBD",
         "estimateDate": "2026-03-19",
         "notes": "OE Yield Estimate. JPY. 100% EUV mask inspection market share. Fab-light, zero SBC. FY ends Jun. Sole supplier for ASML EUV + high-NA EUV inspection."
+    },
+    {
+        "ticker": "7013.T",
+        "company": "IHI Corporation",
+        "businessType": "Aerospace / Defence",
+        "oePerShare": 144.7,
+        "g1": 8.0,
+        "g2": 3.5,
+        "currency": "JPY",
+        "durability": "TBD",
+        "estimateDate": "2026-03-18",
+        "notes": "OE Yield Estimate. JPY. Aero engines (PW1100G/V2500) + defense (GCAP fighter) + energy. FY2024 was ¥68B loss (PW1100G quality issues). FY2025 recovery year. Maint capex 70% of total (asset-heavy). Zero SBC."
+    },
+    {
+        "ticker": "6861.T",
+        "company": "Keyence Corporation",
+        "businessType": "Factory Automation / Sensors",
+        "oePerShare": 1665,
+        "g1": 8.0,
+        "g2": 3.5,
+        "currency": "JPY",
+        "durability": "TBD",
+        "estimateDate": "2026-03-19",
+        "notes": "OE Yield Estimate. JPY. Fabless factory automation. 84% gross margins, 52% op margins. Direct-sales model (12K+ technical consultants). Zero debt, zero SBC, ¥452B cash. China competition risk flagged by East Asia Stock Insights."
     }
 ]
