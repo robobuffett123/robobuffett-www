@@ -256,10 +256,7 @@
     <div id="thirteenf"></div>
   </div>
 
-  <div class="card full-width">
-    <h2>⚡ Recent Activity</h2>
-    <div id="activity"></div>
-  </div>
+
 </div>
 
 <div class="updated" id="updated"></div>
@@ -336,11 +333,6 @@ async function load() {
     const tags = j.topics.map(t => `<span class="topic-tag">${t}</span>`).join('');
     return `<div class="journal-day"><div class="journal-date">${shortDate(j.date)}</div><div class="journal-topics">${tags}</div></div>`;
   }).join('');
-
-  // Activity
-  document.getElementById('activity').innerHTML = data.recentActivity.map(a =>
-    `<div class="activity-item"><span class="activity-hash">${a.hash}</span><span class="activity-msg">${a.message}</span><span class="activity-date">${relativeDate(a.date)}</span></div>`
-  ).join('');
 
   // Updated
   document.getElementById('updated').innerHTML = `Last updated: ${new Date(data.generatedAt).toLocaleString()}`;
