@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-03-19T18:03:20.294414",
+  "generatedAt": "2026-03-19T19:03:20.372712",
   "stats": {
     "daysActive": 40,
     "dailyLogs": 39,
-    "companiesResearched": 66,
+    "companiesResearched": 65,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "cf9ccf7c",
+      "date": "2026-03-19 18:10:30 -0700",
+      "message": "Consolidate AerCap \u2192 AerCap Holdings: move unique OE analysis, delete duplicate folder"
+    },
     {
       "hash": "1da3eee6",
       "date": "2026-03-19 15:14:39 -0700",
@@ -77,19 +82,14 @@
       "hash": "53802b00",
       "date": "2026-03-18 16:07:08 -0700",
       "message": "Add learn-lesson skill"
-    },
-    {
-      "hash": "15909328",
-      "date": "2026-03-17 23:01:25 -0700",
-      "message": "nightly memory maintenance \u2014 Mar 17 distillation"
     }
   ],
   "todo": [],
   "research": [
     {
       "name": "AerCap Holdings",
-      "files": 48,
-      "lastUpdated": "2026-03-19T15:19:34.021097"
+      "files": 49,
+      "lastUpdated": "2026-03-19T18:10:26.305547"
     },
     {
       "name": "Nu Holdings",
@@ -125,11 +125,6 @@
       "name": "CME Group",
       "files": 51,
       "lastUpdated": "2026-03-19T14:07:31.251252"
-    },
-    {
-      "name": "AerCap",
-      "files": 27,
-      "lastUpdated": "2026-03-19T14:07:31.251112"
     },
     {
       "name": "HD Hyundai Electric",
