@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-03-20T20:03:20.289844+00:00",
+  "updatedAt": "2026-03-20T21:03:26.419130+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 105100.0,
-  "totalValue": 102989.18,
-  "totalReturn": -2110.82,
-  "totalReturnPct": -2.01,
+  "totalValue": 102993.13,
+  "totalReturn": -2106.87,
+  "totalReturnPct": -2.0,
   "cash": 14747.37,
   "cashWeight": 14.32,
   "positions": [
@@ -13,10 +13,10 @@
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 131.59,
-      "marketValue": 51978.05,
+      "currentPrice": 131.6,
+      "marketValue": 51982.0,
       "costValue": 53328.95,
-      "gainLoss": -1350.9,
+      "gainLoss": -1346.95,
       "gainLossPct": -2.53,
       "dayChange": 0,
       "dayChangePct": 0,
@@ -40,7 +40,7 @@
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 597.98,
-    "returnPct": -1.82
+    "currentPrice": 597.94,
+    "returnPct": -1.83
   }
 }
