@@ -81,12 +81,12 @@
         "ticker": "AER",
         "company": "AerCap Holdings",
         "businessType": "Aircraft Lessor",
-        "oePerShare": 14.91,
-        "g1": 5.0,
+        "oePerShare": 11.64,
+        "g1": 4.0,
         "g2": 3.5,
-        "durability": "HIGH",
+        "durability": "MEDIUM",
         "estimateDate": "2026-03-17",
-        "notes": "OE Yield Estimate. Adjusted net income minus SBC. We own this. Durability 2.60/4.0 (HIGH): RevQ 3, CompPos 3, MarginRes 2, CapReq 2, ExtRisk 2. Funding moat real but capital-intensive + cyclical margins."
+        "notes": "Full OE Yield analysis. Normalized OE: stripped Ukraine recoveries ($1.5B) + excess trading gains. We own this. Durability MEDIUM: wide moat but physical asset confiscation risk (China 11.7%), no regulatory moat, earnings volatility."
     },
     {
         "ticker": "CME",
