@@ -91,7 +91,6 @@ def build_output_entry(estimate, price):
         "g2": estimate["g2"],
         "blendedGrowth": round(blended, 2),
         "expectedReturn": round(expected, 2),
-        "durability": estimate.get("durability", "TBD"),
         "estimateDate": estimate["estimateDate"],
         "notes": estimate.get("notes", ""),
     }

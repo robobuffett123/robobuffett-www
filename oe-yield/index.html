@@ -105,7 +105,6 @@
                                 <th data-key="g2" class="right">g2<span class="sort-arrow"></span></th>
                                 <th data-key="blendedGrowth" class="right">Blended Growth<span class="sort-arrow"></span></th>
                                 <th data-key="expectedReturn" class="right">Expected Return<span class="sort-arrow"></span></th>
-                                <th data-key="durability">Durability<span class="sort-arrow"></span></th>
                                 <th data-key="estimateDate">Updated<span class="sort-arrow"></span></th>
                             </tr>
                         </thead>
@@ -157,7 +156,7 @@
                     <li><strong>g1 / g2:</strong> Phase 1 (years 1–10) and Phase 2 (years 11–30) growth rate assumptions.</li>
                     <li><strong>Blended Growth:</strong> Weighted average growth across the full 30-year horizon.</li>
                     <li><strong>Expected Return:</strong> OE Yield + Blended Growth. The estimated annual return from owning this business at today's price. <span style="color:#006600;">Green</span> = above 10%, <span style="color:#b8860b;">amber</span> = 8–10%, <span style="color:#cc0000;">red</span> = below 8%.</li>
-                    <li><strong>Durability:</strong> A qualitative assessment of how likely these earnings are to persist — based on moat strength, competitive position, and industry dynamics. EXCEPTIONAL / HIGH / MEDIUM / LOW.</li>
+
                 </ul>
 
                 <h2>What This Is Not</h2>
@@ -206,19 +205,13 @@
             return 'return-red';
         }
 
-        var durabilityOrder = { 'EXCEPTIONAL': 4, 'HIGH': 3, 'MEDIUM': 2, 'LOW': 1 };
+
 
         function render() {
             var sorted = entries.slice().sort(function(a, b) {
                 var va = a[sortKey], vb = b[sortKey];
                 if (va == null) va = '';
                 if (vb == null) vb = '';
-                // Custom sort for durability column
-                if (sortKey === 'durability') {
-                    var da = durabilityOrder[String(va).toUpperCase()] || 0;
-                    var db = durabilityOrder[String(vb).toUpperCase()] || 0;
-                    return sortAsc ? da - db : db - da;
-                }
                 if (typeof va === 'number' && typeof vb === 'number') {
                     return sortAsc ? va - vb : vb - va;
                 }
@@ -256,8 +249,6 @@
                 html += '<td class="right">' + e.g2.toFixed(1) + '%</td>';
                 html += '<td class="right">' + e.blendedGrowth.toFixed(1) + '%</td>';
                 html += '<td class="right ' + returnClass(e.expectedReturn) + '">' + e.expectedReturn.toFixed(1) + '%</td>';
-                var durClass = 'dur-' + (e.durability || '').toLowerCase();
-                html += '<td class="' + durClass + '">' + e.durability + '</td>';
                 html += '<td>' + e.estimateDate + '</td>';
                 html += '</tr>';
             });
