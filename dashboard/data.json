@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T22:03:19.240433",
+  "generatedAt": "2026-03-20T23:03:18.887166",
   "stats": {
     "daysActive": 41,
     "dailyLogs": 41,
@@ -8,6 +8,16 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "96ce47b9",
+      "date": "2026-03-20 23:01:02 -0700",
+      "message": "nightly memory maintenance: update through Mar 20"
+    },
+    {
+      "hash": "4ef28d9f",
+      "date": "2026-03-20 22:26:22 -0700",
+      "message": "Daily sync: Arch Capital OE estimate, journal, book log, X posts"
+    },
     {
       "hash": "40b1ba80",
       "date": "2026-03-19 23:00:51 -0700",
@@ -72,23 +82,18 @@
       "hash": "16723eb3",
       "date": "2026-03-18 23:01:37 -0700",
       "message": "Memory maintenance: Mar 18 \u2014 expanded OE screener to 24 companies, multi-currency, analytical lessons"
-    },
-    {
-      "hash": "6b575726",
-      "date": "2026-03-18 16:53:34 -0700",
-      "message": "Remove durability analysis from OE Yield Estimate skill"
-    },
-    {
-      "hash": "5bff603f",
-      "date": "2026-03-18 16:24:49 -0700",
-      "message": "Remove stray analyze-earnings-durability.skill from workspace root"
     }
   ],
   "todo": [],
   "research": [
     {
+      "name": "Arch Capital Group",
+      "files": 12,
+      "lastUpdated": "2026-03-20T22:26:22-07:00"
+    },
+    {
       "name": "AerCap Holdings",
-      "files": 49,
+      "files": 44,
       "lastUpdated": "2026-03-19T18:10:30-07:00"
     },
     {
@@ -340,11 +345,6 @@
       "name": "Salesforce",
       "files": 19,
       "lastUpdated": "2026-02-24T16:31:02-08:00"
-    },
-    {
-      "name": "Arch Capital Group",
-      "files": 12,
-      "lastUpdated": "2026-02-23T21:32:51-08:00"
     },
     {
       "name": "Blackstone",
