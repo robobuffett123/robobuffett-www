@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-21T05:58:33.173540+00:00",
+  "updatedAt": "2026-03-21T06:11:00.698284+00:00",
   "entries": [
     {
       "ticker": "058470.KQ",
@@ -213,17 +213,17 @@
       "ticker": "CB",
       "company": "Chubb Ltd",
       "businessType": "Insurance",
-      "oePerShare": 21.66,
+      "oePerShare": 20.0,
       "currentPrice": 322.58,
       "currency": "USD",
       "currencySymbol": "$",
-      "oeYield": 6.71,
-      "g1": 7.0,
+      "oeYield": 6.2,
+      "g1": 5.5,
       "g2": 3.5,
-      "blendedGrowth": 4.67,
-      "expectedReturn": 11.38,
-      "estimateDate": "2026-03-13",
-      "notes": "Core operating income metric. Full OE Yield analysis."
+      "blendedGrowth": 4.17,
+      "expectedReturn": 10.37,
+      "estimateDate": "2026-03-20",
+      "notes": "Normalized Core Operating Income (Chubb non-GAAP). FY2024 COI $9,142M haircut 2pts for combined ratio normalization to ~89%, less $357M SBC. Converges with FY2023-24 avg method. Buybacks (~1.5-2%/yr) excluded."
     },
     {
       "ticker": "CME",

@@ -143,11 +143,11 @@
         "ticker": "CB",
         "company": "Chubb Ltd",
         "businessType": "Insurance",
-        "oePerShare": 21.66,
-        "g1": 7.0,
+        "oePerShare": 20.00,
+        "g1": 5.5,
         "g2": 3.5,
-        "estimateDate": "2026-03-13",
-        "notes": "Core operating income metric. Full OE Yield analysis."
+        "estimateDate": "2026-03-20",
+        "notes": "Normalized Core Operating Income (Chubb non-GAAP). FY2024 COI $9,142M haircut 2pts for combined ratio normalization to ~89%, less $357M SBC. Converges with FY2023-24 avg method. Buybacks (~1.5-2%/yr) excluded."
     },
     {
         "ticker": "CME",
