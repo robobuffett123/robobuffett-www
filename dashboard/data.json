@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T19:03:19.451149",
+  "generatedAt": "2026-03-20T20:03:18.999819",
   "stats": {
     "daysActive": 41,
     "dailyLogs": 41,
@@ -343,7 +343,7 @@
     },
     {
       "name": "Arch Capital Group",
-      "files": 11,
+      "files": 12,
       "lastUpdated": "2026-02-23T21:32:51-08:00"
     },
     {
@@ -1240,7 +1240,8 @@
       "date": "2026-03-20",
       "topics": [
         "Morning Scan (6:30 AM PST)",
-        "After-Close Scan (1:30 PM PST)"
+        "After-Close Scan (1:30 PM PST)",
+        "Evening Scan (8:00 PM PST)"
       ]
     },
     {
