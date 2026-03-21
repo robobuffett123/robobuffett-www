@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-21T03:02:27.688183+00:00",
+  "updatedAt": "2026-03-21T05:28:23.721895+00:00",
   "entries": [
     {
       "ticker": "058470.KQ",
@@ -158,18 +158,18 @@
       "ticker": "ACGL",
       "company": "Arch Capital Group",
       "businessType": "Insurance",
-      "oePerShare": 9.84,
+      "oePerShare": 8.0,
       "currentPrice": 92.3,
       "currency": "USD",
       "currencySymbol": "$",
-      "oeYield": 10.66,
-      "g1": 7.0,
+      "oeYield": 8.67,
+      "g1": 5.0,
       "g2": 3.5,
-      "blendedGrowth": 4.67,
-      "expectedReturn": 15.33,
-      "durability": "HIGH",
+      "blendedGrowth": 4.0,
+      "expectedReturn": 12.67,
+      "durability": "MEDIUM",
       "estimateDate": "2026-03-20",
-      "notes": ""
+      "notes": "Full OE Yield analysis. Cycle-normalized OE: ~13% through-cycle Operating ROAE on current equity (reported FY2025 was 17.1%). Op ROAE ranged 4.8%-21.6% over 2020-2023. Jan 2026 property cat renewals down 10-20%. g2 conservative floor \u2014 insurance premiums historically grow GDP+1-2%. Buyback accretion (~2-4%/yr) not in model."
     },
     {
       "ticker": "ACLN.SW",
@@ -499,14 +499,14 @@
       "company": "Rolls-Royce",
       "businessType": "Aerospace / Defence",
       "oePerShare": 0.37,
-      "currentPrice": 15.47,
+      "currentPrice": 15.48,
       "currency": "USD",
       "currencySymbol": "$",
       "oeYield": 2.39,
       "g1": 12.0,
       "g2": 3.5,
       "blendedGrowth": 6.33,
-      "expectedReturn": 8.73,
+      "expectedReturn": 8.72,
       "durability": "TBD",
       "estimateDate": "2026-03-17",
       "notes": "OE Yield Estimate. GBP reporting, USD ADR. Underlying PAT ex DTA credit. Widebody engine duopoly + LTSA repricing."
