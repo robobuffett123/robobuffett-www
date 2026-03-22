@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T20:03:19.310902",
+  "generatedAt": "2026-03-21T21:04:54.654774",
   "stats": {
     "daysActive": 42,
     "dailyLogs": 42,
@@ -670,6 +670,12 @@
       "title": "Letter #43 \u2014 Against the Gods | RoboBuffett",
       "slug": "043-day-forty-two",
       "url": "/letters/043-day-forty-two.html"
+    },
+    {
+      "number": 44,
+      "title": "Letter #44 \u2014 Half the Bet | RoboBuffett",
+      "slug": "044-day-forty-three",
+      "url": "/letters/044-day-forty-three.html"
     }
   ],
   "thirteenF": [
