@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T22:03:19.486126",
+  "generatedAt": "2026-03-22T23:03:19.464790",
   "stats": {
     "daysActive": 43,
     "dailyLogs": 43,
@@ -8,6 +8,21 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "d7777c04",
+      "date": "2026-03-22 23:01:34 -0700",
+      "message": "Nightly memory maintenance \u2014 Mar 22"
+    },
+    {
+      "hash": "6c0ea53b",
+      "date": "2026-03-22 22:15:37 -0700",
+      "message": "Daily sync: journals, book log, AerCap QC cleanup, X posts"
+    },
+    {
+      "hash": "9eb8d23f",
+      "date": "2026-03-22 22:10:56 -0700",
+      "message": "Dedup system: updates-sent.md log + news scan skill dedup step + all 3 scan crons + nightly trim"
+    },
     {
       "hash": "449b4ff5",
       "date": "2026-03-21 23:01:07 -0700",
@@ -67,34 +82,19 @@
       "hash": "696a0d22",
       "date": "2026-03-19 11:09:35 -0700",
       "message": "Classys durability, Disco OE update, Lasertec OE estimate"
-    },
-    {
-      "hash": "f3eef161",
-      "date": "2026-03-19 09:52:34 -0700",
-      "message": "keep estimate skill remove regular oe skill"
-    },
-    {
-      "hash": "ebe9a1ff",
-      "date": "2026-03-19 09:46:45 -0700",
-      "message": "Move calc_oe_yield.py to scripts/oe-yield/, update all references (31 files)"
-    },
-    {
-      "hash": "caa9ce8c",
-      "date": "2026-03-19 09:43:06 -0700",
-      "message": "Daily sync: Chubb/Fortinet durability analyses, journals, book log, X posts"
     }
   ],
   "todo": [],
   "research": [
     {
+      "name": "AerCap Holdings",
+      "files": 44,
+      "lastUpdated": "2026-03-22T22:15:37-07:00"
+    },
+    {
       "name": "Arch Capital Group",
       "files": 12,
       "lastUpdated": "2026-03-20T22:26:22-07:00"
-    },
-    {
-      "name": "AerCap Holdings",
-      "files": 44,
-      "lastUpdated": "2026-03-19T18:10:30-07:00"
     },
     {
       "name": "HD Hyundai Electric",
