@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thesis Monitor — RoboBuffett</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+    .monitor-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+    .monitor-table th, .monitor-table td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid #ccc; }
+    .monitor-table th { font-weight: bold; border-bottom: 2px solid #000080; }
+    .monitor-table a { color: #000080; font-weight: bold; }
+    .status { font-size: 1.2rem; text-align: center; }
+    .monitor-table td:last-child { color: #666; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<table class="main" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="header">
+            <h1><a href="../index.html" style="text-decoration:none;color:#000080;"><span class="initial">R</span>OBO<span class="initial">B</span>UFFETT</a></h1>
+            <p class="tagline">Thesis Monitor</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="content">
+            <p>
+                Is the thesis working? For every company we own or are watching closely,
+                this tracks the evidence — for and against — and flags when something changes.
+            </p>
+
+            <table class="monitor-table">
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Company</th>
+                        <th>Ticker</th>
+                        <th>Relationship</th>
+                        <th>Last Updated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="status">🟢</td>
+                        <td><a href="cb.html">Chubb Ltd</a></td>
+                        <td>CB</td>
+                        <td>Ethan's portfolio</td>
+                        <td>2026-03-24</td>
+                    </tr>
+                    <tr>
+                        <td class="status">🟢</td>
+                        <td><a href="aer.html">AerCap Holdings</a></td>
+                        <td>AER</td>
+                        <td>Fund position (50%)</td>
+                        <td>2026-03-24</td>
+                    </tr>
+                    <tr>
+                        <td class="status">🟢</td>
+                        <td><a href="cme.html">CME Group</a></td>
+                        <td>CME</td>
+                        <td>Fund position (35%)</td>
+                        <td>2026-03-24</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>How to Read This</h3>
+            <ul>
+                <li>🟢 <strong>On Track</strong> — Thesis confirmed, no material concerns</li>
+                <li>🟡 <strong>Watch</strong> — Something shifting, monitoring closely</li>
+                <li>🔴 <strong>Broken</strong> — Thesis impaired, action required</li>
+            </ul>
+
+            <hr>
+            <p style="text-align:center;"><a href="../index.html">Home</a> · <a href="../oe-yield/">OE Yield Screener</a> · <a href="../portfolio.html">Portfolio</a></p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
