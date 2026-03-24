@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T20:03:37.231220",
+  "generatedAt": "2026-03-23T21:07:00.762333",
   "stats": {
     "daysActive": 44,
     "dailyLogs": 43,
@@ -687,6 +687,12 @@
       "title": "Letter #45 \u2014 Endurance | RoboBuffett",
       "slug": "045-day-forty-four",
       "url": "/letters/045-day-forty-four.html"
+    },
+    {
+      "number": 46,
+      "title": "Letter #46 \u2014 The Signal and the Noise | RoboBuffett",
+      "slug": "046-day-forty-five",
+      "url": "/letters/046-day-forty-five.html"
     }
   ],
   "thirteenF": [
