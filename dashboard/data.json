@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T12:03:20.893710",
+  "generatedAt": "2026-03-24T13:03:29.541045",
   "stats": {
     "daysActive": 45,
     "dailyLogs": 44,
@@ -8,6 +8,16 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "ec10faf4",
+      "date": "2026-03-24 12:56:02 -0700",
+      "message": "Core memory: Thesis Monitor dashboard \u2014 what it is, where it lives, how it works"
+    },
+    {
+      "hash": "f9820923",
+      "date": "2026-03-24 12:05:36 -0700",
+      "message": "Sync research - 2026-03-24"
+    },
     {
       "hash": "88d4729a",
       "date": "2026-03-23 23:03:12 -0700",
@@ -72,29 +82,59 @@
       "hash": "149c842b",
       "date": "2026-03-19 15:04:04 -0700",
       "message": "X handle monitor: script + 14 tests (RED\u2192GREEN). Filters to original posts only, no replies/retweets."
-    },
-    {
-      "hash": "52024bac",
-      "date": "2026-03-19 14:05:43 -0700",
-      "message": "Sync research - 2026-03-19"
-    },
-    {
-      "hash": "b5dc6cc3",
-      "date": "2026-03-19 11:13:11 -0700",
-      "message": "clean up oe estimate skill"
     }
   ],
   "todo": [],
   "research": [
     {
       "name": "AerCap Holdings",
-      "files": 44,
-      "lastUpdated": "2026-03-22T22:15:37-07:00"
+      "files": 45,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
     },
     {
       "name": "Arch Capital Group",
-      "files": 12,
-      "lastUpdated": "2026-03-20T22:26:22-07:00"
+      "files": 22,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
+    },
+    {
+      "name": "CME Group",
+      "files": 55,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
+    },
+    {
+      "name": "Chubb",
+      "files": 65,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
+    },
+    {
+      "name": "Journal",
+      "files": 8,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
+    },
+    {
+      "name": "Judges Scientific",
+      "files": 7,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
+    },
+    {
+      "name": "Marubeni",
+      "files": 4,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
+    },
+    {
+      "name": "Mitsui",
+      "files": 15,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
+    },
+    {
+      "name": "Nu Holdings",
+      "files": 17,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
+    },
+    {
+      "name": "Tokio Marine Holdings",
+      "files": 2,
+      "lastUpdated": "2026-03-24T12:05:36-07:00"
     },
     {
       "name": "HD Hyundai Electric",
@@ -117,38 +157,13 @@
       "lastUpdated": "2026-03-19T18:10:30-07:00"
     },
     {
-      "name": "CME Group",
-      "files": 51,
-      "lastUpdated": "2026-03-19T14:05:43-07:00"
-    },
-    {
-      "name": "Judges Scientific",
-      "files": 3,
-      "lastUpdated": "2026-03-19T14:05:43-07:00"
-    },
-    {
       "name": "Lam Research",
       "files": 10,
       "lastUpdated": "2026-03-19T14:05:43-07:00"
     },
     {
-      "name": "Marubeni",
-      "files": 2,
-      "lastUpdated": "2026-03-19T14:05:43-07:00"
-    },
-    {
       "name": "MercadoLibre",
       "files": 35,
-      "lastUpdated": "2026-03-19T14:05:43-07:00"
-    },
-    {
-      "name": "Mitsui",
-      "files": 14,
-      "lastUpdated": "2026-03-19T14:05:43-07:00"
-    },
-    {
-      "name": "Nu Holdings",
-      "files": 4,
       "lastUpdated": "2026-03-19T14:05:43-07:00"
     },
     {
@@ -257,11 +272,6 @@
       "lastUpdated": "2026-03-19T09:46:45-07:00"
     },
     {
-      "name": "Chubb",
-      "files": 61,
-      "lastUpdated": "2026-03-19T09:43:06-07:00"
-    },
-    {
       "name": "Fortinet",
       "files": 31,
       "lastUpdated": "2026-03-19T09:43:06-07:00"
@@ -274,11 +284,6 @@
     {
       "name": "Alphabet",
       "files": 23,
-      "lastUpdated": "2026-03-14T22:37:39-07:00"
-    },
-    {
-      "name": "Journal",
-      "files": 7,
       "lastUpdated": "2026-03-14T22:37:39-07:00"
     },
     {
@@ -410,11 +415,6 @@
       "name": "Live-Experiences-Travel-Theme",
       "files": 3,
       "lastUpdated": "2026-02-18T22:57:32-08:00"
-    },
-    {
-      "name": "Tokio Marine Holdings",
-      "files": 1,
-      "lastUpdated": null
     }
   ],
   "letters": [
