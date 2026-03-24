@@ -88,6 +88,17 @@
         "notes": "OE Yield Estimate. JPY. Aero engines (PW1100G/V2500) + defense (GCAP fighter) + energy. FY2024 was \u00a568B loss (PW1100G quality issues). FY2025 recovery year. Maint capex 70% of total (asset-heavy). Zero SBC."
     },
     {
+        "ticker": "8766.T",
+        "company": "Tokio Marine Holdings",
+        "businessType": "Insurance / Global P&C",
+        "oePerShare": 349,
+        "g1": 6.0,
+        "g2": 3.5,
+        "currency": "JPY",
+        "estimateDate": "2026-03-23",
+        "notes": "OE Yield Estimate. JPY. Normalized adjusted NI (excl ¥376B cross-shareholding sale gains). Japan's #1 P&C insurer, global specialty via HCC/PHLY/Delphi. Zero SBC. D&A ≈ maint capex (insurer). Buybacks ~2.4%/yr not in g1. Mid-term plan targets 7% NI CAGR, 8%+ EPS CAGR."
+    },
+    {
         "ticker": "8031.T",
         "company": "Mitsui & Co",
         "businessType": "General Operating",
