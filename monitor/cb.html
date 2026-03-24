@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chubb Limited (CB) — Thesis Monitor</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --yellow: #d29922;
+    --red: #f85149;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Header */
+  header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  header h1 { font-size: 1.5rem; font-weight: 600; }
+  .back-link { font-size: 0.85rem; margin-left: auto; }
+
+  /* Status pills */
+  .status-pill {
+    display: inline-block;
+    padding: 0.2rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .status-pill.green { background: var(--green); color: #000; }
+  .status-pill.yellow { background: var(--yellow); color: #000; }
+  .status-pill.red { background: var(--red); color: #000; }
+
+  /* Alert bar (only present when thesis killer triggered) */
+  .alert-bar {
+    background: var(--red);
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    .grid { grid-template-columns: 1fr; }
+    body { padding: 1rem; }
+    header { gap: 0.5rem; }
+  }
+
+  /* Cards */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  .card.full-width { grid-column: 1 / -1; }
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .card-header h2 {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  /* Frequency badge */
+  .freq-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+  }
+
+  /* Metric rows */
+  .metric-row {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .metric-row:last-child { border-bottom: none; }
+  .metric-primary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .metric-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    flex: 1;
+    min-width: 0;
+  }
+  .metric-value {
+    font-size: 0.85rem;
+    text-align: right;
+    flex-shrink: 0;
+    color: var(--text);
+  }
+  .metric-secondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 0.2rem;
+    padding-left: 18px;
+  }
+
+  /* Status dot */
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    position: relative;
+    top: -1px;
+  }
+  .dot.green { background: var(--green); }
+  .dot.yellow { background: var(--yellow); }
+  .dot.red { background: var(--red); }
+
+  /* Threshold hints */
+  .threshold-hint {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+  }
+
+  /* Source */
+  .source {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    flex-shrink: 0;
+    margin-left: 1rem;
+  }
+
+  /* Thesis killers card */
+  .killers-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .killers-card .card-header h2 { color: var(--text); }
+  .killer-hint {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-bottom: 1rem;
+  }
+
+  /* Changelog */
+  .changelog-entry {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85rem;
+  }
+  .changelog-entry:last-child { border-bottom: none; }
+  .changelog-date {
+    font-weight: 600;
+    color: var(--accent);
+    margin-right: 0.5rem;
+  }
+
+  /* Footer */
+  .updated {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Chubb Limited (CB)</h1>
+  <span class="status-pill green">Green</span>
+  <a class="back-link" href="/monitor/">&#8592; All Companies</a>
+</header>
+
+<!-- Alert bar: uncomment and change overall status pill when a thesis killer is triggered
+<div class="alert-bar">THESIS KILLER TRIGGERED — [description]</div>
+-->
+
+<div class="killers-card">
+  <div class="card-header">
+    <h2>Thesis Killers</h2>
+    <span class="freq-badge">Event-Driven</span>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">Combined Ratio Sustained &gt;95%</span>
+      <span class="metric-value">86.6% (2024)</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: &lt;92% &middot; Y: 92-95% &middot; R: &gt;95% sustained 2+ yrs</span>
+      <span class="source">10-K</span>
+    </div>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">AM Best Rating</span>
+      <span class="metric-value">A++</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: A++ &middot; Y: Outlook negative &middot; R: Downgrade from A++</span>
+      <span class="source">AM Best</span>
+    </div>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">Single Reserve Charge</span>
+      <span class="metric-value">None</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: None &middot; Y: &gt;$1B &middot; R: &gt;$3B</span>
+      <span class="source">Earnings</span>
+    </div>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">China/Huatai Writedown</span>
+      <span class="metric-value">$0</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: No impairment &middot; Y: Partial writedown &middot; R: &gt;50% of carrying value</span>
+      <span class="source">10-K</span>
+    </div>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">Capital Allocation Failure</span>
+      <span class="metric-value">None</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: Disciplined &middot; Y: Large debt-funded acq &middot; R: Non-insurance diversification</span>
+      <span class="source">Earnings</span>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+
+  <!-- Card A: Underwriting -->
+  <div class="card">
+    <div class="card-header">
+      <h2>A. Is the Underwriting Holding?</h2>
+      <span class="freq-badge">Quarterly</span>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">P&amp;C Combined Ratio</span>
+        <span class="metric-value">86.6%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;90% &middot; Y: 90-95% &middot; R: &gt;95%</span>
+        <span class="source">Earnings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">CAY Combined Ratio ex-Cat</span>
+        <span class="metric-value">83.1%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;85% &middot; Y: 85-90% &middot; R: &gt;90%</span>
+        <span class="source">Earnings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Prior Period Development</span>
+        <span class="metric-value">+$856M favorable</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: Favorable &middot; Y: Neutral &middot; R: Adverse &gt;$500M</span>
+        <span class="source">10-K</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Policy Renewal Retention</span>
+        <span class="metric-value">84.7%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;80% &middot; Y: 75-80% &middot; R: &lt;75%</span>
+        <span class="source">10-K</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Net Debt/Capital</span>
+        <span class="metric-value">18.2%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;25% &middot; Y: 25-35% &middot; R: &gt;35%</span>
+        <span class="source">10-K</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card B: Moat -->
+  <div class="card">
+    <div class="card-header">
+      <h2>B. Is the Moat Holding?</h2>
+      <span class="freq-badge">Quarterly / Annually</span>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">J.D. Power Home Insurance</span>
+        <span class="metric-value">#1 (2024)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: Top 3 &middot; Y: Top 5 &middot; R: Below top 5</span>
+        <span class="source">J.D. Power</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">AM Best Rating</span>
+        <span class="metric-value">A++ stable</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: A++ stable &middot; Y: Outlook negative &middot; R: Downgrade</span>
+        <span class="source">AM Best</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">Glassdoor Rating</span>
+        <span class="metric-value">3.8/5 (declining)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;4.0 &middot; Y: 3.5-4.0 &middot; R: &lt;3.5</span>
+        <span class="source">Glassdoor</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Insurtech Combined Ratios</span>
+        <span class="metric-value">Lemonade 165%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;110% &middot; Y: 100-110% &middot; R: &lt;100% at scale</span>
+        <span class="source">Peer filings</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card C: Management -->
+  <div class="card">
+    <div class="card-header">
+      <h2>C. Is Management Executing?</h2>
+      <span class="freq-badge">Quarterly</span>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">CEO Succession Plan</span>
+        <span class="metric-value">No public plan (Greenberg age/tenure)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: Clear plan &middot; Y: No public plan &middot; R: Disorderly transition</span>
+        <span class="source">News / filings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Capital Allocation</span>
+        <span class="metric-value">Disciplined, bolt-on M&amp;A</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: Disciplined &middot; Y: Questionable deal &middot; R: Value-destroying acq</span>
+        <span class="source">Earnings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Dividend + Buyback Growth</span>
+        <span class="metric-value">Consistent increases</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: Growing &middot; Y: Flat &middot; R: Cut or suspended</span>
+        <span class="source">Earnings</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card D: Catastrophe & Tail Risk -->
+  <div class="card">
+    <div class="card-header">
+      <h2>D. Catastrophe &amp; Tail Risk</h2>
+      <span class="freq-badge">Quarterly / Event</span>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">Annual Cat Losses</span>
+        <span class="metric-value">$2.4B (2024) + $1.5B Q1 2025</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;$2B/yr &middot; Y: $2-4B &middot; R: &gt;$4B or 2+ mega-cats</span>
+        <span class="source">Earnings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">Nuclear Verdict Count</span>
+        <span class="metric-value">135 (2024, +52% YoY)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: Stable/declining &middot; Y: Rising &gt;20% YoY &middot; R: Accelerating + reserve charges</span>
+        <span class="source">Industry data</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Run-off Adverse Development</span>
+        <span class="metric-value">$296M (2024)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;$500M &middot; Y: $500M-$1B &middot; R: &gt;$1B</span>
+        <span class="source">10-K</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">China/Huatai Geopolitics</span>
+        <span class="metric-value">Stable</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: Stable &middot; Y: Regulatory friction &middot; R: Forced divestiture</span>
+        <span class="source">News</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">Social Inflation Trend</span>
+        <span class="metric-value">Accelerating (~8% annual)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;5% &middot; Y: 5-10% &middot; R: &gt;10% or tort reform reversal</span>
+        <span class="source">Industry data</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Changelog -->
+  <div class="card full-width">
+    <div class="card-header">
+      <h2>Changelog</h2>
+    </div>
+    <div class="changelog-entry">
+      <span class="changelog-date">2026-03-24</span>
+      Initial setup with FY2024/FY2025 data. Five yellow items: cat losses trending high after Q1 2025, nuclear verdicts accelerating, Glassdoor declining (RTO friction), CEO succession unclear, social inflation accelerating.
+    </div>
+  </div>
+
+</div>
+
+<div class="updated">Last updated: 2026-03-24</div>
+
+</body>
+</html>

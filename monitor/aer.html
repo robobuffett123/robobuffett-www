@@ -186,6 +186,36 @@
     margin-bottom: 1rem;
   }
 
+  /* Key dates */
+  .date-row {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .date-row:last-child { border-bottom: none; }
+  .date-primary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+  }
+  .date-when {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--accent);
+    background: rgba(88, 166, 255, 0.1);
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .date-event { font-weight: 500; }
+  .date-context {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-top: 0.15rem;
+    padding-left: calc(0.75rem);
+  }
+
   /* Changelog */
   .changelog-entry {
     padding: 0.5rem 0;
@@ -513,6 +543,56 @@
         <span class="threshold-hint">G: Stable &middot; Y: Rising 50%+ &middot; R: Surging/unavailable</span>
         <span class="source">Insurance market</span>
       </div>
+    </div>
+  </div>
+
+  <!-- Key Dates -->
+  <div class="card full-width">
+    <div class="card-header">
+      <h2>Key Dates</h2>
+      <span class="freq-badge">Upcoming</span>
+    </div>
+    <div class="date-row">
+      <div class="date-primary">
+        <span class="date-when">Late Apr 2026</span>
+        <span class="date-event">Q1 2026 Earnings</span>
+      </div>
+      <div class="date-context">First read on 2026 execution</div>
+    </div>
+    <div class="date-row">
+      <div class="date-primary">
+        <span class="date-when">Through 2026</span>
+        <span class="date-event">$5.3B debt maturing</span>
+      </div>
+      <div class="date-context">Refinancing cost signals moat health</div>
+    </div>
+    <div class="date-row">
+      <div class="date-primary">
+        <span class="date-when">Through 2026</span>
+        <span class="date-event">86 aircraft deliveries from order book</span>
+      </div>
+      <div class="date-context">Order book execution pace</div>
+    </div>
+    <div class="date-row">
+      <div class="date-primary">
+        <span class="date-when">Late 2026</span>
+        <span class="date-event">Reinsurer trial (Russia insurance claims)</span>
+      </div>
+      <div class="date-context">Adverse outcome = $1.2B clawback risk</div>
+    </div>
+    <div class="date-row">
+      <div class="date-primary">
+        <span class="date-when">Late 2026</span>
+        <span class="date-event">GTF grounding normalization expected</span>
+      </div>
+      <div class="date-context">MRO backlog clearing &mdash; fleet utilization impact</div>
+    </div>
+    <div class="date-row">
+      <div class="date-primary">
+        <span class="date-when">2027</span>
+        <span class="date-event">$5.7B debt maturing</span>
+      </div>
+      <div class="date-context">Largest near-term refinancing tranche</div>
     </div>
   </div>
 
