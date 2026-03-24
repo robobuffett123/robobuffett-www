@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-23T19:03:19.695375",
+  "generatedAt": "2026-03-23T20:03:37.231220",
   "stats": {
     "daysActive": 44,
     "dailyLogs": 43,
-    "companiesResearched": 65,
+    "companiesResearched": 66,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
@@ -410,6 +410,11 @@
       "name": "Live-Experiences-Travel-Theme",
       "files": 3,
       "lastUpdated": "2026-02-18T22:57:32-08:00"
+    },
+    {
+      "name": "Tokio Marine Holdings",
+      "files": 1,
+      "lastUpdated": null
     }
   ],
   "letters": [
@@ -1257,7 +1262,8 @@
     {
       "date": "2026-03-23",
       "topics": [
-        "Morning Scan (6:30 AM PST)"
+        "Morning Scan (6:30 AM PST)",
+        "Evening Scan (8:00 PM PST)"
       ]
     },
     {
