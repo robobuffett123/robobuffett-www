@@ -15,8 +15,10 @@
     .meta { color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; }
     .meta strong { color: #333; }
     .overall-status { font-size: 1.5rem; display: inline-block; margin-right: 0.5rem; }
-    .tier-label { font-weight: bold; margin-top: 1.5rem; margin-bottom: 0.5rem; font-size: 0.95rem; }
     .tier-desc { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; font-style: italic; }
+    .triggers { font-size: 0.9rem; line-height: 1.6; }
+    .triggers strong { color: #333; }
+    .triggers ul { margin: 0.3rem 0 0.8rem 1.2rem; }
 </style>
 </head>
 <body>
@@ -38,7 +40,7 @@
                 <strong>Last Updated:</strong> 2026-03-24
             </div>
 
-            <!-- TIER 1 -->
+            <!-- TIER 1: THESIS KILLERS -->
             <div class="section">
                 <h2>Tier 1: Thesis Killers</h2>
                 <p class="tier-desc">Check quarterly — any one of these = re-evaluate the position</p>
@@ -87,7 +89,7 @@
                 </table>
             </div>
 
-            <!-- TIER 2 -->
+            <!-- TIER 2: CORE UNDERWRITING HEALTH -->
             <div class="section">
                 <h2>Tier 2: Core Underwriting Health</h2>
                 <p class="tier-desc">Check quarterly</p>
@@ -112,7 +114,7 @@
                             <td class="status">🟢</td>
                             <td>CAY Combined Ratio ex-Cat</td>
                             <td>&gt;87%</td>
-                            <td>81.9% (FY2025)</td>
+                            <td>83.1%</td>
                         </tr>
                         <tr>
                             <td class="status">🟢</td>
@@ -142,7 +144,7 @@
                 </table>
             </div>
 
-            <!-- TIER 3 -->
+            <!-- TIER 3: MOAT EROSION SIGNALS -->
             <div class="section">
                 <h2>Tier 3: Moat Erosion Signals</h2>
                 <p class="tier-desc">Check quarterly / annually</p>
@@ -167,31 +169,99 @@
                             <td class="status">🟢</td>
                             <td>J.D. Power Home Insurance</td>
                             <td>Below #3</td>
-                            <td>#1 (2024)</td>
+                            <td>#1</td>
+                        </tr>
+                        <tr>
+                            <td class="status">🟡</td>
+                            <td>Glassdoor Rating</td>
+                            <td>&lt;3.5</td>
+                            <td>3.8 (declining)</td>
                         </tr>
                         <tr>
                             <td class="status">🟢</td>
-                            <td>Glassdoor Rating</td>
-                            <td>&lt;3.5</td>
-                            <td>3.8/5</td>
+                            <td>Insurtech Combined Ratios</td>
+                            <td>&lt;95% with growth</td>
+                            <td>Lemonade at 165%</td>
                         </tr>
                         <tr>
                             <td class="status">🟡</td>
                             <td>Run-off Adverse Development</td>
                             <td>&gt;$500M</td>
-                            <td>$296M (FY2024)</td>
+                            <td>$296M</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- TIER 4: SCENARIO PROBABILITY TRIGGERS -->
+            <div class="section">
+                <h2>Tier 4: Scenario Probability Triggers</h2>
+
+                <div class="triggers">
+                    <strong>Bullish shifts (toward scenarios 1-2):</strong>
+                    <ul>
+                        <li>Digital automation &gt;50% by 2027</li>
+                        <li>Tort reform in 3+ states</li>
+                        <li>Social inflation stabilizing</li>
+                        <li>Succession plan announced</li>
+                        <li>Huatai dividends increasing</li>
+                    </ul>
+
+                    <strong>Bearish shifts (toward scenarios 4-5):</strong>
+                    <ul>
+                        <li>Adverse development &gt;$500M any quarter</li>
+                        <li>Nuclear verdicts &gt;180 in 2026</li>
+                        <li>Combined ratio &gt;92% for 2+ quarters</li>
+                        <li>AM Best outlook negative</li>
+                        <li>Glassdoor &lt;3.5</li>
+                        <li>CEO health/departure</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- TIER 5: DISRUPTION WATCH -->
+            <div class="section">
+                <h2>Tier 5: Disruption Watch</h2>
+                <p class="tier-desc">Check annually</p>
+
+                <table class="m-table">
+                    <thead>
+                        <tr>
+                            <th>Disruptor</th>
+                            <th>Threat Level</th>
+                            <th>Watch For</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Social inflation / nuclear verdicts</td>
+                            <td>Medium-High</td>
+                            <td>&gt;150 verdicts &gt;$10M/yr, casualty costs rising 5-10%</td>
                         </tr>
                         <tr>
-                            <td class="status">🟢</td>
-                            <td>CEO Succession</td>
-                            <td>Departure without clear successor</td>
-                            <td>Greenberg in place, age ~70</td>
+                            <td>Climate / gov't programs</td>
+                            <td>Medium</td>
+                            <td>Annual cats &gt;$4B, state program expansion</td>
                         </tr>
                         <tr>
-                            <td class="status">🟢</td>
-                            <td>Insurtech Disruption</td>
-                            <td>AI underwriting matching human accuracy in specialty lines</td>
-                            <td>No evidence — insurtechs pivoting to profitability</td>
+                            <td>CEO succession (Greenberg)</td>
+                            <td>Medium</td>
+                            <td>Philosophy change, combined ratio widening &gt;200bps post-transition</td>
+                        </tr>
+                        <tr>
+                            <td>China/Huatai geopolitics</td>
+                            <td>Medium</td>
+                            <td>Forced divestiture, goodwill impairment</td>
+                        </tr>
+                        <tr>
+                            <td>Coalition / cyber MGAs</td>
+                            <td>Low-Medium</td>
+                            <td>AI underwriting outperforming Chubb cyber line</td>
+                        </tr>
+                        <tr>
+                            <td>Japanese insurers (Tokio Marine)</td>
+                            <td>Low-Medium</td>
+                            <td>Aggressive U.S. specialty M&A</td>
                         </tr>
                     </tbody>
                 </table>
