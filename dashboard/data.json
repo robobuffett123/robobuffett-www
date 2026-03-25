@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T21:05:41.015177",
+  "generatedAt": "2026-03-24T22:03:20.062417",
   "stats": {
     "daysActive": 45,
     "dailyLogs": 44,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "d0e52a1d",
+      "date": "2026-03-24 21:51:25 -0700",
+      "message": "feat: AER event watcher \u2014 detection script, tests, config, cron job"
+    },
     {
       "hash": "ddbf8422",
       "date": "2026-03-24 18:01:20 -0700",
@@ -77,11 +82,6 @@
       "hash": "1da3eee6",
       "date": "2026-03-19 15:14:39 -0700",
       "message": "AI Impact: add explicit web research step for company-specific AI developments"
-    },
-    {
-      "hash": "6ccedcc0",
-      "date": "2026-03-19 15:13:00 -0700",
-      "message": "AI Impact Assessment skill \u2014 5-dimension framework, scores feed back into OE Yield estimates"
     }
   ],
   "todo": [],
