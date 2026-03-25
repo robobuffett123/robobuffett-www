@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T17:03:20.438837",
+  "generatedAt": "2026-03-24T18:03:20.073528",
   "stats": {
     "daysActive": 45,
     "dailyLogs": 44,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "ddbf8422",
+      "date": "2026-03-24 18:01:20 -0700",
+      "message": "Event Watcher design doc \u2014 FMP polling, triage/sub-agent architecture, thesis monitor integration"
+    },
     {
       "hash": "ec10faf4",
       "date": "2026-03-24 12:56:02 -0700",
@@ -77,11 +82,6 @@
       "hash": "6ccedcc0",
       "date": "2026-03-19 15:13:00 -0700",
       "message": "AI Impact Assessment skill \u2014 5-dimension framework, scores feed back into OE Yield estimates"
-    },
-    {
-      "hash": "149c842b",
-      "date": "2026-03-19 15:04:04 -0700",
-      "message": "X handle monitor: script + 14 tests (RED\u2192GREEN). Filters to original posts only, no replies/retweets."
     }
   ],
   "todo": [],
