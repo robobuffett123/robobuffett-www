@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-03-24T22:03:20.062417",
+  "generatedAt": "2026-03-24T23:03:19.673693",
   "stats": {
     "daysActive": 45,
-    "dailyLogs": 44,
+    "dailyLogs": 45,
     "companiesResearched": 66,
     "managersTracked": 18,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "1d67ffb1",
+      "date": "2026-03-24 23:01:22 -0700",
+      "message": "nightly maintenance: memory update Mar 24, new daily file, journal + research sync"
+    },
+    {
+      "hash": "30a26df9",
+      "date": "2026-03-24 22:05:20 -0700",
+      "message": "fix: switch filings from FMP (404) to SEC EDGAR submissions API"
+    },
     {
       "hash": "d0e52a1d",
       "date": "2026-03-24 21:51:25 -0700",
@@ -72,20 +82,20 @@
       "hash": "51402233",
       "date": "2026-03-19 22:06:46 -0700",
       "message": "build_dashboard: use git commit dates for research timestamps"
-    },
-    {
-      "hash": "cf9ccf7c",
-      "date": "2026-03-19 18:10:30 -0700",
-      "message": "Consolidate AerCap \u2192 AerCap Holdings: move unique OE analysis, delete duplicate folder"
-    },
-    {
-      "hash": "1da3eee6",
-      "date": "2026-03-19 15:14:39 -0700",
-      "message": "AI Impact: add explicit web research step for company-specific AI developments"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "Adobe",
+      "files": 22,
+      "lastUpdated": "2026-03-24T23:01:22-07:00"
+    },
+    {
+      "name": "Tokio Marine Holdings",
+      "files": 2,
+      "lastUpdated": "2026-03-24T23:01:22-07:00"
+    },
     {
       "name": "AerCap Holdings",
       "files": 45,
@@ -129,11 +139,6 @@
     {
       "name": "Nu Holdings",
       "files": 17,
-      "lastUpdated": "2026-03-24T12:05:36-07:00"
-    },
-    {
-      "name": "Tokio Marine Holdings",
-      "files": 2,
       "lastUpdated": "2026-03-24T12:05:36-07:00"
     },
     {
@@ -330,11 +335,6 @@
       "name": "SAP",
       "files": 18,
       "lastUpdated": "2026-02-26T23:00:29-08:00"
-    },
-    {
-      "name": "Adobe",
-      "files": 22,
-      "lastUpdated": "2026-02-24T16:31:02-08:00"
     },
     {
       "name": "American Tower",
