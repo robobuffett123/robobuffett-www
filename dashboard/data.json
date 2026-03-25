@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T10:03:20.630220",
+  "generatedAt": "2026-03-25T11:03:21.549940",
   "stats": {
     "daysActive": 46,
     "dailyLogs": 45,
@@ -8,6 +8,16 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "8f130abb",
+      "date": "2026-03-25 10:16:53 -0700",
+      "message": "Daily sync: journal, insight log, X posts"
+    },
+    {
+      "hash": "566eb598",
+      "date": "2026-03-25 10:12:13 -0700",
+      "message": "MEMORY.md cleanup: trim letters to reference, replace OE table with pointer, compress observations, remove stale lists, fix skill refs"
+    },
     {
       "hash": "1d67ffb1",
       "date": "2026-03-24 23:01:22 -0700",
@@ -72,16 +82,6 @@
       "hash": "4ef28d9f",
       "date": "2026-03-20 22:26:22 -0700",
       "message": "Daily sync: Arch Capital OE estimate, journal, book log, X posts"
-    },
-    {
-      "hash": "40b1ba80",
-      "date": "2026-03-19 23:00:51 -0700",
-      "message": "nightly memory maintenance \u2014 Mar 19"
-    },
-    {
-      "hash": "51402233",
-      "date": "2026-03-19 22:06:46 -0700",
-      "message": "build_dashboard: use git commit dates for research timestamps"
     }
   ],
   "todo": [],
