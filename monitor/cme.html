@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CME Group (CME) — Thesis Monitor</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --yellow: #d29922;
+    --red: #f85149;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Header */
+  header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  header h1 { font-size: 1.5rem; font-weight: 600; }
+  .back-link { font-size: 0.85rem; margin-left: auto; }
+
+  /* Status pills */
+  .status-pill {
+    display: inline-block;
+    padding: 0.2rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .status-pill.green { background: var(--green); color: #000; }
+  .status-pill.yellow { background: var(--yellow); color: #000; }
+  .status-pill.red { background: var(--red); color: #000; }
+
+  /* Alert bar (only present when thesis killer triggered) */
+  .alert-bar {
+    background: var(--red);
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    .grid { grid-template-columns: 1fr; }
+    body { padding: 1rem; }
+    header { gap: 0.5rem; }
+  }
+
+  /* Cards */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  .card.full-width { grid-column: 1 / -1; }
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .card-header h2 {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  /* Frequency badge */
+  .freq-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+  }
+
+  /* Metric rows */
+  .metric-row {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .metric-row:last-child { border-bottom: none; }
+  .metric-primary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .metric-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    flex: 1;
+    min-width: 0;
+  }
+  .metric-value {
+    font-size: 0.85rem;
+    text-align: right;
+    flex-shrink: 0;
+    color: var(--text);
+  }
+  .metric-secondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 0.2rem;
+    padding-left: 18px;
+  }
+
+  /* Status dot */
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    position: relative;
+    top: -1px;
+  }
+  .dot.green { background: var(--green); }
+  .dot.yellow { background: var(--yellow); }
+  .dot.red { background: var(--red); }
+
+  /* Threshold hints */
+  .threshold-hint {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+  }
+
+  /* Source */
+  .source {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    flex-shrink: 0;
+    margin-left: 1rem;
+  }
+
+  /* Thesis killers card */
+  .killers-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .killers-card .card-header h2 { color: var(--text); }
+  .killer-hint {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-bottom: 1rem;
+  }
+
+  /* Key dates */
+  .date-entry {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85rem;
+  }
+  .date-entry:last-child { border-bottom: none; }
+  .date-when {
+    font-weight: 600;
+    color: var(--accent);
+    margin-right: 0.5rem;
+  }
+
+  /* Changelog */
+  .changelog-entry {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85rem;
+  }
+  .changelog-entry:last-child { border-bottom: none; }
+  .changelog-date {
+    font-weight: 600;
+    color: var(--accent);
+    margin-right: 0.5rem;
+  }
+
+  /* Footer */
+  .updated {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>CME Group (CME)</h1>
+  <span class="status-pill yellow">Yellow</span>
+  <a class="back-link" href="/monitor/">&#8592; All Companies</a>
+</header>
+
+<!-- Alert bar: not triggered — no thesis killer is Red -->
+
+<div class="killers-card">
+  <div class="card-header">
+    <h2>Thesis Killers</h2>
+    <span class="freq-badge">Event-Driven</span>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">FMX captures &gt;10% share in SOFR or Treasury futures</span>
+      <span class="metric-value">&lt;1% share</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: &lt;5% &middot; Y: 5&ndash;10% &middot; R: &gt;10%</span>
+      <span class="source">Industry data</span>
+    </div>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">Transaction tax enacted (IL or federal)</span>
+      <span class="metric-value">No active bills</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: No active bills &middot; Y: Passes committee &middot; R: Enacted</span>
+      <span class="source">Legislative tracking</span>
+    </div>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">Clearing member default exceeds guaranty fund</span>
+      <span class="metric-value">Zero defaults (175+ yr)</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: No default &middot; Y: Member distress &middot; R: Default exceeds waterfall</span>
+      <span class="source">10-K</span>
+    </div>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot yellow"></span>
+      <span class="metric-label">Multiple major outages causing customer losses</span>
+      <span class="metric-value">2 outages (2024&ndash;2025)</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: 0&ndash;1/yr &middot; Y: 2/yr &middot; R: &gt;3/yr with customer harm</span>
+      <span class="source">10-K, News</span>
+    </div>
+  </div>
+  <div class="metric-row">
+    <div class="metric-primary">
+      <span class="dot green"></span>
+      <span class="metric-label">Regulatory forced separation of exchange/clearing/FCM</span>
+      <span class="metric-value">No rulemaking initiated</span>
+    </div>
+    <div class="metric-secondary">
+      <span class="threshold-hint">G: No action &middot; Y: CFTC rulemaking proposed &middot; R: Final rule adopted</span>
+      <span class="source">CFTC filings</span>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+
+  <div class="card">
+    <div class="card-header">
+      <h2>A. Is the Liquidity Moat Holding?</h2>
+      <span class="freq-badge">Monthly</span>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">FMX SOFR market share</span>
+        <span class="metric-value">&lt;1%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;3% &middot; Y: 3&ndash;5% &middot; R: &gt;5%</span>
+        <span class="source">Industry data</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">FMX Treasury futures market share</span>
+        <span class="metric-value">&lt;1%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;3% &middot; Y: 3&ndash;5% &middot; R: &gt;5%</span>
+        <span class="source">Industry data</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">CME total ADV</span>
+        <span class="metric-value">28.1M (record)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;25M &middot; Y: 20&ndash;25M &middot; R: YoY decline 2+ qtrs</span>
+        <span class="source">Earnings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">FMX SOFR open interest</span>
+        <span class="metric-value">~200K contracts</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;200K &middot; Y: 200K&ndash;500K &middot; R: &gt;500K</span>
+        <span class="source">FMX / FOW</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">International volume share</span>
+        <span class="metric-value">31%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;30% &middot; Y: 25&ndash;30% &middot; R: &lt;25%</span>
+        <span class="source">10-K</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Average rate per contract (RPC)</span>
+        <span class="metric-value">$0.696</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;$0.68 &middot; Y: $0.65&ndash;$0.68 &middot; R: &lt;$0.65</span>
+        <span class="source">Earnings</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <h2>B. Is the Platform Reliable?</h2>
+      <span class="freq-badge">Quarterly</span>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">Significant platform outages (annual)</span>
+        <span class="metric-value">2 (2024&ndash;2025)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: 0&ndash;1 &middot; Y: 2 &middot; R: &gt;3</span>
+        <span class="source">10-K, News</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Google Cloud migration status</span>
+        <span class="metric-value">On track (clearing done)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: On schedule &middot; Y: Minor delays &middot; R: Major delays / outages</span>
+        <span class="source">Earnings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Glassdoor rating</span>
+        <span class="metric-value">4.0 / 5</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;3.8 &middot; Y: 3.5&ndash;3.8 &middot; R: &lt;3.5</span>
+        <span class="source">Glassdoor</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Voluntary turnover</span>
+        <span class="metric-value">3.3%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;5% &middot; Y: 5&ndash;8% &middot; R: &gt;8%</span>
+        <span class="source">10-K</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">Blind compensation rating</span>
+        <span class="metric-value">3.2 / 5</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;3.5 &middot; Y: 2.8&ndash;3.5 &middot; R: &lt;2.8</span>
+        <span class="source">Blind / Scuttlebutt</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <h2>C. Is the Regulatory Environment Favorable?</h2>
+      <span class="freq-badge">Quarterly</span>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Transaction tax legislation status</span>
+        <span class="metric-value">No active bills</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: No active bills &middot; Y: Passes committee &middot; R: Enacted</span>
+        <span class="source">Legislative tracking</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot yellow"></span>
+        <span class="metric-label">CFTC data fee action</span>
+        <span class="metric-value">Complaint filed (Nov 2024)</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: No action &middot; Y: Complaint filed &middot; R: Formal investigation</span>
+        <span class="source">CFTC filings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">60/40 tax treatment for futures</span>
+        <span class="metric-value">No active legislation</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: No legislation &middot; Y: Included in tax bill &middot; R: Repealed</span>
+        <span class="source">Legislative tracking</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">CMESC Treasury clearing launch</span>
+        <span class="metric-value">SEC approved Dec 2025</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: On track &middot; Y: Delays &middot; R: Failed launch / &lt;5% share</span>
+        <span class="source">SEC, Earnings</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">FCM conflict-of-interest regulatory action</span>
+        <span class="metric-value">Concerns raised, no action</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: No rulemaking &middot; Y: CFTC proposal &middot; R: Separation mandated</span>
+        <span class="source">CFTC / FIA</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <h2>D. Are the Financials Compounding?</h2>
+      <span class="freq-badge">Quarterly</span>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Operating margin</span>
+        <span class="metric-value">64.9%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;63% &middot; Y: 60&ndash;63% &middot; R: &lt;60%</span>
+        <span class="source">10-K FY2025</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Net Debt / EBITDA</span>
+        <span class="metric-value">0.1x</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;0.5x &middot; Y: 0.5&ndash;1.0x &middot; R: &gt;1.0x</span>
+        <span class="source">10-K FY2025</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">P/E ratio</span>
+        <span class="metric-value">~26x</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;28x &middot; Y: 28&ndash;35x &middot; R: &gt;35x (no earnings growth)</span>
+        <span class="source">Market data</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Market data revenue growth (YoY)</span>
+        <span class="metric-value">+13%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;4% &middot; Y: 0&ndash;4% &middot; R: Declining</span>
+        <span class="source">10-K FY2025</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Short interest (% float)</span>
+        <span class="metric-value">1.4%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &lt;3% &middot; Y: 3&ndash;5% &middot; R: &gt;5%</span>
+        <span class="source">Market data</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">Interest coverage</span>
+        <span class="metric-value">24x</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;15x &middot; Y: 10&ndash;15x &middot; R: &lt;10x</span>
+        <span class="source">10-K FY2025</span>
+      </div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-primary">
+        <span class="dot green"></span>
+        <span class="metric-label">FCF conversion</span>
+        <span class="metric-value">~110%</span>
+      </div>
+      <div class="metric-secondary">
+        <span class="threshold-hint">G: &gt;100% &middot; Y: 90&ndash;100% &middot; R: &lt;90%</span>
+        <span class="source">10-K FY2025</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card full-width">
+    <div class="card-header">
+      <h2>Key Dates</h2>
+      <span class="freq-badge">Upcoming</span>
+    </div>
+    <div class="date-entry"><span class="date-when">Q2 2026</span>CMESC Treasury clearing house expected launch</div>
+    <div class="date-entry"><span class="date-when">May 2026</span>24/7 cryptocurrency futures &amp; options trading launch</div>
+    <div class="date-entry"><span class="date-when">Dec 2026</span>SEC Treasury clearing mandate &mdash; cash Treasuries compliance deadline</div>
+    <div class="date-entry"><span class="date-when">Jun 2027</span>SEC Treasury clearing mandate &mdash; repo compliance deadline</div>
+    <div class="date-entry"><span class="date-when">Dec 2026</span>CEO Terry Duffy contract expiration</div>
+    <div class="date-entry"><span class="date-when">2037</span>FTSE Russell exclusive index derivatives license expiration</div>
+    <div class="date-entry"><span class="date-when">2039</span>Nasdaq-100 exclusive futures license expiration</div>
+  </div>
+
+  <div class="card full-width">
+    <div class="card-header">
+      <h2>Changelog</h2>
+    </div>
+    <div class="changelog-entry">
+      <span class="changelog-date">2026-03-25</span>
+      QC: Fixed FMX SOFR OI dot from green to yellow (~200K meets yellow threshold). Added interest coverage (24x) and FCF conversion (~110%) to Card D from Risk Assessment and Business Economics sources. 5 yellow items total.
+    </div>
+    <div class="changelog-entry">
+      <span class="changelog-date">2026-03-25</span>
+      Initial setup with FY2025 data. 4 yellow items: platform outages (2 in 2024&ndash;2025), Blind compensation rating (3.2/5), CFTC data fee complaint (filed Nov 2024), FMX SOFR open interest approaching 200K threshold.
+    </div>
+  </div>
+
+</div>
+
+<div class="updated">Last updated: 2026-03-25</div>
+
+</body>
+</html>
