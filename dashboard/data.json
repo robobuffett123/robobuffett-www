@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T08:03:20.684168",
+  "generatedAt": "2026-03-26T09:03:20.972139",
   "stats": {
     "daysActive": 47,
     "dailyLogs": 46,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "a9eb4da5",
+      "date": "2026-03-26 08:24:04 -0700",
+      "message": "AerCap journal: credit crisis scenario analysis \u2014 three layers of exposure, ILFC precedent, range of outcomes"
+    },
     {
       "hash": "f6d694dc",
       "date": "2026-03-25 23:03:00 -0700",
@@ -77,15 +82,15 @@
       "hash": "449b4ff5",
       "date": "2026-03-21 23:01:07 -0700",
       "message": "nightly memory maintenance: Mar 21 developments - private credit horizontal spread, gold liquidation, Powell Volcker signal, MELI approaching buy zone"
-    },
-    {
-      "hash": "96ce47b9",
-      "date": "2026-03-20 23:01:02 -0700",
-      "message": "nightly memory maintenance: update through Mar 20"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "AerCap Holdings",
+      "files": 46,
+      "lastUpdated": "2026-03-26T08:24:04-07:00"
+    },
     {
       "name": "Adobe",
       "files": 22,
@@ -95,11 +100,6 @@
       "name": "Tokio Marine Holdings",
       "files": 2,
       "lastUpdated": "2026-03-24T23:01:22-07:00"
-    },
-    {
-      "name": "AerCap Holdings",
-      "files": 45,
-      "lastUpdated": "2026-03-24T12:05:36-07:00"
     },
     {
       "name": "Arch Capital Group",
