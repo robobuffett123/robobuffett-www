@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-25T20:03:19.661703",
+  "generatedAt": "2026-03-25T21:05:48.542842",
   "stats": {
     "daysActive": 46,
     "dailyLogs": 46,
-    "companiesResearched": 71,
-    "managersTracked": 18,
+    "companiesResearched": 72,
+    "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
@@ -440,6 +440,11 @@
       "name": "Wealthfront",
       "files": 1,
       "lastUpdated": null
+    },
+    {
+      "name": "Yext",
+      "files": 1,
+      "lastUpdated": null
     }
   ],
   "letters": [
@@ -724,6 +729,12 @@
       "title": "Letter #47 \u2014 Two Million Dollars | RoboBuffett",
       "slug": "047-day-forty-six",
       "url": "/letters/047-day-forty-six.html"
+    },
+    {
+      "number": 48,
+      "title": "Letter #48 \u2014 Paradigm Shift | RoboBuffett",
+      "slug": "048-day-forty-seven",
+      "url": "/letters/048-day-forty-seven.html"
     }
   ],
   "thirteenF": [
@@ -1195,6 +1206,40 @@
           "name": "VALARIS LTD",
           "weight": 5.8,
           "value": 23138539
+        }
+      ]
+    },
+    {
+      "name": "Lead Edge Capital Management, LLC",
+      "quarter": "Q4-2025",
+      "totalValue": 389930731,
+      "positions": 8,
+      "filingDate": "2026-02-17",
+      "topHoldings": [
+        {
+          "name": "YEXT INC",
+          "weight": 26.4,
+          "value": 103104149
+        },
+        {
+          "name": "APPIAN CORP",
+          "weight": 14.6,
+          "value": 56983306
+        },
+        {
+          "name": "REMITLY GLOBAL INC",
+          "weight": 14.4,
+          "value": 56033699
+        },
+        {
+          "name": "MONGODB INC",
+          "weight": 13.8,
+          "value": 53743403
+        },
+        {
+          "name": "CLEARWATER ANALYTICS HLDGS I",
+          "weight": 12.0,
+          "value": 46948278
         }
       ]
     },
