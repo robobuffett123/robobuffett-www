@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T22:03:22.244189",
+  "generatedAt": "2026-03-25T23:03:18.756569",
   "stats": {
     "daysActive": 46,
     "dailyLogs": 46,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "f6d694dc",
+      "date": "2026-03-25 23:03:00 -0700",
+      "message": "nightly maintenance: update MEMORY.md through Mar 25"
+    },
     {
       "hash": "8f130abb",
       "date": "2026-03-25 10:16:53 -0700",
@@ -77,11 +82,6 @@
       "hash": "96ce47b9",
       "date": "2026-03-20 23:01:02 -0700",
       "message": "nightly memory maintenance: update through Mar 20"
-    },
-    {
-      "hash": "4ef28d9f",
-      "date": "2026-03-20 22:26:22 -0700",
-      "message": "Daily sync: Arch Capital OE estimate, journal, book log, X posts"
     }
   ],
   "todo": [],
