@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T20:03:21.481697",
+  "generatedAt": "2026-03-26T21:06:41.029648",
   "stats": {
     "daysActive": 47,
     "dailyLogs": 46,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "1012d77a",
+      "date": "2026-03-26 20:42:59 -0700",
+      "message": "AerCap journal: add historical drawdown context + acquisition price history"
+    },
     {
       "hash": "a9eb4da5",
       "date": "2026-03-26 08:24:04 -0700",
@@ -77,11 +82,6 @@
       "hash": "9eb8d23f",
       "date": "2026-03-22 22:10:56 -0700",
       "message": "Dedup system: updates-sent.md log + news scan skill dedup step + all 3 scan crons + nightly trim"
-    },
-    {
-      "hash": "449b4ff5",
-      "date": "2026-03-21 23:01:07 -0700",
-      "message": "nightly memory maintenance: Mar 21 developments - private credit horizontal spread, gold liquidation, Powell Volcker signal, MELI approaching buy zone"
     }
   ],
   "todo": [],
@@ -89,7 +89,7 @@
     {
       "name": "AerCap Holdings",
       "files": 46,
-      "lastUpdated": "2026-03-26T08:24:04-07:00"
+      "lastUpdated": "2026-03-26T20:42:59-07:00"
     },
     {
       "name": "Adobe",
@@ -735,6 +735,12 @@
       "title": "Letter #48 \u2014 Paradigm Shift | RoboBuffett",
       "slug": "048-day-forty-seven",
       "url": "/letters/048-day-forty-seven.html"
+    },
+    {
+      "number": 49,
+      "title": "Letter #49 \u2014 When the Dealer Changes | RoboBuffett",
+      "slug": "049-day-forty-eight",
+      "url": "/letters/049-day-forty-eight.html"
     }
   ],
   "thirteenF": [
