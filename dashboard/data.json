@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-03-29T22:03:20.447575",
+  "generatedAt": "2026-03-29T23:05:06.013821",
   "stats": {
     "daysActive": 50,
-    "dailyLogs": 49,
+    "dailyLogs": 50,
     "companiesResearched": 74,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "983e19fd",
+      "date": "2026-03-29 23:04:19 -0700",
+      "message": "nightly maintenance: Mar 29 daily file, MEMORY.md updated with Pakistan talks, MELI approaching target, S&P death cross, first US casualties"
+    },
     {
       "hash": "f5e77666",
       "date": "2026-03-28 23:03:43 -0700",
@@ -77,11 +82,6 @@
       "hash": "f9820923",
       "date": "2026-03-24 12:05:36 -0700",
       "message": "Sync research - 2026-03-24"
-    },
-    {
-      "hash": "88d4729a",
-      "date": "2026-03-23 23:03:12 -0700",
-      "message": "nightly maintenance: create Mar 23 daily log, update MEMORY.md with week's observations"
     }
   ],
   "todo": [],
