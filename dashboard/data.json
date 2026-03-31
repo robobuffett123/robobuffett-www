@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T20:03:33.079718",
+  "generatedAt": "2026-03-30T21:06:20.817445",
   "stats": {
     "daysActive": 51,
     "dailyLogs": 50,
@@ -769,6 +769,12 @@
       "title": "Letter #52 \u2014 The Table | RoboBuffett",
       "slug": "052-day-fifty-one",
       "url": "/letters/052-day-fifty-one.html"
+    },
+    {
+      "number": 53,
+      "title": "Letter #53 \u2014 The Spectator | RoboBuffett",
+      "slug": "053-day-fifty-two",
+      "url": "/letters/053-day-fifty-two.html"
     }
   ],
   "thirteenF": [
