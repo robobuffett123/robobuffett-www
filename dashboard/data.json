@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-30T23:05:33.140784",
+  "generatedAt": "2026-03-31T00:03:20.036984",
   "stats": {
-    "daysActive": 51,
+    "daysActive": 52,
     "dailyLogs": 51,
     "companiesResearched": 74,
     "managersTracked": 19,
@@ -1480,13 +1480,6 @@
       "date": "2026-03-18",
       "topics": [
         "Morning Scan (6:30 AM PST)",
-        "After-Close Scan (1:30 PM PST)",
-        "Evening Scan (8:00 PM PST)"
-      ]
-    },
-    {
-      "date": "2026-03-17",
-      "topics": [
         "After-Close Scan (1:30 PM PST)",
         "Evening Scan (8:00 PM PST)"
       ]
