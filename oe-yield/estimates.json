@@ -120,17 +120,6 @@
         "notes": "Full OE Yield analysis. Cycle-normalized OE: ~13% through-cycle Operating ROAE on current equity (reported FY2025 was 17.1%). Op ROAE ranged 4.8%-21.6% over 2020-2023. Jan 2026 property cat renewals down 10-20%. g2 conservative floor \u2014 insurance premiums historically grow GDP+1-2%. Buyback accretion (~2-4%/yr) not in model."
     },
     {
-        "ticker": "ACLN.SW",
-        "company": "Accelleron Industries",
-        "businessType": "Industrial Monopoly / Turbochargers",
-        "oePerShare": 2.28,
-        "g1": 10.0,
-        "g2": 3.5,
-        "currency": "CHF",
-        "estimateDate": "2026-03-18",
-        "notes": "OE Yield Estimate. CHF listing, USD reporting. Large turbocharger monopoly. 180K+ installed base. Data center backup power = new growth driver. Zero SBC."
-    },
-    {
         "ticker": "AER",
         "company": "AerCap Holdings",
         "businessType": "Aircraft Lessor",
@@ -387,12 +376,12 @@
     {
         "ticker": "ACLN.SW",
         "company": "Accelleron Industries",
-        "businessType": "Turbocharger Manufacturer",
-        "oePerShare": 2.66,
+        "businessType": "Industrial Turbochargers (Marine/Energy/Data Center)",
+        "oePerShare": 2.21,
         "g1": 8.0,
         "g2": 3.5,
         "currency": "CHF",
-        "estimateDate": "2026-03-28",
-        "notes": "OE Yield Estimate. ABB spin-off (2022). Large turbochargers for marine, power gen, rail. FY2025 rev $1.26B (+23.5%), NI $244M. Financials in USD, trades in CHF — OE in USD converted at USDCHF 0.7984. Maint capex est. 40% of total (capacity expansion for data center TPX44). SBC est. ~$10M (FMP shows $0 but RSU/PSU programs exist). Data center backup power + marine aftermarket driving growth."
+        "estimateDate": "2026-03-31",
+        "notes": "OE Yield Estimate. CHF. Ex-ABB large-frame turbocharger leader. Marine + power gen + data center backup. 25% EBITA margins, 88% FCF conversion. Revenue +23.5% FY2025 driven by data center boom (TPX44 units tripled). Zero SBC. Installed base drives recurring service revenue. No BEV transition risk. 8% g1 conservative vs 23% actual growth \u2014 normalizing for peak cycle."
     }
 ]
