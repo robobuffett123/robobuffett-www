@@ -383,5 +383,16 @@
         "currency": "CHF",
         "estimateDate": "2026-03-31",
         "notes": "OE Yield Estimate. CHF. Ex-ABB large-frame turbocharger leader. Marine + power gen + data center backup. 25% EBITA margins, 88% FCF conversion. Revenue +23.5% FY2025 driven by data center boom (TPX44 units tripled). Zero SBC. Installed base drives recurring service revenue. No BEV transition risk. 8% g1 conservative vs 23% actual growth \u2014 normalizing for peak cycle."
+    },
+    {
+        "ticker": "GTX",
+        "company": "Garrett Motion",
+        "businessType": "Auto Turbochargers",
+        "oePerShare": 1.63,
+        "g1": 4.0,
+        "g2": 2.5,
+        "currency": "USD",
+        "estimateDate": "2026-03-28",
+        "notes": "OE Yield Estimate. Ex-Honeywell turbocharger manufacturer for light/commercial vehicle OEMs. $3.58B rev, 14% op margins. Massive FCF ($341M on $3.45B mkt cap). Aggressive buybacks ($211M FY2025). BEV transition is long-term headwind but hybrid resurgence extends runway. New MEG platform entering marine/industrial (Accelleron territory). Maint capex est 70% of total."
     }
 ]

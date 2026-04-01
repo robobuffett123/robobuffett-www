@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-01T05:41:32.169073+00:00",
+  "updatedAt": "2026-04-01T05:43:43.382481+00:00",
   "entries": [
     {
       "ticker": "058470.KQ",
       "company": "Leeno Industrial",
       "businessType": "Semiconductor Test Components",
       "oePerShare": 1471,
-      "currentPrice": 103100,
+      "currentPrice": 103000,
       "currency": "KRW",
       "currencySymbol": "KRW ",
       "oeYield": 1.43,
@@ -54,7 +54,7 @@
       "company": "Shin-Etsu Chemical",
       "businessType": "Chemicals / Semiconductor Materials",
       "oePerShare": 269,
-      "currentPrice": 6459,
+      "currentPrice": 6462,
       "currency": "JPY",
       "currencySymbol": "\u00a5",
       "oeYield": 4.16,
@@ -70,7 +70,7 @@
       "company": "Disco Corporation",
       "businessType": "Semiconductor Equipment",
       "oePerShare": 1141,
-      "currentPrice": 63190,
+      "currentPrice": 63130,
       "currency": "JPY",
       "currencySymbol": "\u00a5",
       "oeYield": 1.81,
@@ -86,7 +86,7 @@
       "company": "Keyence Corporation",
       "businessType": "Factory Automation / Sensors",
       "oePerShare": 1665,
-      "currentPrice": 57610,
+      "currentPrice": 57630,
       "currency": "JPY",
       "currencySymbol": "\u00a5",
       "oeYield": 2.89,
@@ -150,7 +150,7 @@
       "company": "Mitsui & Co",
       "businessType": "General Operating",
       "oePerShare": 335.0,
-      "currentPrice": 6294,
+      "currentPrice": 6293,
       "currency": "JPY",
       "currencySymbol": "\u00a5",
       "oeYield": 5.32,
@@ -592,6 +592,22 @@
       "expectedReturn": 8.1,
       "estimateDate": "2026-03-31",
       "notes": "OE Yield Estimate. CHF. Ex-ABB large-frame turbocharger leader. Marine + power gen + data center backup. 25% EBITA margins, 88% FCF conversion. Revenue +23.5% FY2025 driven by data center boom (TPX44 units tripled). Zero SBC. Installed base drives recurring service revenue. No BEV transition risk. 8% g1 conservative vs 23% actual growth \u2014 normalizing for peak cycle."
+    },
+    {
+      "ticker": "GTX",
+      "company": "Garrett Motion",
+      "businessType": "Auto Turbochargers",
+      "oePerShare": 1.63,
+      "currentPrice": 18.17,
+      "currency": "USD",
+      "currencySymbol": "$",
+      "oeYield": 8.97,
+      "g1": 4.0,
+      "g2": 2.5,
+      "blendedGrowth": 3.0,
+      "expectedReturn": 11.97,
+      "estimateDate": "2026-03-28",
+      "notes": "OE Yield Estimate. Ex-Honeywell turbocharger manufacturer for light/commercial vehicle OEMs. $3.58B rev, 14% op margins. Massive FCF ($341M on $3.45B mkt cap). Aggressive buybacks ($211M FY2025). BEV transition is long-term headwind but hybrid resurgence extends runway. New MEG platform entering marine/industrial (Accelleron territory). Maint capex est 70% of total."
     }
   ]
 }
