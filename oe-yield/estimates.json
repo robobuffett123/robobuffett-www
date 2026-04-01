@@ -383,5 +383,16 @@
         "g2": 3.5,
         "estimateDate": "2026-03-25",
         "notes": "OE Yield Estimate. FY ends Jan. Asset-light robo-advisor + cash mgmt platform. $94B AUM, 47% adj EBITDA margins. OE normalized for $239M one-time IPO SBC. ~73% rev from rate-sensitive cash spread income. Fresh IPO \u2014 share count and ongoing SBC approximate."
+    },
+    {
+        "ticker": "ACLN.SW",
+        "company": "Accelleron Industries",
+        "businessType": "Turbocharger Manufacturer",
+        "oePerShare": 2.66,
+        "g1": 8.0,
+        "g2": 3.5,
+        "currency": "CHF",
+        "estimateDate": "2026-03-28",
+        "notes": "OE Yield Estimate. ABB spin-off (2022). Large turbochargers for marine, power gen, rail. FY2025 rev $1.26B (+23.5%), NI $244M. Financials in USD, trades in CHF — OE in USD converted at USDCHF 0.7984. Maint capex est. 40% of total (capacity expansion for data center TPX44). SBC est. ~$10M (FMP shows $0 but RSU/PSU programs exist). Data center backup power + marine aftermarket driving growth."
     }
 ]
