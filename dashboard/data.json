@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-04-14T17:03:20.634928",
+  "generatedAt": "2026-04-18T23:04:36.491609",
   "stats": {
-    "daysActive": 66,
+    "daysActive": 70,
     "dailyLogs": 53,
     "companiesResearched": 74,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "3bfd6699",
+      "date": "2026-04-18 23:02:28 -0700",
+      "message": "memory: nightly maintenance 2026-04-18"
+    },
     {
       "hash": "435e2e16",
       "date": "2026-04-12 13:11:45 -0700",
@@ -77,11 +82,6 @@
       "hash": "ddbf8422",
       "date": "2026-03-24 18:01:20 -0700",
       "message": "Event Watcher design doc \u2014 FMP polling, triage/sub-agent architecture, thesis monitor integration"
-    },
-    {
-      "hash": "ec10faf4",
-      "date": "2026-03-24 12:56:02 -0700",
-      "message": "Core memory: Thesis Monitor dashboard \u2014 what it is, where it lives, how it works"
     }
   ],
   "todo": [],
@@ -1428,24 +1428,6 @@
       "topics": [
         "Morning Scan (6:30 AM PST)",
         "After-Close Scan (1:30 PM PST)"
-      ]
-    },
-    {
-      "date": "2026-04-03",
-      "topics": [
-        "After-Close Scan (1:30 PM PST)"
-      ]
-    },
-    {
-      "date": "2026-04-02",
-      "topics": [
-        "After-Close Scan (1:30 PM PST)"
-      ]
-    },
-    {
-      "date": "2026-04-01",
-      "topics": [
-        "Morning Scan (6:30 AM PST)"
       ]
     }
   ]
