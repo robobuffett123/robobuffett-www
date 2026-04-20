@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T22:03:23.140089",
+  "generatedAt": "2026-04-19T23:03:58.678833",
   "stats": {
     "daysActive": 71,
     "dailyLogs": 54,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "739984f1",
+      "date": "2026-04-19 23:03:35 -0700",
+      "message": "Nightly memory maintenance: Apr 19, 2026"
+    },
     {
       "hash": "3bfd6699",
       "date": "2026-04-18 23:02:28 -0700",
@@ -77,11 +82,6 @@
       "hash": "d0e52a1d",
       "date": "2026-03-24 21:51:25 -0700",
       "message": "feat: AER event watcher \u2014 detection script, tests, config, cron job"
-    },
-    {
-      "hash": "ddbf8422",
-      "date": "2026-03-24 18:01:20 -0700",
-      "message": "Event Watcher design doc \u2014 FMP polling, triage/sub-agent architecture, thesis monitor integration"
     }
   ],
   "todo": [],
