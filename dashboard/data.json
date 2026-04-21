@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T22:03:23.634401",
+  "generatedAt": "2026-04-20T23:03:23.661287",
   "stats": {
     "daysActive": 72,
     "dailyLogs": 55,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "ade9f1a0",
+      "date": "2026-04-20 23:01:01 -0700",
+      "message": "Nightly maintenance: Apr 20 updates \u2014 CB timing fix, GOOG catalysts, SCOTUS tariff refund, Warsh leak"
+    },
     {
       "hash": "739984f1",
       "date": "2026-04-19 23:03:35 -0700",
@@ -77,11 +82,6 @@
       "hash": "30a26df9",
       "date": "2026-03-24 22:05:20 -0700",
       "message": "fix: switch filings from FMP (404) to SEC EDGAR submissions API"
-    },
-    {
-      "hash": "d0e52a1d",
-      "date": "2026-03-24 21:51:25 -0700",
-      "message": "feat: AER event watcher \u2014 detection script, tests, config, cron job"
     }
   ],
   "todo": [],
