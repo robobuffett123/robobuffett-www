@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T22:03:23.973545",
+  "generatedAt": "2026-04-21T23:03:23.927712",
   "stats": {
     "daysActive": 73,
     "dailyLogs": 56,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "7ebdb86c",
+      "date": "2026-04-21 23:01:30 -0700",
+      "message": "Nightly memory maintenance: Apr 21 additions (CB Q1 print, Warsh testimony, Letter #58)"
+    },
     {
       "hash": "ade9f1a0",
       "date": "2026-04-20 23:01:01 -0700",
@@ -77,11 +82,6 @@
       "hash": "1d67ffb1",
       "date": "2026-03-24 23:01:22 -0700",
       "message": "nightly maintenance: memory update Mar 24, new daily file, journal + research sync"
-    },
-    {
-      "hash": "30a26df9",
-      "date": "2026-03-24 22:05:20 -0700",
-      "message": "fix: switch filings from FMP (404) to SEC EDGAR submissions API"
     }
   ],
   "todo": [],
