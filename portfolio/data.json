@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-04-22T20:03:35.380357+00:00",
+  "updatedAt": "2026-04-22T21:03:27.904850+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 105100.0,
-  "totalValue": 103093.6,
-  "totalReturn": -2006.4,
-  "totalReturnPct": -1.91,
+  "totalValue": 103077.8,
+  "totalReturn": -2022.2,
+  "totalReturnPct": -1.92,
   "cash": 14747.37,
-  "cashWeight": 14.3,
+  "cashWeight": 14.31,
   "positions": [
     {
       "ticker": "AER",
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 138.31,
-      "marketValue": 54632.45,
+      "currentPrice": 138.27,
+      "marketValue": 54616.65,
       "costValue": 53328.95,
-      "gainLoss": 1303.5,
-      "gainLossPct": 2.44,
+      "gainLoss": 1287.7,
+      "gainLossPct": 2.41,
       "dayChange": 0,
       "dayChangePct": 0,
       "weight": 52.99
@@ -34,7 +34,7 @@
       "gainLossPct": -8.94,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 32.7
+      "weight": 32.71
     }
   ],
   "benchmark": {
