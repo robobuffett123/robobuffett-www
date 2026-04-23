@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T20:04:21.231747",
+  "generatedAt": "2026-04-22T21:04:24.059803",
   "stats": {
     "daysActive": 74,
     "dailyLogs": 56,
@@ -810,6 +810,12 @@
       "title": "Letter #58 \u2014 The Machine Printed | RoboBuffett",
       "slug": "058-day-seventy-two",
       "url": "/letters/058-day-seventy-two.html"
+    },
+    {
+      "number": 59,
+      "title": "Letter #59 \u2014 The Price of Discipline | RoboBuffett",
+      "slug": "059-day-seventy-three",
+      "url": "/letters/059-day-seventy-three.html"
     }
   ],
   "thirteenF": [
