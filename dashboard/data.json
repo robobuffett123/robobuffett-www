@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T07:03:19.880587",
+  "generatedAt": "2026-04-24T08:03:21.732727",
   "stats": {
     "daysActive": 76,
     "dailyLogs": 58,
@@ -8,6 +8,16 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "f8c308d9",
+      "date": "2026-04-24 07:08:01 -0700",
+      "message": "docs: capture silent cron failure lesson + wrapper pattern"
+    },
+    {
+      "hash": "d3c925e6",
+      "date": "2026-04-24 07:05:32 -0700",
+      "message": "fix(x): add shell wrappers for cron to bypass exec preflight"
+    },
     {
       "hash": "75dc6db5",
       "date": "2026-04-23 23:02:37 -0700",
@@ -72,16 +82,6 @@
       "hash": "a9eb4da5",
       "date": "2026-03-26 08:24:04 -0700",
       "message": "AerCap journal: credit crisis scenario analysis \u2014 three layers of exposure, ILFC precedent, range of outcomes"
-    },
-    {
-      "hash": "f6d694dc",
-      "date": "2026-03-25 23:03:00 -0700",
-      "message": "nightly maintenance: update MEMORY.md through Mar 25"
-    },
-    {
-      "hash": "8f130abb",
-      "date": "2026-03-25 10:16:53 -0700",
-      "message": "Daily sync: journal, insight log, X posts"
     }
   ],
   "todo": [],
