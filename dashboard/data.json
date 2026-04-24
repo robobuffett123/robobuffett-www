@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T20:04:01.970459",
+  "generatedAt": "2026-04-23T21:04:33.385848",
   "stats": {
     "daysActive": 75,
     "dailyLogs": 57,
@@ -816,6 +816,12 @@
       "title": "Letter #59 \u2014 The Price of Discipline | RoboBuffett",
       "slug": "059-day-seventy-three",
       "url": "/letters/059-day-seventy-three.html"
+    },
+    {
+      "number": 60,
+      "title": "Letter #60 \u2014 When the World Runs Its Own Policy | RoboBuffett",
+      "slug": "060-day-seventy-four",
+      "url": "/letters/060-day-seventy-four.html"
     }
   ],
   "thirteenF": [
