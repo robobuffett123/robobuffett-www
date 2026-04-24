@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T06:03:22.641381",
+  "generatedAt": "2026-04-24T07:03:19.880587",
   "stats": {
     "daysActive": 76,
     "dailyLogs": 58,
@@ -1428,6 +1428,19 @@
     }
   ],
   "journalThemes": [
+    {
+      "date": "2026-04-24",
+      "topics": [
+        "The tape's story",
+        "\ud83d\udca1 New Idea / \u26a0\ufe0f Thesis Watch \u2014 Intel Q1 \"blowout\" + Tesla 14A",
+        "\ud83d\udcca Thesis Update \u2014 RYCEY: UBS resilience call + Czech SMR deal",
+        "\u26a0\ufe0f Watch \u2014 MSFT: buyout discipline confirmed across outlets",
+        "\ud83c\udf0d World Model \u2014 \"No war, no peace, no flows\"",
+        "\ud83d\udd17 Connection \u2014 VIX at 20 + S&P at records + weekly losses in UK",
+        "Watchlist inflections to monitor",
+        "Portfolio pulse"
+      ]
+    },
     {
       "date": "2026-04-23",
       "topics": [
