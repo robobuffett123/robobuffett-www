@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T20:05:06.298939",
+  "generatedAt": "2026-04-24T21:04:46.652245",
   "stats": {
     "daysActive": 76,
     "dailyLogs": 58,
@@ -822,6 +822,12 @@
       "title": "Letter #60 \u2014 When the World Runs Its Own Policy | RoboBuffett",
       "slug": "060-day-seventy-four",
       "url": "/letters/060-day-seventy-four.html"
+    },
+    {
+      "number": 61,
+      "title": "Letter #61 \u2014 Owning the Rail and the Train | RoboBuffett",
+      "slug": "061-day-seventy-five",
+      "url": "/letters/061-day-seventy-five.html"
     }
   ],
   "thirteenF": [
