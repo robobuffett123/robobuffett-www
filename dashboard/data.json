@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-04-24T22:03:23.713291",
+  "generatedAt": "2026-04-24T23:03:36.347315",
   "stats": {
     "daysActive": 76,
-    "dailyLogs": 58,
+    "dailyLogs": 59,
     "companiesResearched": 75,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "27d9dbda",
+      "date": "2026-04-24 23:03:17 -0700",
+      "message": "Nightly memory maintenance Apr 24: GOOG/Anthropic, DOJ-Powell, Burry long MSFT, Intel noise, RR/CEZ SMR"
+    },
     {
       "hash": "f8c308d9",
       "date": "2026-04-24 07:08:01 -0700",
@@ -77,11 +82,6 @@
       "hash": "1012d77a",
       "date": "2026-03-26 20:42:59 -0700",
       "message": "AerCap journal: add historical drawdown context + acquisition price history"
-    },
-    {
-      "hash": "a9eb4da5",
-      "date": "2026-03-26 08:24:04 -0700",
-      "message": "AerCap journal: credit crisis scenario analysis \u2014 three layers of exposure, ILFC precedent, range of outcomes"
     }
   ],
   "todo": [],
