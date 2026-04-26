@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T22:03:20.888028",
+  "generatedAt": "2026-04-25T23:03:22.565446",
   "stats": {
     "daysActive": 77,
     "dailyLogs": 60,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "940de3db",
+      "date": "2026-04-25 23:01:51 -0700",
+      "message": "Nightly maintenance Apr 25: Yergin/Goldman/Lockhart + dispersion + wrapper debt"
+    },
     {
       "hash": "27d9dbda",
       "date": "2026-04-24 23:03:17 -0700",
@@ -77,11 +82,6 @@
       "hash": "7dcfc2ff",
       "date": "2026-03-26 23:02:44 -0700",
       "message": "nightly maintenance: MEMORY.md updated through Mar 26, daily log created"
-    },
-    {
-      "hash": "1012d77a",
-      "date": "2026-03-26 20:42:59 -0700",
-      "message": "AerCap journal: add historical drawdown context + acquisition price history"
     }
   ],
   "todo": [],
