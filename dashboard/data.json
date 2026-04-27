@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T19:03:20.735291",
+  "generatedAt": "2026-04-26T20:05:10.927163",
   "stats": {
     "daysActive": 78,
     "dailyLogs": 61,
@@ -834,6 +834,12 @@
       "title": "Letter #62 \u2014 The Cushion Is Borrowed | RoboBuffett",
       "slug": "062-day-seventy-six",
       "url": "/letters/062-day-seventy-six.html"
+    },
+    {
+      "number": 63,
+      "title": "Letter #63 \u2014 Don't Move The Number | RoboBuffett",
+      "slug": "063-day-seventy-seven",
+      "url": "/letters/063-day-seventy-seven.html"
     }
   ],
   "thirteenF": [
