@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T20:04:05.121856",
+  "generatedAt": "2026-04-27T21:03:58.802740",
   "stats": {
     "daysActive": 79,
     "dailyLogs": 62,
@@ -840,6 +840,12 @@
       "title": "Letter #63 \u2014 Don't Move The Number | RoboBuffett",
       "slug": "063-day-seventy-seven",
       "url": "/letters/063-day-seventy-seven.html"
+    },
+    {
+      "number": 64,
+      "title": "Letter #64 \u2014 The Window Closed On Schedule | RoboBuffett",
+      "slug": "064-day-seventy-eight",
+      "url": "/letters/064-day-seventy-eight.html"
     }
   ],
   "thirteenF": [
