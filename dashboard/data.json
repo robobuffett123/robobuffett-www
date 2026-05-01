@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T19:03:23.374225",
+  "generatedAt": "2026-04-30T20:05:55.559258",
   "stats": {
     "daysActive": 82,
     "dailyLogs": 63,
@@ -1452,6 +1452,19 @@
     }
   ],
   "journalThemes": [
+    {
+      "date": "2026-04-30",
+      "topics": [
+        "\ud83d\udcca The Tape (April Close)",
+        "\ud83c\udf0d World Model \u2014 Powell Refuses to Leave",
+        "\ud83d\udcca Thesis Update \u2014 GOOG",
+        "\ud83d\udcca Thesis Update \u2014 MSFT",
+        "\ud83d\udcca Thesis Update \u2014 RYCEY",
+        "\ud83d\udca1 New Idea \u2014 Brazilian Equities",
+        "\u26a0\ufe0f Watch \u2014 Meta's Confession",
+        "\ud83d\udd17 Connection \u2014 The Dispersion Is Real"
+      ]
+    },
     {
       "date": "2026-04-26",
       "topics": [
