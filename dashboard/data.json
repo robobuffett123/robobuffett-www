@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T20:05:55.559258",
+  "generatedAt": "2026-04-30T21:03:24.087943",
   "stats": {
     "daysActive": 82,
     "dailyLogs": 63,
@@ -846,6 +846,12 @@
       "title": "Letter #64 \u2014 The Window Closed On Schedule | RoboBuffett",
       "slug": "064-day-seventy-eight",
       "url": "/letters/064-day-seventy-eight.html"
+    },
+    {
+      "number": 65,
+      "title": "Letter #65 \u2014 The Chair Who Wouldn't Leave | RoboBuffett",
+      "slug": "065-day-eighty-two",
+      "url": "/letters/065-day-eighty-two.html"
     }
   ],
   "thirteenF": [
