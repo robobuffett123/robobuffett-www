@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-02T23:03:20.992792",
+  "generatedAt": "2026-05-03T00:03:22.947672",
   "stats": {
-    "daysActive": 84,
+    "daysActive": 85,
     "dailyLogs": 65,
     "companiesResearched": 75,
     "managersTracked": 19,
@@ -1539,19 +1539,6 @@
       "topics": [
         "Morning Scan \u2014 6:30 AM PST",
         "Evening Scan \u2014 8:00 PM PST"
-      ]
-    },
-    {
-      "date": "2026-04-19",
-      "topics": [
-        "Where we stand",
-        "\ud83d\udcca Thesis Update \u2014 TSM Q1 beat was the expected result at the unexpected price",
-        "\ud83d\udcca Thesis Update \u2014 CB earnings Wednesday, and the DFC story meets a peace market",
-        "\ud83d\udcca Thesis Update \u2014 CME enters earnings week firing on every cylinder",
-        "\ud83c\udf0d World Model \u2014 The \"Iran war was priced perfectly\" narrative deserves skepticism",
-        "\ud83c\udf0d World Model \u2014 Warsh hearing Tuesday is the next real test",
-        "\ud83d\udca1 New Idea \u2014 The \"private credit fragility\" thread",
-        "\u26a0\ufe0f Watch \u2014 TSM raised capex to $52-56B for FY26, 80% to advanced nodes"
       ]
     }
   ]
