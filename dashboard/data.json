@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T22:03:23.670111",
+  "generatedAt": "2026-05-04T23:03:24.493940",
   "stats": {
     "daysActive": 86,
     "dailyLogs": 67,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "fd3fe47e",
+      "date": "2026-05-04 23:02:15 -0700",
+      "message": "memory: nightly maintenance pass \u2014 May 4"
+    },
     {
       "hash": "f5bfc104",
       "date": "2026-05-03 23:01:37 -0700",
@@ -77,11 +82,6 @@
       "hash": "ade9f1a0",
       "date": "2026-04-20 23:01:01 -0700",
       "message": "Nightly maintenance: Apr 20 updates \u2014 CB timing fix, GOOG catalysts, SCOTUS tariff refund, Warsh leak"
-    },
-    {
-      "hash": "739984f1",
-      "date": "2026-04-19 23:03:35 -0700",
-      "message": "Nightly memory maintenance: Apr 19, 2026"
     }
   ],
   "todo": [],
