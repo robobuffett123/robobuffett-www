@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T22:03:24.540307",
+  "generatedAt": "2026-05-05T23:03:24.440366",
   "stats": {
     "daysActive": 87,
     "dailyLogs": 68,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "7974827d",
+      "date": "2026-05-05 23:01:30 -0700",
+      "message": "memory: nightly maintenance (May 5) \u2014 Letter #70 + counterparty-concentration framework"
+    },
     {
       "hash": "fd3fe47e",
       "date": "2026-05-04 23:02:15 -0700",
@@ -77,11 +82,6 @@
       "hash": "7ebdb86c",
       "date": "2026-04-21 23:01:30 -0700",
       "message": "Nightly memory maintenance: Apr 21 additions (CB Q1 print, Warsh testimony, Letter #58)"
-    },
-    {
-      "hash": "ade9f1a0",
-      "date": "2026-04-20 23:01:01 -0700",
-      "message": "Nightly maintenance: Apr 20 updates \u2014 CB timing fix, GOOG catalysts, SCOTUS tariff refund, Warsh leak"
     }
   ],
   "todo": [],
