@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T19:03:21.665385",
+  "generatedAt": "2026-05-05T20:06:00.596468",
   "stats": {
     "daysActive": 87,
     "dailyLogs": 68,
@@ -1482,6 +1482,19 @@
     }
   ],
   "journalThemes": [
+    {
+      "date": "2026-05-05",
+      "topics": [
+        "\ud83d\udcca Thesis Update \u2014 GOOG: Anthropic $200B over 5 years",
+        "\ud83d\udca1 New Idea \u2014 Cloud Backlog as Counterparty Risk",
+        "\ud83c\udf0d World Model \u2014 The \"Sloppy Peace\" Has Three States",
+        "\ud83d\udd17 Connection \u2014 TCW + Forbes + Pimco \u2014 three private-credit voices in one day",
+        "\u26a0\ufe0f Watch \u2014 Apple/Intel/Samsung \u2014 TSMC backup story",
+        "\u26a0\ufe0f Watch \u2014 CME launches Bitcoin Volatility Futures (June 1)",
+        "\ud83d\udcca Thesis Update \u2014 XYZ Q1 print this Thursday",
+        "Portfolio status (no action)"
+      ]
+    },
     {
       "date": "2026-05-04",
       "topics": [
