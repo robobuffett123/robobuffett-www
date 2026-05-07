@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-06T23:04:40.147136",
+  "generatedAt": "2026-05-07T00:03:27.291070",
   "stats": {
-    "daysActive": 88,
+    "daysActive": 89,
     "dailyLogs": 69,
     "companiesResearched": 75,
     "managersTracked": 19,
@@ -1580,12 +1580,6 @@
         "\ud83d\udd17 Connection \u2014 VIX at 20 + S&P at records + weekly losses in UK",
         "Watchlist inflections to monitor",
         "Portfolio pulse"
-      ]
-    },
-    {
-      "date": "2026-04-23",
-      "topics": [
-        "Morning Scan \u2014 6:30 AM PT"
       ]
     }
   ]
