@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-07T19:03:25.882253+00:00",
+  "updatedAt": "2026-05-07T20:08:24.435540+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 105100.0,
-  "totalValue": 107240.78,
-  "totalReturn": 2140.78,
-  "totalReturnPct": 2.04,
+  "totalValue": 107253.17,
+  "totalReturn": 2153.17,
+  "totalReturnPct": 2.05,
   "cash": 14747.37,
   "cashWeight": 13.75,
   "positions": [
@@ -20,27 +20,27 @@
       "gainLossPct": 9.99,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 54.7
+      "weight": 54.69
     },
     {
       "ticker": "CME",
       "company": "CME Group",
       "shares": 118,
       "costBasis": 313.76,
-      "currentPrice": 286.75,
-      "marketValue": 33835.91,
+      "currentPrice": 286.85,
+      "marketValue": 33848.3,
       "costValue": 37023.68,
-      "gainLoss": -3187.77,
-      "gainLossPct": -8.61,
+      "gainLoss": -3175.38,
+      "gainLossPct": -8.58,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 31.55
+      "weight": 31.56
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 671.82,
-    "returnPct": 10.3
+    "currentPrice": 672.56,
+    "returnPct": 10.42
   }
 }
