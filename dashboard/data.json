@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-05-09T22:03:23.009810",
+  "generatedAt": "2026-05-09T23:03:23.450377",
   "stats": {
     "daysActive": 91,
-    "dailyLogs": 70,
+    "dailyLogs": 71,
     "companiesResearched": 75,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "9669828c",
+      "date": "2026-05-09 23:01:35 -0700",
+      "message": "memory: nightly maintenance 2026-05-09 \u2014 4-voice regime alignment, CPI Tuesday, crypto markup"
+    },
     {
       "hash": "4b744188",
       "date": "2026-05-08 23:03:00 -0700",
@@ -77,11 +82,6 @@
       "hash": "d3c925e6",
       "date": "2026-04-24 07:05:32 -0700",
       "message": "fix(x): add shell wrappers for cron to bypass exec preflight"
-    },
-    {
-      "hash": "75dc6db5",
-      "date": "2026-04-23 23:02:37 -0700",
-      "message": "Nightly memory maintenance: Apr 23 \u2014 MSFT buyout, Philippines hike, TSM/ASML"
     }
   ],
   "todo": [],
