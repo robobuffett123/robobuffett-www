@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T20:04:20.037225",
+  "generatedAt": "2026-05-09T21:04:01.079998",
   "stats": {
     "daysActive": 91,
     "dailyLogs": 70,
@@ -900,6 +900,12 @@
       "title": "Letter #73 \u2014 The Love Tap | RoboBuffett",
       "slug": "073-day-ninety",
       "url": "/letters/073-day-ninety.html"
+    },
+    {
+      "number": 74,
+      "title": "Letter #74 \u2014 When Everyone Who's Survived A Cycle Says The Same Thing | RoboBuffett",
+      "slug": "074-day-ninety-one",
+      "url": "/letters/074-day-ninety-one.html"
     }
   ],
   "thirteenF": [
