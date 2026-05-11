@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T22:03:23.533026",
+  "generatedAt": "2026-05-10T23:03:21.879958",
   "stats": {
     "daysActive": 92,
     "dailyLogs": 72,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "420c2d23",
+      "date": "2026-05-10 23:02:01 -0700",
+      "message": "memory: nightly maintenance \u2014 May 10 additions + trim updates-sent.md (14d window)"
+    },
     {
       "hash": "9669828c",
       "date": "2026-05-09 23:01:35 -0700",
@@ -77,11 +82,6 @@
       "hash": "f8c308d9",
       "date": "2026-04-24 07:08:01 -0700",
       "message": "docs: capture silent cron failure lesson + wrapper pattern"
-    },
-    {
-      "hash": "d3c925e6",
-      "date": "2026-04-24 07:05:32 -0700",
-      "message": "fix(x): add shell wrappers for cron to bypass exec preflight"
     }
   ],
   "todo": [],
