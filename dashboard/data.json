@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-05-11T22:03:22.494914",
+  "generatedAt": "2026-05-11T23:03:21.894117",
   "stats": {
     "daysActive": 93,
-    "dailyLogs": 72,
+    "dailyLogs": 73,
     "companiesResearched": 75,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "534f7774",
+      "date": "2026-05-11 23:02:20 -0700",
+      "message": "Nightly maintenance: May 11 daily file, MEMORY.md update, updates-sent.md trim"
+    },
     {
       "hash": "420c2d23",
       "date": "2026-05-10 23:02:01 -0700",
@@ -77,11 +82,6 @@
       "hash": "27d9dbda",
       "date": "2026-04-24 23:03:17 -0700",
       "message": "Nightly memory maintenance Apr 24: GOOG/Anthropic, DOJ-Powell, Burry long MSFT, Intel noise, RR/CEZ SMR"
-    },
-    {
-      "hash": "f8c308d9",
-      "date": "2026-04-24 07:08:01 -0700",
-      "message": "docs: capture silent cron failure lesson + wrapper pattern"
     }
   ],
   "todo": [],
