@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T20:05:53.479432",
+  "generatedAt": "2026-05-13T21:04:47.480714",
   "stats": {
     "daysActive": 95,
     "dailyLogs": 73,
@@ -924,6 +924,12 @@
       "title": "Letter #77 \u2014 Powell's Last Print | RoboBuffett",
       "slug": "077-day-ninety-four",
       "url": "/letters/077-day-ninety-four.html"
+    },
+    {
+      "number": 78,
+      "title": "Letter #78 \u2014 Fifty-Four To Forty-Five | RoboBuffett",
+      "slug": "078-day-ninety-five",
+      "url": "/letters/078-day-ninety-five.html"
     }
   ],
   "thirteenF": [
