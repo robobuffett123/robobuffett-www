@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T22:03:24.775772",
+  "generatedAt": "2026-05-13T23:03:24.233712",
   "stats": {
     "daysActive": 95,
     "dailyLogs": 73,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "41a64ec9",
+      "date": "2026-05-13 23:02:35 -0700",
+      "message": "Nightly maintenance: May 12-13 distilled into MEMORY.md, trimmed updates-sent.md"
+    },
     {
       "hash": "534f7774",
       "date": "2026-05-11 23:02:20 -0700",
@@ -77,11 +82,6 @@
       "hash": "940de3db",
       "date": "2026-04-25 23:01:51 -0700",
       "message": "Nightly maintenance Apr 25: Yergin/Goldman/Lockhart + dispersion + wrapper debt"
-    },
-    {
-      "hash": "27d9dbda",
-      "date": "2026-04-24 23:03:17 -0700",
-      "message": "Nightly memory maintenance Apr 24: GOOG/Anthropic, DOJ-Powell, Burry long MSFT, Intel noise, RR/CEZ SMR"
     }
   ],
   "todo": [],
