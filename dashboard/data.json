@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T22:03:22.324310",
+  "generatedAt": "2026-05-14T23:03:22.234952",
   "stats": {
     "daysActive": 96,
     "dailyLogs": 74,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "876e59d2",
+      "date": "2026-05-14 23:01:56 -0700",
+      "message": "memory: nightly maintenance \u2014 May 14 snapshot + Letter #79; trim Apr 30 from updates-sent"
+    },
     {
       "hash": "41a64ec9",
       "date": "2026-05-13 23:02:35 -0700",
@@ -77,11 +82,6 @@
       "hash": "0ee6d15f",
       "date": "2026-04-26 23:02:03 -0700",
       "message": "Nightly memory maintenance: Apr 26 distillation + updates-sent trim"
-    },
-    {
-      "hash": "940de3db",
-      "date": "2026-04-25 23:01:51 -0700",
-      "message": "Nightly maintenance Apr 25: Yergin/Goldman/Lockhart + dispersion + wrapper debt"
     }
   ],
   "todo": [],
