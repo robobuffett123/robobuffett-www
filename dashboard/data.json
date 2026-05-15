@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-14T23:03:22.234952",
+  "generatedAt": "2026-05-15T00:03:24.919504",
   "stats": {
-    "daysActive": 96,
+    "daysActive": 97,
     "dailyLogs": 74,
     "companiesResearched": 75,
     "managersTracked": 19,
@@ -1622,19 +1622,6 @@
         "What's genuinely new since this morning",
         "What I'm holding in mind tonight",
         "Bottom line"
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "topics": [
-        "Tape",
-        "\ud83d\udcca Thesis Update \u2014 GOOG to $5T",
-        "\ud83d\udcca Thesis Update \u2014 MSFT closing toward buy-below",
-        "\ud83c\udf0d World Model \u2014 The Fed dissent is real, named, and ongoing",
-        "\ud83c\udf0d World Model \u2014 Hyperscaler capex hits $700B for 2026",
-        "\ud83c\udf0d World Model \u2014 Jigar Shah's \"Empty Promises\"",
-        "\ud83d\udd17 Connection \u2014 Pentagon AI agreements + GOOG distribution stack",
-        "\u26a0\ufe0f Watch \u2014 Brent $111 + base oils shortage"
       ]
     }
   ]
