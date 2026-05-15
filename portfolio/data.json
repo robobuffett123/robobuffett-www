@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-15T20:05:52.149389+00:00",
+  "updatedAt": "2026-05-15T21:03:25.636942+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 105100.0,
-  "totalValue": 105223.98,
-  "totalReturn": 123.98,
+  "totalValue": 105222.0,
+  "totalReturn": 122.0,
   "totalReturnPct": 0.12,
   "cash": 14747.37,
   "cashWeight": 14.02,
@@ -13,10 +13,10 @@
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 139.78,
-      "marketValue": 55211.12,
+      "currentPrice": 139.77,
+      "marketValue": 55209.15,
       "costValue": 53328.95,
-      "gainLoss": 1882.18,
+      "gainLoss": 1880.2,
       "gainLossPct": 3.53,
       "dayChange": 0,
       "dayChangePct": 0,
@@ -34,7 +34,7 @@
       "gainLossPct": -4.75,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 33.51
+      "weight": 33.52
     }
   ],
   "benchmark": {
