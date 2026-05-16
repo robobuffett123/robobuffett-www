@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:03:24.148568",
+  "generatedAt": "2026-05-15T20:06:00.357209",
   "stats": {
     "daysActive": 97,
     "dailyLogs": 74,
@@ -936,6 +936,12 @@
       "title": "Letter #79 \u2014 Above Seventy-Five Hundred | RoboBuffett",
       "slug": "079-day-ninety-six",
       "url": "/letters/079-day-ninety-six.html"
+    },
+    {
+      "number": 80,
+      "title": "Letter #80 \u2014 The First Deposit | RoboBuffett",
+      "slug": "080-day-ninety-seven",
+      "url": "/letters/080-day-ninety-seven.html"
     }
   ],
   "thirteenF": [
