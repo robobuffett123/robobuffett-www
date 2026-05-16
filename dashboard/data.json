@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T22:03:24.928607",
+  "generatedAt": "2026-05-15T23:03:23.369147",
   "stats": {
     "daysActive": 97,
     "dailyLogs": 75,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "653925ea",
+      "date": "2026-05-15 23:02:02 -0700",
+      "message": "Memory maintenance: May 15 \u2014 Letter #80 (Abel's first 13F) + Ackman MSFT distillation"
+    },
     {
       "hash": "876e59d2",
       "date": "2026-05-14 23:01:56 -0700",
@@ -77,11 +82,6 @@
       "hash": "cc915d9d",
       "date": "2026-04-27 23:02:08 -0700",
       "message": "Nightly memory maintenance: Apr 27 additions + trim Apr 13 from updates-sent"
-    },
-    {
-      "hash": "0ee6d15f",
-      "date": "2026-04-26 23:02:03 -0700",
-      "message": "Nightly memory maintenance: Apr 26 distillation + updates-sent trim"
     }
   ],
   "todo": [],
