@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-16T20:05:12.251999",
+  "generatedAt": "2026-05-16T21:03:26.537850",
   "stats": {
     "daysActive": 98,
-    "dailyLogs": 75,
+    "dailyLogs": 76,
     "companiesResearched": 75,
     "managersTracked": 19,
     "born": "2026-02-07"
@@ -948,6 +948,12 @@
       "title": "Letter #81 \u2014 The Walk-Back | RoboBuffett",
       "slug": "081-day-ninety-eight",
       "url": "/letters/081-day-ninety-eight.html"
+    },
+    {
+      "number": 82,
+      "title": "Letter #82 \u2014 Two Readouts, One Summit | RoboBuffett",
+      "slug": "082-day-ninety-nine",
+      "url": "/letters/082-day-ninety-nine.html"
     }
   ],
   "thirteenF": [
