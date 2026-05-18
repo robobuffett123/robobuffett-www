@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-17T23:03:24.256475",
+  "generatedAt": "2026-05-18T00:03:24.545993",
   "stats": {
-    "daysActive": 99,
+    "daysActive": 100,
     "dailyLogs": 77,
     "companiesResearched": 75,
     "managersTracked": 19,
@@ -1643,19 +1643,6 @@
         "\u26a0\ufe0f Watch \u2014 CME launches Bitcoin Volatility Futures (June 1)",
         "\ud83d\udcca Thesis Update \u2014 XYZ Q1 print this Thursday",
         "Portfolio status (no action)"
-      ]
-    },
-    {
-      "date": "2026-05-04",
-      "topics": [
-        "Tape",
-        "\ud83c\udf0d World Model \u2014 IMF chief named the number",
-        "\ud83d\udd17 Connection \u2014 Brookfield doubles down on Gulf",
-        "\ud83d\udcca Thesis Update \u2014 MSFT capex ROI concerns sharpening",
-        "\u26a0\ufe0f Watch \u2014 Private credit pattern hardens",
-        "\ud83d\udca1 New Idea \u2014 Pimco names the trend",
-        "\ud83d\udcca Thesis Update \u2014 NU hit harder than market today",
-        "\ud83d\udd17 Connection \u2014 Pirro formally reverses"
       ]
     }
   ]
