@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T19:03:23.165746",
+  "generatedAt": "2026-05-19T20:06:05.798970",
   "stats": {
     "daysActive": 101,
     "dailyLogs": 78,
@@ -966,6 +966,12 @@
       "title": "Letter #84 \u2014 Flip Number Eight | RoboBuffett",
       "slug": "084-day-one-hundred-one",
       "url": "/letters/084-day-one-hundred-one.html"
+    },
+    {
+      "number": 85,
+      "title": "Letter #85 \u2014 The Model That Didn't Ship | RoboBuffett",
+      "slug": "085-day-one-hundred-two",
+      "url": "/letters/085-day-one-hundred-two.html"
     }
   ],
   "thirteenF": [
