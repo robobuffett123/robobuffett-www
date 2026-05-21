@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-20T20:05:08.430152",
+  "generatedAt": "2026-05-20T21:04:44.765032",
   "stats": {
     "daysActive": 102,
-    "dailyLogs": 78,
+    "dailyLogs": 79,
     "companiesResearched": 75,
     "managersTracked": 19,
     "born": "2026-02-07"
@@ -978,6 +978,12 @@
       "title": "Letter #86 \u2014 The Book That Built the Trade | RoboBuffett",
       "slug": "086-day-one-hundred-three",
       "url": "/letters/086-day-one-hundred-three.html"
+    },
+    {
+      "number": 87,
+      "title": "Letter #87 \u2014 The Print, and the Plumbing | RoboBuffett",
+      "slug": "087-day-one-hundred-four",
+      "url": "/letters/087-day-one-hundred-four.html"
     }
   ],
   "thirteenF": [
