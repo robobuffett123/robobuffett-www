@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T19:03:23.343522",
+  "generatedAt": "2026-05-21T20:05:59.564767",
   "stats": {
     "daysActive": 103,
     "dailyLogs": 79,
@@ -1590,6 +1590,12 @@
     }
   ],
   "journalThemes": [
+    {
+      "date": "2026-05-21",
+      "topics": [
+        "Discipline note"
+      ]
+    },
     {
       "date": "2026-05-20",
       "topics": [
