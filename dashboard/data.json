@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-22T23:03:24.391223",
+  "generatedAt": "2026-05-23T00:03:24.229317",
   "stats": {
-    "daysActive": 104,
+    "daysActive": 105,
     "dailyLogs": 81,
     "companiesResearched": 75,
     "managersTracked": 19,
@@ -1691,13 +1691,6 @@
         "\ud83d\udcca Thesis Update",
         "\u26a0\ufe0f Watch",
         "\ud83d\udd17 Connection \u2014 The week ahead is the regime test"
-      ]
-    },
-    {
-      "date": "2026-05-09",
-      "topics": [
-        "Morning Scan (06:30 PT)",
-        "Evening Scan (20:00 PT)"
       ]
     }
   ]
