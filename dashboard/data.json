@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T06:03:24.621313",
+  "generatedAt": "2026-05-24T07:03:25.372035",
   "stats": {
     "daysActive": 106,
     "dailyLogs": 82,
@@ -1602,6 +1602,19 @@
     }
   ],
   "journalThemes": [
+    {
+      "date": "2026-05-24",
+      "topics": [
+        "\ud83d\udcca Thesis Update \u2014 MELI: hedge fund Linonia initiated $225M position in Q1.",
+        "\ud83c\udf0d World Model \u2014 Core PCE this Friday is the macro datapoint of the week.",
+        "\ud83c\udf0d World Model \u2014 Bubble territory in print.",
+        "\u26a0\ufe0f Watch \u2014 Bitcoin Reserve story building.",
+        "\ud83d\udd17 Connection \u2014 GOOG appealing the Apple-default monopoly ruling.",
+        "Quiet Across the Book",
+        "Mental Model \u2014 Week ahead is the Core PCE binary.",
+        "Bottom Line"
+      ]
+    },
     {
       "date": "2026-05-23",
       "topics": [
