@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T14:01:51.895316+00:00",
+  "updatedAt": "2026-05-25T20:03:19.276552+00:00",
   "entries": [
     {
       "ticker": "058470.KQ",
@@ -438,14 +438,14 @@
       "company": "Rational AG",
       "businessType": "Industrial Monopoly / Cooking Systems",
       "oePerShare": 22.02,
-      "currentPrice": 663,
+      "currentPrice": 667.5,
       "currency": "EUR",
       "currencySymbol": "\u20ac",
-      "oeYield": 3.32,
+      "oeYield": 3.3,
       "g1": 8.0,
       "g2": 3.5,
       "blendedGrowth": 5.0,
-      "expectedReturn": 8.32,
+      "expectedReturn": 8.3,
       "estimateDate": "2026-03-18",
       "notes": "OE Yield Estimate. EUR. 50%+ global combi-oven share. Zero SBC. Cleanest OE calc in screener \u2014 OE = NI exactly."
     },
@@ -502,14 +502,14 @@
       "company": "Topicus.com",
       "businessType": "Serial Acquirer / VMS Software",
       "oePerShare": 2.56,
-      "currentPrice": 96.4,
+      "currentPrice": 97.29,
       "currency": "CAD",
       "currencySymbol": "C$",
-      "oeYield": 2.66,
+      "oeYield": 2.63,
       "g1": 15.0,
       "g2": 3.5,
       "blendedGrowth": 7.33,
-      "expectedReturn": 9.99,
+      "expectedReturn": 9.96,
       "estimateDate": "2026-03-18",
       "notes": "OE Yield Estimate. CAD listing, EUR reporting. Used FCFA2S (\u20ac218.7M). CSI spinoff. Zero SBC. GAAP NI distorted by Asseco charge."
     },
