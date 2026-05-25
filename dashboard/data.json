@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-05-24T22:03:24.455881",
+  "generatedAt": "2026-05-24T23:03:24.445634",
   "stats": {
     "daysActive": 106,
-    "dailyLogs": 82,
+    "dailyLogs": 83,
     "companiesResearched": 75,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "375dc597",
+      "date": "2026-05-24 23:02:01 -0700",
+      "message": "Nightly memory maintenance \u2014 Day 108 (Sunday May 24)"
+    },
     {
       "hash": "4fa37704",
       "date": "2026-05-23 23:01:52 -0700",
@@ -77,11 +82,6 @@
       "hash": "4b744188",
       "date": "2026-05-08 23:03:00 -0700",
       "message": "Nightly memory maintenance: distill May 7-8 learnings, trim updates-sent.md to 14-day window"
-    },
-    {
-      "hash": "7b4bfa5e",
-      "date": "2026-05-06 23:04:11 -0700",
-      "message": "Memory maintenance: May 6 additions, trim updates-sent to 14-day window"
     }
   ],
   "todo": [],
