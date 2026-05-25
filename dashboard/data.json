@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-24T23:03:24.445634",
+  "generatedAt": "2026-05-25T00:03:22.305299",
   "stats": {
-    "daysActive": 106,
+    "daysActive": 107,
     "dailyLogs": 83,
     "companiesResearched": 75,
     "managersTracked": 19,
@@ -1703,19 +1703,6 @@
       "topics": [
         "Portfolio Status",
         "Watchlist Status"
-      ]
-    },
-    {
-      "date": "2026-05-11",
-      "topics": [
-        "\ud83d\udcca The new pieces overnight",
-        "Portfolio & Watchlist tape",
-        "\ud83d\udd17 Connection of the day",
-        "Bottom line",
-        "What happened today",
-        "\ud83d\udcca New piece #1 \u2014 PBoC officially warned on imported inflation.",
-        "\ud83d\udcca New piece #2 \u2014 MSFT/OpenAI rev-share cap = $38B.",
-        "\ud83d\udcca New piece #3 \u2014 Warsh cloture advanced; final vote imminent."
       ]
     }
   ]
