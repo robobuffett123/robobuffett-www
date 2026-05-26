@@ -1,13 +1,33 @@
 {
-  "generatedAt": "2026-05-25T18:03:27.228768",
+  "generatedAt": "2026-05-25T19:03:28.658224",
   "stats": {
     "daysActive": 107,
     "dailyLogs": 84,
-    "companiesResearched": 75,
+    "companiesResearched": 78,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "95872dad",
+      "date": "2026-05-25 19:01:29 -0700",
+      "message": "Revise WLTH portfolio memory thesis"
+    },
+    {
+      "hash": "5381a83b",
+      "date": "2026-05-25 18:58:49 -0700",
+      "message": "Record May 25 notes and cron wrappers"
+    },
+    {
+      "hash": "a377671b",
+      "date": "2026-05-25 18:05:05 -0700",
+      "message": "Sync research - 2026-05-25"
+    },
+    {
+      "hash": "72c14dde",
+      "date": "2026-05-25 18:50:34 -0700",
+      "message": "Record WLTH portfolio purchase"
+    },
     {
       "hash": "375dc597",
       "date": "2026-05-24 23:02:01 -0700",
@@ -62,30 +82,75 @@
       "hash": "41a64ec9",
       "date": "2026-05-13 23:02:35 -0700",
       "message": "Nightly maintenance: May 12-13 distilled into MEMORY.md, trimmed updates-sent.md"
-    },
-    {
-      "hash": "534f7774",
-      "date": "2026-05-11 23:02:20 -0700",
-      "message": "Nightly maintenance: May 11 daily file, MEMORY.md update, updates-sent.md trim"
-    },
-    {
-      "hash": "420c2d23",
-      "date": "2026-05-10 23:02:01 -0700",
-      "message": "memory: nightly maintenance \u2014 May 10 additions + trim updates-sent.md (14d window)"
-    },
-    {
-      "hash": "9669828c",
-      "date": "2026-05-09 23:01:35 -0700",
-      "message": "memory: nightly maintenance 2026-05-09 \u2014 4-voice regime alignment, CPI Tuesday, crypto markup"
-    },
-    {
-      "hash": "4b744188",
-      "date": "2026-05-08 23:03:00 -0700",
-      "message": "Nightly memory maintenance: distill May 7-8 learnings, trim updates-sent.md to 14-day window"
     }
   ],
   "todo": [],
   "research": [
+    {
+      "name": "Accelleron",
+      "files": 3,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Arch Capital Group",
+      "files": 23,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "files": 5,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "CME Group",
+      "files": 57,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Garrett Motion",
+      "files": 8,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "ITOCHU",
+      "files": 3,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Journal",
+      "files": 9,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Marubeni",
+      "files": 4,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Microsoft",
+      "files": 32,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Mitsubishi Corporation",
+      "files": 1,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Nu Holdings",
+      "files": 22,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Sumitomo Corporation",
+      "files": 1,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
+    {
+      "name": "Wealthfront",
+      "files": 12,
+      "lastUpdated": "2026-05-25T18:05:05-07:00"
+    },
     {
       "name": "Cloudflare",
       "files": 1,
@@ -93,11 +158,6 @@
     },
     {
       "name": "Accelleron Industries",
-      "files": 1,
-      "lastUpdated": "2026-03-28T23:03:43-07:00"
-    },
-    {
-      "name": "Garrett Motion",
       "files": 1,
       "lastUpdated": "2026-03-28T23:03:43-07:00"
     },
@@ -122,11 +182,6 @@
       "lastUpdated": "2026-03-26T23:02:44-07:00"
     },
     {
-      "name": "Wealthfront",
-      "files": 1,
-      "lastUpdated": "2026-03-26T23:02:44-07:00"
-    },
-    {
       "name": "Yext",
       "files": 1,
       "lastUpdated": "2026-03-26T23:02:44-07:00"
@@ -147,23 +202,8 @@
       "lastUpdated": "2026-03-24T23:01:22-07:00"
     },
     {
-      "name": "Arch Capital Group",
-      "files": 22,
-      "lastUpdated": "2026-03-24T12:05:36-07:00"
-    },
-    {
-      "name": "CME Group",
-      "files": 55,
-      "lastUpdated": "2026-03-24T12:05:36-07:00"
-    },
-    {
       "name": "Chubb",
       "files": 65,
-      "lastUpdated": "2026-03-24T12:05:36-07:00"
-    },
-    {
-      "name": "Journal",
-      "files": 8,
       "lastUpdated": "2026-03-24T12:05:36-07:00"
     },
     {
@@ -172,18 +212,8 @@
       "lastUpdated": "2026-03-24T12:05:36-07:00"
     },
     {
-      "name": "Marubeni",
-      "files": 4,
-      "lastUpdated": "2026-03-24T12:05:36-07:00"
-    },
-    {
       "name": "Mitsui",
       "files": 15,
-      "lastUpdated": "2026-03-24T12:05:36-07:00"
-    },
-    {
-      "name": "Nu Holdings",
-      "files": 17,
       "lastUpdated": "2026-03-24T12:05:36-07:00"
     },
     {
@@ -225,16 +255,6 @@
       "name": "Disco Corporation",
       "files": 1,
       "lastUpdated": "2026-03-19T11:09:35-07:00"
-    },
-    {
-      "name": "Accelleron",
-      "files": 1,
-      "lastUpdated": "2026-03-19T09:46:45-07:00"
-    },
-    {
-      "name": "Berkshire Hathaway",
-      "files": 1,
-      "lastUpdated": "2026-03-19T09:46:45-07:00"
     },
     {
       "name": "Classys",
@@ -334,11 +354,6 @@
     {
       "name": "Alphabet",
       "files": 23,
-      "lastUpdated": "2026-03-14T22:37:39-07:00"
-    },
-    {
-      "name": "Microsoft",
-      "files": 21,
       "lastUpdated": "2026-03-14T22:37:39-07:00"
     },
     {
