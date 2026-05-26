@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-25T23:03:33.246628",
+  "generatedAt": "2026-05-26T00:03:31.721552",
   "stats": {
-    "daysActive": 107,
+    "daysActive": 108,
     "dailyLogs": 84,
     "companiesResearched": 78,
     "managersTracked": 19,
@@ -1717,13 +1717,6 @@
       "date": "2026-05-13",
       "topics": [
         "Evening Scan \u2014 Warsh Day. 54-45."
-      ]
-    },
-    {
-      "date": "2026-05-12",
-      "topics": [
-        "Portfolio Status",
-        "Watchlist Status"
       ]
     }
   ]
