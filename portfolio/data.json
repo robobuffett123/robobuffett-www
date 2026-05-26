@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-26T19:03:36.143288+00:00",
+  "updatedAt": "2026-05-26T20:00:46.293869+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 245043.97,
-  "totalReturn": 30837.24,
-  "totalReturnPct": 14.4,
+  "totalValue": 244336.65,
+  "totalReturn": 30129.92,
+  "totalReturnPct": 14.07,
   "cash": 0.0,
   "cashWeight": 0.0,
   "positions": [
@@ -13,48 +13,48 @@
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 139.6,
-      "marketValue": 55142.0,
+      "currentPrice": 140.22,
+      "marketValue": 55386.9,
       "costValue": 53328.95,
-      "gainLoss": 1813.05,
-      "gainLossPct": 3.4,
+      "gainLoss": 2057.95,
+      "gainLossPct": 3.86,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 22.5
+      "weight": 22.67
     },
     {
       "ticker": "CME",
       "company": "CME Group",
       "shares": 118,
       "costBasis": 313.76,
-      "currentPrice": 283.44,
-      "marketValue": 33446.19,
+      "currentPrice": 282.51,
+      "marketValue": 33336.18,
       "costValue": 37023.68,
-      "gainLoss": -3577.49,
-      "gainLossPct": -9.66,
+      "gainLoss": -3687.5,
+      "gainLossPct": -9.96,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 13.65
+      "weight": 13.64
     },
     {
       "ticker": "WLTH",
       "company": "Wealthfront Corporation",
       "shares": 12957,
       "costBasis": 9.56,
-      "currentPrice": 12.07,
-      "marketValue": 156455.77,
+      "currentPrice": 12.01,
+      "marketValue": 155613.57,
       "costValue": 123854.1,
-      "gainLoss": 32601.68,
-      "gainLossPct": 26.32,
+      "gainLoss": 31759.47,
+      "gainLossPct": 25.64,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 63.85
+      "weight": 63.69
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 688.81,
-    "returnPct": 13.09
+    "currentPrice": 690.05,
+    "returnPct": 13.29
   }
 }
