@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-26T02:03:37.410407+00:00",
+  "updatedAt": "2026-05-26T02:06:29.844303+00:00",
   "inceptionDate": "2026-03-16",
-  "startingCapital": 228954.1,
-  "totalValue": 256241.73,
+  "startingCapital": 214206.73,
+  "totalValue": 241494.36,
   "totalReturn": 27287.63,
-  "totalReturnPct": 11.92,
-  "cash": 14747.37,
-  "cashWeight": 5.76,
+  "totalReturnPct": 12.74,
+  "cash": 0.0,
+  "cashWeight": 0.0,
   "positions": [
     {
       "ticker": "AER",
@@ -20,7 +20,7 @@
       "gainLossPct": 2.67,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 21.37
+      "weight": 22.67
     },
     {
       "ticker": "CME",
@@ -34,7 +34,7 @@
       "gainLossPct": -7.18,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 13.41
+      "weight": 14.23
     },
     {
       "ticker": "WLTH",
@@ -48,7 +48,7 @@
       "gainLossPct": 23.03,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 59.47
+      "weight": 63.1
     }
   ],
   "benchmark": {
