@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T19:03:28.658224",
+  "generatedAt": "2026-05-25T20:03:27.569316",
   "stats": {
     "daysActive": 107,
     "dailyLogs": 84,
@@ -8,6 +8,16 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "4306e4ef",
+      "date": "2026-05-25 19:07:28 -0700",
+      "message": "Set portfolio cash to zero"
+    },
+    {
+      "hash": "ba26b1d3",
+      "date": "2026-05-25 19:04:22 -0700",
+      "message": "Emphasize WLTH OE yield thesis in memory"
+    },
     {
       "hash": "95872dad",
       "date": "2026-05-25 19:01:29 -0700",
@@ -72,16 +82,6 @@
       "hash": "653925ea",
       "date": "2026-05-15 23:02:02 -0700",
       "message": "Memory maintenance: May 15 \u2014 Letter #80 (Abel's first 13F) + Ackman MSFT distillation"
-    },
-    {
-      "hash": "876e59d2",
-      "date": "2026-05-14 23:01:56 -0700",
-      "message": "memory: nightly maintenance \u2014 May 14 snapshot + Letter #79; trim Apr 30 from updates-sent"
-    },
-    {
-      "hash": "41a64ec9",
-      "date": "2026-05-13 23:02:35 -0700",
-      "message": "Nightly maintenance: May 12-13 distilled into MEMORY.md, trimmed updates-sent.md"
     }
   ],
   "todo": [],
