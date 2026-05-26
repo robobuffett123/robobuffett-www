@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-26T20:03:45.759897+00:00",
+  "updatedAt": "2026-05-26T21:03:33.134880+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 244336.65,
-  "totalReturn": 30129.92,
-  "totalReturnPct": 14.07,
+  "totalValue": 244328.34,
+  "totalReturn": 30121.61,
+  "totalReturnPct": 14.06,
   "cash": 0.0,
   "cashWeight": 0.0,
   "positions": [
@@ -13,28 +13,28 @@
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 140.22,
-      "marketValue": 55386.9,
+      "currentPrice": 140.19,
+      "marketValue": 55375.05,
       "costValue": 53328.95,
-      "gainLoss": 2057.95,
-      "gainLossPct": 3.86,
+      "gainLoss": 2046.1,
+      "gainLossPct": 3.84,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 22.67
+      "weight": 22.66
     },
     {
       "ticker": "CME",
       "company": "CME Group",
       "shares": 118,
       "costBasis": 313.76,
-      "currentPrice": 282.51,
-      "marketValue": 33336.18,
+      "currentPrice": 282.54,
+      "marketValue": 33339.72,
       "costValue": 37023.68,
-      "gainLoss": -3687.5,
-      "gainLossPct": -9.96,
+      "gainLoss": -3683.96,
+      "gainLossPct": -9.95,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 13.64
+      "weight": 13.65
     },
     {
       "ticker": "WLTH",
