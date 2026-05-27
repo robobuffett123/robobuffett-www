@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-27T16:03:35.765321+00:00",
+  "updatedAt": "2026-05-27T17:03:34.532128+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 244045.86,
-  "totalReturn": 29839.13,
-  "totalReturnPct": 13.93,
+  "totalValue": 243276.84,
+  "totalReturn": 29070.11,
+  "totalReturnPct": 13.57,
   "cash": 0.0,
   "cashWeight": 0.0,
   "positions": [
@@ -13,25 +13,25 @@
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 142.27,
-      "marketValue": 56198.62,
+      "currentPrice": 142.34,
+      "marketValue": 56224.3,
       "costValue": 53328.95,
-      "gainLoss": 2869.67,
-      "gainLossPct": 5.38,
+      "gainLoss": 2895.35,
+      "gainLossPct": 5.43,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 23.03
+      "weight": 23.11
     },
     {
       "ticker": "CME",
       "company": "CME Group",
       "shares": 118,
       "costBasis": 313.76,
-      "currentPrice": 278.66,
-      "marketValue": 32881.51,
+      "currentPrice": 277.67,
+      "marketValue": 32764.47,
       "costValue": 37023.68,
-      "gainLoss": -4142.17,
-      "gainLossPct": -11.19,
+      "gainLoss": -4259.21,
+      "gainLossPct": -11.5,
       "dayChange": 0,
       "dayChangePct": 0,
       "weight": 13.47
@@ -41,20 +41,20 @@
       "company": "Wealthfront Corporation",
       "shares": 12957,
       "costBasis": 9.56,
-      "currentPrice": 11.96,
-      "marketValue": 154965.72,
+      "currentPrice": 11.91,
+      "marketValue": 154288.07,
       "costValue": 123854.1,
-      "gainLoss": 31111.62,
-      "gainLossPct": 25.12,
+      "gainLoss": 30433.97,
+      "gainLossPct": 24.57,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 63.5
+      "weight": 63.42
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 688.78998,
-    "returnPct": 13.09
+    "currentPrice": 689.22998,
+    "returnPct": 13.16
   }
 }
