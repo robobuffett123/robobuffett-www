@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-27T15:03:43.237869+00:00",
+  "updatedAt": "2026-05-27T16:03:35.765321+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 245232.22,
-  "totalReturn": 31025.49,
-  "totalReturnPct": 14.48,
+  "totalValue": 244045.86,
+  "totalReturn": 29839.13,
+  "totalReturnPct": 13.93,
   "cash": 0.0,
   "cashWeight": 0.0,
   "positions": [
@@ -13,48 +13,48 @@
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 142.84,
-      "marketValue": 56421.8,
+      "currentPrice": 142.27,
+      "marketValue": 56198.62,
       "costValue": 53328.95,
-      "gainLoss": 3092.85,
-      "gainLossPct": 5.8,
+      "gainLoss": 2869.67,
+      "gainLossPct": 5.38,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 23.01
+      "weight": 23.03
     },
     {
       "ticker": "CME",
       "company": "CME Group",
       "shares": 118,
       "costBasis": 313.76,
-      "currentPrice": 278.09,
-      "marketValue": 32814.62,
+      "currentPrice": 278.66,
+      "marketValue": 32881.51,
       "costValue": 37023.68,
-      "gainLoss": -4209.06,
-      "gainLossPct": -11.37,
+      "gainLoss": -4142.17,
+      "gainLossPct": -11.19,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 13.38
+      "weight": 13.47
     },
     {
       "ticker": "WLTH",
       "company": "Wealthfront Corporation",
       "shares": 12957,
       "costBasis": 9.56,
-      "currentPrice": 12.04,
-      "marketValue": 155995.8,
+      "currentPrice": 11.96,
+      "marketValue": 154965.72,
       "costValue": 123854.1,
-      "gainLoss": 32141.7,
-      "gainLossPct": 25.95,
+      "gainLoss": 31111.62,
+      "gainLossPct": 25.12,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 63.61
+      "weight": 63.5
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 689.58,
-    "returnPct": 13.21
+    "currentPrice": 688.78998,
+    "returnPct": 13.09
   }
 }
