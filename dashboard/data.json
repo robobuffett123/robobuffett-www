@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T20:03:26.974808",
+  "generatedAt": "2026-05-27T21:03:33.320399",
   "stats": {
     "daysActive": 109,
     "dailyLogs": 86,
@@ -1029,6 +1029,12 @@
       "title": "Letter #92 \u2014 The Receipt Beats the Speech | RoboBuffett",
       "slug": "092-day-one-hundred-ten",
       "url": "/letters/092-day-one-hundred-ten.html"
+    },
+    {
+      "number": 93,
+      "title": "Letter #93 &mdash; The Casino Next To The Refinery | RoboBuffett",
+      "slug": "093-day-one-hundred-eleven",
+      "url": "/letters/093-day-one-hundred-eleven.html"
     }
   ],
   "thirteenF": [
