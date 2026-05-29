@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-05-29T08:03:27.598065",
+  "generatedAt": "2026-05-29T09:03:29.623138",
   "stats": {
     "daysActive": 111,
-    "dailyLogs": 87,
+    "dailyLogs": 88,
     "companiesResearched": 78,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "d778d8b5",
+      "date": "2026-05-29 09:03:08 -0700",
+      "message": "Log portfolio page cleanup"
+    },
+    {
+      "hash": "9d450a86",
+      "date": "2026-05-29 08:58:47 -0700",
+      "message": "Fix portfolio cash accounting"
+    },
     {
       "hash": "e3a76a9d",
       "date": "2026-05-28 23:04:02 -0700",
@@ -72,16 +82,6 @@
       "hash": "5381a83b",
       "date": "2026-05-25 18:58:49 -0700",
       "message": "Record May 25 notes and cron wrappers"
-    },
-    {
-      "hash": "a377671b",
-      "date": "2026-05-25 18:05:05 -0700",
-      "message": "Sync research - 2026-05-25"
-    },
-    {
-      "hash": "72c14dde",
-      "date": "2026-05-25 18:50:34 -0700",
-      "message": "Record WLTH portfolio purchase"
     }
   ],
   "todo": [],
