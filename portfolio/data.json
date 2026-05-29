@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-29T14:00:39.775623+00:00",
+  "updatedAt": "2026-05-29T14:03:39.100224+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 244151.78,
-  "totalReturn": 29945.05,
-  "totalReturnPct": 13.98,
+  "totalValue": 244095.93,
+  "totalReturn": 29889.2,
+  "totalReturnPct": 13.95,
   "cash": 0.0,
   "cashWeight": 0.0,
   "positions": [
@@ -13,48 +13,48 @@
       "company": "AerCap Holdings",
       "shares": 395,
       "costBasis": 135.01,
-      "currentPrice": 139.59,
-      "marketValue": 55138.05,
+      "currentPrice": 139.78,
+      "marketValue": 55214.28,
       "costValue": 53328.95,
-      "gainLoss": 1809.1,
-      "gainLossPct": 3.39,
+      "gainLoss": 1885.33,
+      "gainLossPct": 3.54,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 22.58
+      "weight": 22.62
     },
     {
       "ticker": "CME",
       "company": "CME Group",
       "shares": 118,
       "costBasis": 313.76,
-      "currentPrice": 276.42,
-      "marketValue": 32617.56,
+      "currentPrice": 276.19,
+      "marketValue": 32590.42,
       "costValue": 37023.68,
-      "gainLoss": -4406.12,
-      "gainLossPct": -11.9,
+      "gainLoss": -4433.26,
+      "gainLossPct": -11.97,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 13.36
+      "weight": 13.35
     },
     {
       "ticker": "WLTH",
       "company": "Wealthfront Corporation",
       "shares": 12957,
       "costBasis": 9.56,
-      "currentPrice": 12.07,
-      "marketValue": 156396.17,
+      "currentPrice": 12.06,
+      "marketValue": 156291.22,
       "costValue": 123854.1,
-      "gainLoss": 32542.08,
-      "gainLossPct": 26.27,
+      "gainLoss": 32437.12,
+      "gainLossPct": 26.19,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 64.06
+      "weight": 64.03
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 696.77002,
+    "currentPrice": 696.82,
     "returnPct": 14.4
   }
 }
