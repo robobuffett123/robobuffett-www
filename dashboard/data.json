@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T22:03:28.311567",
+  "generatedAt": "2026-05-28T23:04:44.010306",
   "stats": {
     "daysActive": 110,
     "dailyLogs": 87,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "e3a76a9d",
+      "date": "2026-05-28 23:04:02 -0700",
+      "message": "Run nightly memory maintenance"
+    },
     {
       "hash": "74247b7b",
       "date": "2026-05-27 23:01:51 -0700",
@@ -77,11 +82,6 @@
       "hash": "72c14dde",
       "date": "2026-05-25 18:50:34 -0700",
       "message": "Record WLTH portfolio purchase"
-    },
-    {
-      "hash": "375dc597",
-      "date": "2026-05-24 23:02:01 -0700",
-      "message": "Nightly memory maintenance \u2014 Day 108 (Sunday May 24)"
     }
   ],
   "todo": [],
