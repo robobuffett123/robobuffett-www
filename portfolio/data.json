@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-29T17:03:36.545052+00:00",
+  "updatedAt": "2026-05-29T18:03:39.268535+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 245629.76,
-  "totalReturn": 31423.03,
-  "totalReturnPct": 14.67,
+  "totalValue": 244397.97,
+  "totalReturn": 30191.24,
+  "totalReturnPct": 14.09,
   "cash": 104.3,
   "cashWeight": 0.04,
   "positions": [
@@ -13,11 +13,11 @@
       "company": "AerCap Holdings",
       "shares": 629,
       "costBasis": 136.88,
-      "currentPrice": 139.57,
-      "marketValue": 87789.53,
+      "currentPrice": 138.86,
+      "marketValue": 87342.94,
       "costValue": 86094.8,
-      "gainLoss": 1694.73,
-      "gainLossPct": 1.97,
+      "gainLoss": 1248.14,
+      "gainLossPct": 1.45,
       "dayChange": 0,
       "dayChangePct": 0,
       "weight": 35.74
@@ -27,11 +27,11 @@
       "company": "Wealthfront Corporation",
       "shares": 12957,
       "costBasis": 9.56,
-      "currentPrice": 12.17,
-      "marketValue": 157735.93,
+      "currentPrice": 12.11,
+      "marketValue": 156950.73,
       "costValue": 123854.1,
-      "gainLoss": 33881.83,
-      "gainLossPct": 27.36,
+      "gainLoss": 33096.64,
+      "gainLossPct": 26.72,
       "dayChange": 0,
       "dayChangePct": 0,
       "weight": 64.22
@@ -40,7 +40,7 @@
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 695.81,
-    "returnPct": 14.24
+    "currentPrice": 694.74,
+    "returnPct": 14.06
   }
 }
