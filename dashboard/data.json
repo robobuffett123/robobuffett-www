@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T22:03:28.097207",
+  "generatedAt": "2026-05-29T23:03:27.359706",
   "stats": {
     "daysActive": 111,
     "dailyLogs": 88,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "7751c9ae",
+      "date": "2026-05-29 23:02:10 -0700",
+      "message": "Run nightly memory maintenance"
+    },
     {
       "hash": "49ba88a5",
       "date": "2026-05-29 20:10:30 -0700",
@@ -77,11 +82,6 @@
       "hash": "ba26b1d3",
       "date": "2026-05-25 19:04:22 -0700",
       "message": "Emphasize WLTH OE yield thesis in memory"
-    },
-    {
-      "hash": "95872dad",
-      "date": "2026-05-25 19:01:29 -0700",
-      "message": "Revise WLTH portfolio memory thesis"
     }
   ],
   "todo": [],
