@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T22:03:30.386654",
+  "generatedAt": "2026-06-01T23:03:31.522231",
   "stats": {
     "daysActive": 114,
     "dailyLogs": 88,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "51e79d35",
+      "date": "2026-06-01 23:02:50 -0700",
+      "message": "Nightly memory maintenance"
+    },
     {
       "hash": "98a53e8f",
       "date": "2026-05-31 23:02:04 -0700",
@@ -77,11 +82,6 @@
       "hash": "5a5e9896",
       "date": "2026-05-25 20:10:35 -0700",
       "message": "Record May 25 evening scan"
-    },
-    {
-      "hash": "32ddd9ca",
-      "date": "2026-05-25 20:06:18 -0700",
-      "message": "Add portfolio transaction ledger"
     }
   ],
   "todo": [],
