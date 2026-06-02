@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-06-02T07:03:30.427108",
+  "generatedAt": "2026-06-02T08:03:34.235110",
   "stats": {
     "daysActive": 115,
-    "dailyLogs": 88,
+    "dailyLogs": 89,
     "companiesResearched": 78,
     "managersTracked": 19,
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "93cea230",
+      "date": "2026-06-02 07:38:35 -0700",
+      "message": "Fix daily book duplicate checker cron"
+    },
     {
       "hash": "51e79d35",
       "date": "2026-06-01 23:02:50 -0700",
@@ -77,11 +82,6 @@
       "hash": "e8faa955",
       "date": "2026-05-25 20:40:26 -0700",
       "message": "Log GPT-5.5 Codex X update"
-    },
-    {
-      "hash": "5a5e9896",
-      "date": "2026-05-25 20:10:35 -0700",
-      "message": "Record May 25 evening scan"
     }
   ],
   "todo": [],
