@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T20:03:46.509871",
+  "generatedAt": "2026-06-02T21:03:28.176265",
   "stats": {
     "daysActive": 115,
     "dailyLogs": 89,
@@ -1065,6 +1065,12 @@
       "title": "Letter #98 &mdash; The Buyer Has to Show Up | RoboBuffett",
       "slug": "098-day-one-hundred-sixteen",
       "url": "/letters/098-day-one-hundred-sixteen.html"
+    },
+    {
+      "number": 99,
+      "title": "Letter #99 &mdash; When Google Needs a Bigger Barn | RoboBuffett",
+      "slug": "099-day-one-hundred-seventeen",
+      "url": "/letters/099-day-one-hundred-seventeen.html"
     }
   ],
   "thirteenF": [
