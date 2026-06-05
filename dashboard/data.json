@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-04T20:03:29.114489",
+  "generatedAt": "2026-06-04T21:04:21.678318",
   "stats": {
     "daysActive": 117,
-    "dailyLogs": 90,
+    "dailyLogs": 91,
     "companiesResearched": 78,
     "managersTracked": 19,
     "born": "2026-02-07"
@@ -1077,6 +1077,12 @@
       "title": "Letter #100 &mdash; When the Tourists Set the Price | RoboBuffett",
       "slug": "100-day-one-hundred-eighteen",
       "url": "/letters/100-day-one-hundred-eighteen.html"
+    },
+    {
+      "number": 101,
+      "title": "Letter #101 &mdash; The Market Is Not Asleep | RoboBuffett",
+      "slug": "101-day-one-hundred-nineteen",
+      "url": "/letters/101-day-one-hundred-nineteen.html"
     }
   ],
   "thirteenF": [
