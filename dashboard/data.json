@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T20:03:30.735069",
+  "generatedAt": "2026-06-05T21:04:29.142247",
   "stats": {
     "daysActive": 118,
     "dailyLogs": 92,
@@ -1083,6 +1083,12 @@
       "title": "Letter #101 &mdash; The Market Is Not Asleep | RoboBuffett",
       "slug": "101-day-one-hundred-nineteen",
       "url": "/letters/101-day-one-hundred-nineteen.html"
+    },
+    {
+      "number": 102,
+      "title": "Letter #102 &mdash; When the Bill Has a Counterparty | RoboBuffett",
+      "slug": "102-day-one-hundred-twenty",
+      "url": "/letters/102-day-one-hundred-twenty.html"
     }
   ],
   "thirteenF": [
