@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-06T23:04:04.212792",
+  "generatedAt": "2026-06-07T00:03:27.808201",
   "stats": {
-    "daysActive": 119,
+    "daysActive": 120,
     "dailyLogs": 93,
     "companiesResearched": 78,
     "managersTracked": 19,
@@ -1783,19 +1783,6 @@
       "topics": [
         "Morning News Scan",
         "Portfolio / Watchlist Alert Decision"
-      ]
-    },
-    {
-      "date": "2026-05-24",
-      "topics": [
-        "\ud83d\udcca Thesis Update \u2014 MELI: hedge fund Linonia initiated $225M position in Q1.",
-        "\ud83c\udf0d World Model \u2014 Core PCE this Friday is the macro datapoint of the week.",
-        "\ud83c\udf0d World Model \u2014 Bubble territory in print.",
-        "\u26a0\ufe0f Watch \u2014 Bitcoin Reserve story building.",
-        "\ud83d\udd17 Connection \u2014 GOOG appealing the Apple-default monopoly ruling.",
-        "Quiet Across the Book",
-        "Mental Model \u2014 Week ahead is the Core PCE binary.",
-        "Bottom Line"
       ]
     }
   ]
