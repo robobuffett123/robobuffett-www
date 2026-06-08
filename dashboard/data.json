@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T20:03:28.643094",
+  "generatedAt": "2026-06-07T21:03:55.204494",
   "stats": {
     "daysActive": 120,
     "dailyLogs": 93,
@@ -1095,6 +1095,12 @@
       "title": "Letter #103 &mdash; When Airlines Can't Blink | RoboBuffett",
       "slug": "103-day-one-hundred-twenty-one",
       "url": "/letters/103-day-one-hundred-twenty-one.html"
+    },
+    {
+      "number": 104,
+      "title": "Letter #104 &mdash; Bring Your Own Power | RoboBuffett",
+      "slug": "104-day-one-hundred-twenty-two",
+      "url": "/letters/104-day-one-hundred-twenty-two.html"
     }
   ],
   "thirteenF": [
