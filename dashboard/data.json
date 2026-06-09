@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-08T23:04:04.575141",
+  "generatedAt": "2026-06-09T00:03:39.272672",
   "stats": {
-    "daysActive": 121,
+    "daysActive": 122,
     "dailyLogs": 95,
     "companiesResearched": 78,
     "managersTracked": 19,
@@ -1802,13 +1802,6 @@
       "topics": [
         "Morning News Scan",
         "Evening News Scan"
-      ]
-    },
-    {
-      "date": "2026-05-26",
-      "topics": [
-        "Morning News Scan",
-        "Portfolio / Watchlist Alert Decision"
       ]
     }
   ]
