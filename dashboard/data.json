@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T22:03:28.215255",
+  "generatedAt": "2026-06-09T23:03:28.482915",
   "stats": {
     "daysActive": 122,
     "dailyLogs": 96,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "5a6692e4",
+      "date": "2026-06-09 23:02:37 -0700",
+      "message": "Nightly memory maintenance"
+    },
     {
       "hash": "ded24ad0",
       "date": "2026-06-08 23:03:26 -0700",
@@ -77,11 +82,6 @@
       "hash": "d778d8b5",
       "date": "2026-05-29 09:03:08 -0700",
       "message": "Log portfolio page cleanup"
-    },
-    {
-      "hash": "9d450a86",
-      "date": "2026-05-29 08:58:47 -0700",
-      "message": "Fix portfolio cash accounting"
     }
   ],
   "todo": [],
