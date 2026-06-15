@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T19:03:32.925017",
+  "generatedAt": "2026-06-14T20:04:21.591721",
   "stats": {
     "daysActive": 127,
     "dailyLogs": 100,
@@ -1137,6 +1137,12 @@
       "title": "Letter #110 &mdash; When the Product Needs a Balance Sheet | RoboBuffett",
       "slug": "110-day-one-hundred-twenty-eight",
       "url": "/letters/110-day-one-hundred-twenty-eight.html"
+    },
+    {
+      "number": 111,
+      "title": "Letter #111 &mdash; When the Weather Report Moves the Price | RoboBuffett",
+      "slug": "111-day-one-hundred-twenty-nine",
+      "url": "/letters/111-day-one-hundred-twenty-nine.html"
     }
   ],
   "thirteenF": [
@@ -1746,7 +1752,8 @@
     {
       "date": "2026-06-14",
       "topics": [
-        "Morning News Scan"
+        "Morning News Scan",
+        "Evening News Scan"
       ]
     },
     {
