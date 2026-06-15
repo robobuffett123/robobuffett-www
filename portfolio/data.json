@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T20:00:34.633135+00:00",
+  "updatedAt": "2026-06-15T20:03:31.012039+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
   "totalValue": 203173.43,
@@ -40,7 +40,7 @@
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 693.81,
-    "returnPct": 13.91
+    "currentPrice": 693.88,
+    "returnPct": 13.92
   }
 }
