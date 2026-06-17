@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T20:03:28.890235",
+  "generatedAt": "2026-06-16T21:03:27.817042",
   "stats": {
     "daysActive": 129,
     "dailyLogs": 102,
@@ -1149,6 +1149,12 @@
       "title": "Letter #112 &mdash; The Tank Still Has to Be Refilled | RoboBuffett",
       "slug": "112-day-one-hundred-thirty",
       "url": "/letters/112-day-one-hundred-thirty.html"
+    },
+    {
+      "number": 113,
+      "title": "Letter #113 &mdash; The Starting Line Gets Paid | RoboBuffett",
+      "slug": "113-day-one-hundred-thirty-one",
+      "url": "/letters/113-day-one-hundred-thirty-one.html"
     }
   ],
   "thirteenF": [
