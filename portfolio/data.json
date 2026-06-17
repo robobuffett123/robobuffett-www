@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-17T13:03:40.330982+00:00",
+  "updatedAt": "2026-06-17T14:00:39.191775+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 199395.8,
-  "totalReturn": -14810.93,
-  "totalReturnPct": -6.91,
+  "totalValue": 198964.33,
+  "totalReturn": -15242.4,
+  "totalReturnPct": -7.12,
   "cash": 104.3,
   "cashWeight": 0.05,
   "positions": [
@@ -13,34 +13,34 @@
       "company": "AerCap Holdings",
       "shares": 629,
       "costBasis": 136.88,
-      "currentPrice": 142.98,
-      "marketValue": 89934.42,
+      "currentPrice": 143.53,
+      "marketValue": 90280.37,
       "costValue": 86094.8,
-      "gainLoss": 3839.62,
-      "gainLossPct": 4.46,
+      "gainLoss": 4185.57,
+      "gainLossPct": 4.86,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 45.1
+      "weight": 45.38
     },
     {
       "ticker": "WLTH",
       "company": "Wealthfront Corporation",
       "shares": 12957,
       "costBasis": 9.56,
-      "currentPrice": 8.44,
-      "marketValue": 109357.08,
+      "currentPrice": 8.38,
+      "marketValue": 108579.66,
       "costValue": 123854.1,
-      "gainLoss": -14497.02,
-      "gainLossPct": -11.7,
+      "gainLoss": -15274.44,
+      "gainLossPct": -12.33,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 54.84
+      "weight": 54.57
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 689.75,
-    "returnPct": 13.24
+    "currentPrice": 689.64,
+    "returnPct": 13.22
   }
 }
