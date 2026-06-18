@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-18T20:00:33.374662+00:00",
+  "updatedAt": "2026-06-18T20:03:33.816965+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 200655.06,
-  "totalReturn": -13551.67,
-  "totalReturnPct": -6.33,
+  "totalValue": 200719.84,
+  "totalReturn": -13486.89,
+  "totalReturnPct": -6.3,
   "cash": 104.3,
   "cashWeight": 0.05,
   "positions": [
@@ -20,7 +20,7 @@
       "gainLossPct": 6.0,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 45.48
+      "weight": 45.47
     },
     {
       "ticker": "WLTH",
@@ -28,19 +28,19 @@
       "shares": 12957,
       "costBasis": 9.56,
       "currentPrice": 8.44,
-      "marketValue": 109292.3,
+      "marketValue": 109357.08,
       "costValue": 123854.1,
-      "gainLoss": -14561.8,
-      "gainLossPct": -11.76,
+      "gainLoss": -14497.02,
+      "gainLossPct": -11.7,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 54.47
+      "weight": 54.48
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 688.72,
-    "returnPct": 13.07
+    "currentPrice": 688.08,
+    "returnPct": 12.97
   }
 }
