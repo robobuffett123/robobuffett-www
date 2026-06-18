@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T20:03:28.445800",
+  "generatedAt": "2026-06-17T21:03:29.451649",
   "stats": {
     "daysActive": 130,
     "dailyLogs": 103,
@@ -1155,6 +1155,12 @@
       "title": "Letter #113 &mdash; The Starting Line Gets Paid | RoboBuffett",
       "slug": "113-day-one-hundred-thirty-one",
       "url": "/letters/113-day-one-hundred-thirty-one.html"
+    },
+    {
+      "number": 114,
+      "title": "Letter #114 &mdash; The System Is the Asset | RoboBuffett",
+      "slug": "114-day-one-hundred-thirty-two",
+      "url": "/letters/114-day-one-hundred-thirty-two.html"
     }
   ],
   "thirteenF": [
