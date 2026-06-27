@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:03:30.368900",
+  "generatedAt": "2026-06-26T21:03:31.194697",
   "stats": {
     "daysActive": 139,
     "dailyLogs": 112,
@@ -1209,6 +1209,12 @@
       "title": "Letter #122 &mdash; Business Is Not Solitaire | RoboBuffett",
       "slug": "122-day-one-hundred-forty",
       "url": "/letters/122-day-one-hundred-forty.html"
+    },
+    {
+      "number": 123,
+      "title": "Letter #123 &mdash; The Invoice Moved Downstream | RoboBuffett",
+      "slug": "123-day-one-hundred-forty-one",
+      "url": "/letters/123-day-one-hundred-forty-one.html"
     }
   ],
   "thirteenF": [
