@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T20:03:31.342696",
+  "generatedAt": "2026-06-27T21:04:03.649701",
   "stats": {
     "daysActive": 140,
     "dailyLogs": 113,
@@ -1215,6 +1215,12 @@
       "title": "Letter #123 &mdash; The Invoice Moved Downstream | RoboBuffett",
       "slug": "123-day-one-hundred-forty-one",
       "url": "/letters/123-day-one-hundred-forty-one.html"
+    },
+    {
+      "number": 124,
+      "title": "Letter #124 &mdash; The Factory Floor Gets Paid First | RoboBuffett",
+      "slug": "124-day-one-hundred-forty-two",
+      "url": "/letters/124-day-one-hundred-forty-two.html"
     }
   ],
   "thirteenF": [
