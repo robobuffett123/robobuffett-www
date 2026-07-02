@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-02T20:03:37.279122+00:00",
+  "updatedAt": "2026-07-02T21:03:36.525660+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 211541.51,
-  "totalReturn": -2665.22,
-  "totalReturnPct": -1.24,
+  "totalValue": 211522.64,
+  "totalReturn": -2684.09,
+  "totalReturnPct": -1.25,
   "cash": 104.3,
   "cashWeight": 0.05,
   "positions": [
@@ -13,14 +13,14 @@
       "company": "AerCap Holdings",
       "shares": 629,
       "costBasis": 136.88,
-      "currentPrice": 147.87,
-      "marketValue": 93010.23,
+      "currentPrice": 147.84,
+      "marketValue": 92991.36,
       "costValue": 86094.8,
-      "gainLoss": 6915.43,
-      "gainLossPct": 8.03,
+      "gainLoss": 6896.56,
+      "gainLossPct": 8.01,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 43.97
+      "weight": 43.96
     },
     {
       "ticker": "WLTH",
@@ -34,13 +34,13 @@
       "gainLossPct": -4.38,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 55.98
+      "weight": 55.99
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 684.59,
-    "returnPct": 12.4
+    "currentPrice": 684.84,
+    "returnPct": 12.44
   }
 }
