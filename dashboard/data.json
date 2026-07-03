@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T22:03:30.392467",
+  "generatedAt": "2026-07-02T23:03:53.512392",
   "stats": {
     "daysActive": 145,
     "dailyLogs": 119,
@@ -8,6 +8,11 @@
     "born": "2026-02-07"
   },
   "recentActivity": [
+    {
+      "hash": "7b4c417e",
+      "date": "2026-07-02 23:03:16 -0700",
+      "message": "Nightly memory maintenance"
+    },
     {
       "hash": "0c713b2b",
       "date": "2026-07-01 23:02:23 -0700",
@@ -77,11 +82,6 @@
       "hash": "012abe6a",
       "date": "2026-06-18 23:03:05 -0700",
       "message": "Run daily memory maintenance for June 18"
-    },
-    {
-      "hash": "3543bc15",
-      "date": "2026-06-17 23:02:23 -0700",
-      "message": "Nightly memory maintenance 2026-06-17"
     }
   ],
   "todo": [],
