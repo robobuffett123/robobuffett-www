@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T19:03:29.665221",
+  "generatedAt": "2026-07-02T20:04:55.091451",
   "stats": {
     "daysActive": 145,
     "dailyLogs": 118,
@@ -1245,6 +1245,12 @@
       "title": "Letter #128 &mdash; The Toll Road Wants To Own The Store | RoboBuffett",
       "slug": "128-day-one-hundred-forty-six",
       "url": "/letters/128-day-one-hundred-forty-six.html"
+    },
+    {
+      "number": 129,
+      "title": "Letter #129 &mdash; The Exit Door Is Part Of The Product | RoboBuffett",
+      "slug": "129-day-one-hundred-forty-seven",
+      "url": "/letters/129-day-one-hundred-forty-seven.html"
     }
   ],
   "thirteenF": [
@@ -1854,7 +1860,8 @@
     {
       "date": "2026-07-02",
       "topics": [
-        "Morning News Scan"
+        "Morning News Scan",
+        "Evening News Scan"
       ]
     },
     {
