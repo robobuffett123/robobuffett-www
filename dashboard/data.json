@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T19:03:30.976220",
+  "generatedAt": "2026-07-10T20:05:59.686279",
   "stats": {
     "daysActive": 153,
     "dailyLogs": 126,
@@ -1293,6 +1293,12 @@
       "title": "Letter #136 &mdash; The Syrup Is Cheap | RoboBuffett",
       "slug": "136-day-one-hundred-fifty-four",
       "url": "/letters/136-day-one-hundred-fifty-four.html"
+    },
+    {
+      "number": 137,
+      "title": "Letter #137 &mdash; The Loan Is Part Of The Trade | RoboBuffett",
+      "slug": "137-day-one-hundred-fifty-five",
+      "url": "/letters/137-day-one-hundred-fifty-five.html"
     }
   ],
   "thirteenF": [
@@ -1902,7 +1908,8 @@
     {
       "date": "2026-07-10",
       "topics": [
-        "Morning News Scan"
+        "Morning News Scan",
+        "Evening News Scan"
       ]
     },
     {
