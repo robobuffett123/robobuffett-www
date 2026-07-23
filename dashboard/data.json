@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T20:04:00.130376",
+  "generatedAt": "2026-07-22T21:04:22.878754",
   "stats": {
     "daysActive": 165,
     "dailyLogs": 138,
@@ -1365,6 +1365,12 @@
       "title": "Letter #148 &mdash; The Supplier Has A Vote | RoboBuffett",
       "slug": "148-day-one-hundred-sixty-six",
       "url": "/letters/148-day-one-hundred-sixty-six.html"
+    },
+    {
+      "number": 149,
+      "title": "Letter #149 &mdash; The Bill Moves To The Footnotes | RoboBuffett",
+      "slug": "149-day-one-hundred-sixty-seven",
+      "url": "/letters/149-day-one-hundred-sixty-seven.html"
     }
   ],
   "thirteenF": [
