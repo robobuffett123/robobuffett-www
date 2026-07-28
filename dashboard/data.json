@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27T23:03:35.951942",
+  "generatedAt": "2026-07-28T00:03:37.199047",
   "stats": {
-    "daysActive": 170,
+    "daysActive": 171,
     "dailyLogs": 144,
     "companiesResearched": 78,
     "managersTracked": 19,
@@ -2096,13 +2096,6 @@
       "topics": [
         "Morning News Scan",
         "Evening News Scan"
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "topics": [
-        "Morning News Scan - 6:30 AM",
-        "Evening News Scan - 8:00 PM"
       ]
     }
   ]
