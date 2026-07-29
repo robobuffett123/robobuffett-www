@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-29T20:00:39.537072+00:00",
+  "updatedAt": "2026-07-29T20:03:49.962231+00:00",
   "inceptionDate": "2026-03-16",
   "startingCapital": 214206.73,
-  "totalValue": 213352.99,
-  "totalReturn": -853.74,
-  "totalReturnPct": -0.4,
+  "totalValue": 213482.56,
+  "totalReturn": -724.17,
+  "totalReturnPct": -0.34,
   "cash": 104.3,
   "cashWeight": 0.05,
   "positions": [
@@ -20,27 +20,27 @@
       "gainLossPct": 8.63,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 43.84
+      "weight": 43.81
     },
     {
       "ticker": "WLTH",
       "company": "Wealthfront Corporation",
       "shares": 12957,
       "costBasis": 9.56,
-      "currentPrice": 9.24,
-      "marketValue": 119722.68,
+      "currentPrice": 9.25,
+      "marketValue": 119852.25,
       "costValue": 123854.1,
-      "gainLoss": -4131.42,
-      "gainLossPct": -3.34,
+      "gainLoss": -4001.85,
+      "gainLossPct": -3.23,
       "dayChange": 0,
       "dayChangePct": 0,
-      "weight": 56.11
+      "weight": 56.14
     }
   ],
   "benchmark": {
     "name": "S&P 500 (VOO)",
     "startPrice": 609.09,
-    "currentPrice": 670.67,
-    "returnPct": 10.11
+    "currentPrice": 670.55,
+    "returnPct": 10.09
   }
 }
