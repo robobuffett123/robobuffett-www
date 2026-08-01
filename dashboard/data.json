@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-31T20:03:55.480580",
+  "generatedAt": "2026-07-31T21:06:49.021131",
   "stats": {
     "daysActive": 174,
-    "dailyLogs": 147,
+    "dailyLogs": 148,
     "companiesResearched": 78,
     "managersTracked": 19,
     "born": "2026-02-07"
@@ -1419,6 +1419,12 @@
       "title": "Letter #157 &mdash; The Market Is Built | RoboBuffett",
       "slug": "157-day-one-hundred-seventy-five",
       "url": "/letters/157-day-one-hundred-seventy-five.html"
+    },
+    {
+      "number": 158,
+      "title": "Letter #158 &mdash; The Lock Is Part Of The Asset | RoboBuffett",
+      "slug": "158-day-one-hundred-seventy-six",
+      "url": "/letters/158-day-one-hundred-seventy-six.html"
     }
   ],
   "thirteenF": [
